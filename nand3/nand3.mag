@@ -1,0 +1,82 @@
+magic
+tech c035u
+timestamp 1382451818
+<< nwell >>
+rect 0 81 117 167
+<< polysilicon >>
+rect 22 133 29 167
+rect 49 133 56 167
+rect 76 133 83 167
+rect 22 60 29 103
+rect 49 60 56 103
+rect 76 60 83 103
+rect 109 86 116 167
+rect 22 0 29 34
+rect 49 0 56 34
+rect 76 0 83 34
+rect 109 0 116 70
+<< ndiffusion >>
+rect 20 34 22 60
+rect 29 34 49 60
+rect 56 34 76 60
+rect 83 34 85 60
+<< pdiffusion >>
+rect 20 103 22 133
+rect 29 103 31 133
+rect 47 103 49 133
+rect 56 103 58 133
+rect 74 103 76 133
+rect 83 103 85 133
+<< ntransistor >>
+rect 22 34 29 60
+rect 49 34 56 60
+rect 76 34 83 60
+<< ptransistor >>
+rect 22 103 29 133
+rect 49 103 56 133
+rect 76 103 83 133
+<< polycontact >>
+rect 93 70 116 86
+<< ndiffcontact >>
+rect 4 34 20 60
+rect 85 34 101 60
+<< pdiffcontact >>
+rect 4 103 20 133
+rect 31 103 47 133
+rect 58 103 74 133
+rect 85 103 101 133
+<< psubstratetap >>
+rect 88 3 104 20
+<< nsubstratetap >>
+rect 88 147 104 163
+<< metal1 >>
+rect 0 163 117 167
+rect 0 147 88 163
+rect 104 147 117 163
+rect 0 143 117 147
+rect 4 133 20 143
+rect 58 133 74 143
+rect 31 93 47 103
+rect 85 93 101 103
+rect 31 86 101 93
+rect 31 70 93 86
+rect 85 60 101 70
+rect 4 24 20 34
+rect 0 20 117 24
+rect 0 3 88 20
+rect 104 3 117 20
+rect 0 0 117 3
+<< labels >>
+rlabel metal1 0 143 0 167 3 Vdd!
+rlabel metal1 117 143 117 167 7 Vdd!
+rlabel polysilicon 76 167 83 167 5 C
+rlabel polysilicon 49 167 56 167 5 B
+rlabel polysilicon 22 167 29 167 5 A
+rlabel polysilicon 109 167 116 167 5 Y
+rlabel metal1 0 0 0 24 3 GND!
+rlabel metal1 117 0 117 24 7 GND!
+rlabel polysilicon 22 0 29 0 1 A
+rlabel polysilicon 49 0 56 0 1 B
+rlabel polysilicon 76 0 83 0 1 C
+rlabel polysilicon 109 0 116 0 1 Y
+<< end >>
