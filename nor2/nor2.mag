@@ -1,0 +1,60 @@
+magic
+tech c035u
+timestamp 1384356345
+<< nwell >>
+rect 0 124 121 220
+<< polysilicon >>
+rect 29 180 36 188
+rect 66 180 73 188
+rect 29 102 36 132
+rect 66 122 73 132
+rect 29 76 36 86
+rect 66 76 73 106
+rect 29 38 36 46
+rect 66 38 73 46
+<< ndiffusion >>
+rect 27 46 29 76
+rect 36 46 38 76
+rect 64 46 66 76
+rect 73 46 75 76
+<< pdiffusion >>
+rect 27 132 29 180
+rect 36 132 66 180
+rect 73 132 75 180
+<< ntransistor >>
+rect 29 46 36 76
+rect 66 46 73 76
+<< ptransistor >>
+rect 29 132 36 180
+rect 66 132 73 180
+<< polycontact >>
+rect 62 106 78 122
+rect 22 86 38 102
+<< ndiffcontact >>
+rect 3 46 27 76
+rect 38 46 64 76
+rect 75 46 99 76
+<< pdiffcontact >>
+rect 3 132 27 180
+rect 75 132 101 180
+<< metal1 >>
+rect 0 190 121 215
+rect 3 180 27 190
+rect 91 100 101 132
+rect 91 96 95 100
+rect 54 86 95 96
+rect 54 76 64 86
+rect 3 36 27 46
+rect 75 36 99 46
+rect 0 11 120 36
+<< m2contact >>
+rect 48 107 62 121
+rect 95 86 109 100
+<< metal2 >>
+rect 24 101 36 220
+rect 48 121 60 220
+rect 24 0 36 87
+rect 48 0 60 107
+rect 96 100 108 220
+rect 96 0 108 86
+<< end >>
