@@ -1,6 +1,6 @@
 magic
 tech c035u
-timestamp 1384358137
+timestamp 1384358556
 << nwell >>
 rect 0 124 121 220
 << polysilicon >>
@@ -26,7 +26,7 @@ rect 0 11 6 21
 rect 22 11 34 21
 rect 50 11 62 21
 rect 78 11 98 21
-rect 114 11 120 21
+rect 114 11 121 21
 << nohmic >>
 rect 50 205 62 215
 rect 78 205 99 215
@@ -70,12 +70,12 @@ rect 54 86 95 96
 rect 54 76 64 86
 rect 3 36 27 46
 rect 75 36 99 46
-rect 0 27 120 36
+rect 0 27 121 36
 rect 0 11 6 27
 rect 22 11 34 27
 rect 50 11 62 27
 rect 78 11 98 27
-rect 114 11 120 27
+rect 114 11 121 27
 << m2contact >>
 rect 48 107 62 121
 rect 95 86 109 100
@@ -87,6 +87,14 @@ rect 48 0 60 107
 rect 96 100 108 220
 rect 96 0 108 86
 << labels >>
-rlabel metal1 120 11 120 36 7 GND!
 rlabel metal1 0 11 0 36 3 GND!
+rlabel metal2 24 0 36 0 1 A
+rlabel metal2 48 0 60 0 1 B
+rlabel metal2 96 0 108 0 1 Y
+rlabel metal2 24 220 36 220 5 A
+rlabel metal2 48 220 60 220 5 B
+rlabel metal2 96 220 108 220 5 Y
+rlabel metal1 121 11 121 36 7 GND!
+rlabel metal1 0 190 0 215 3 Vdd!
+rlabel metal1 121 190 121 215 7 Vdd!
 << end >>
