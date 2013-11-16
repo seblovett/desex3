@@ -1,0 +1,50 @@
+* HSPICE file created from rdtype.ext - technology: c035u
+
+.option scale=0.05u
+
+m1000 Y Clk Vdd Vdd pmos03553 w=48 l=7
+m1001 Vdd nRst Y Vdd pmos03553 w=48 l=7
+m1002 W D Vdd Vdd pmos03553 w=48 l=7
+m1003 Q Y Vdd Vdd pmos03553 w=48 l=7
+m1004 Vdd nQ Q Vdd pmos03553 w=48 l=7
+m1005 W nRst Vdd Vdd pmos03553 w=48 l=7
+m1006 Vdd Z W Vdd pmos03553 w=48 l=7
+m1007 X W Vdd Vdd pmos03553 w=48 l=7
+m1008 Vdd Y X Vdd pmos03553 w=48 l=7
+m1009 nQ Q Vdd Vdd pmos03553 w=48 l=7
+m1010 Vdd Clk Z Vdd pmos03553 w=48 l=7
+m1011 nQ nRst Vdd Vdd pmos03553 w=48 l=7
+m1012 Vdd Z nQ Vdd pmos03553 w=48 l=7
+m1013 Z W Vdd Vdd pmos03553 w=48 l=7
+m1014 Vdd Y Z Vdd pmos03553 w=48 l=7
+m1015 active_106_325 nRst GND GND nmos03553 w=48 l=7
+m1016 active_142_325 Z active_106_325 GND nmos03553 w=48 l=7
+m1017 active_75_265 Clk active_50_265 GND nmos03553 w=48 l=7
+m1018 GND nRst active_75_265 GND nmos03553 w=48 l=7
+m1019 active_44_155 D GND GND nmos03553 w=48 l=7
+m1020 active_183_265 W GND GND nmos03553 w=48 l=7
+m1021 X Y active_183_265 GND nmos03553 w=48 l=7
+m1022 active_106_155 nRst active_44_155 GND nmos03553 w=48 l=7
+m1023 W Z active_106_155 GND nmos03553 w=48 l=7
+m1024 Y X Vdd Vdd pmos03553 w=48 l=7
+m1025 nQ Q active_142_325 GND nmos03553 w=48 l=7
+m1026 Y X active_50_265 GND nmos03553 w=48 l=7
+m1027 active_219_155 Y GND GND nmos03553 w=48 l=7
+m1028 Q nQ active_219_155 GND nmos03553 w=48 l=7
+m1029 active_75_95 Clk GND GND nmos03553 w=48 l=7
+m1030 active_183_95 W active_75_95 GND nmos03553 w=48 l=7
+m1031 Z Y active_183_95 GND nmos03553 w=48 l=7
+C0 active_50_265 GND 1.3fF
+C1 active_142_325 GND 0.7fF
+C2 X GND 4.7fF
+C3 Q GND 4.4fF
+C4 nQ GND 6.8fF
+C5 Z GND 4.6fF
+C6 W GND 4.1fF
+C7 Y GND 4.3fF
+C8 nRst GND 2.9fF
+C9 Clk GND 3.5fF
+C10 D GND 4.1fF
+C11 Vdd GND 6.6fF
+
+** hspice subcircuit dictionary
