@@ -2,49 +2,49 @@
 
 .option scale=0.05u
 
-m1000 Y Clk Vdd Vdd pmos03553 w=48 l=7
-m1001 Vdd nRst Y Vdd pmos03553 w=48 l=7
-m1002 W D Vdd Vdd pmos03553 w=48 l=7
-m1003 Q Y Vdd Vdd pmos03553 w=48 l=7
+m1000 active_78_511 Clk Vdd Vdd pmos03553 w=48 l=7
+m1001 Vdd nRst active_78_511 Vdd pmos03553 w=48 l=7
+m1002 active_44_451 D Vdd Vdd pmos03553 w=48 l=7
+m1003 Q active_78_511 Vdd Vdd pmos03553 w=48 l=7
 m1004 Vdd nQ Q Vdd pmos03553 w=48 l=7
-m1005 W nRst Vdd Vdd pmos03553 w=48 l=7
-m1006 Vdd Z W Vdd pmos03553 w=48 l=7
-m1007 X W Vdd Vdd pmos03553 w=48 l=7
-m1008 Vdd Y X Vdd pmos03553 w=48 l=7
-m1009 nQ Q Vdd Vdd pmos03553 w=48 l=7
-m1010 Vdd Clk Z Vdd pmos03553 w=48 l=7
+m1005 active_44_451 nRst Vdd Vdd pmos03553 w=48 l=7
+m1006 Vdd active_49_367 active_44_451 Vdd pmos03553 w=48 l=7
+m1007 active_193_451 active_44_451 Vdd Vdd pmos03553 w=48 l=7
+m1008 Vdd active_78_511 active_193_451 Vdd pmos03553 w=48 l=7
+m1009 Vdd Q nQ Vdd pmos03553 w=48 l=7
+m1010 Vdd Clk active_49_367 Vdd pmos03553 w=48 l=7
 m1011 nQ nRst Vdd Vdd pmos03553 w=48 l=7
-m1012 Vdd Z nQ Vdd pmos03553 w=48 l=7
-m1013 Z W Vdd Vdd pmos03553 w=48 l=7
-m1014 Vdd Y Z Vdd pmos03553 w=48 l=7
-m1015 active_106_325 nRst GND GND nmos03553 w=48 l=7
-m1016 active_142_325 Z active_106_325 GND nmos03553 w=48 l=7
-m1017 active_75_265 Clk active_50_265 GND nmos03553 w=48 l=7
-m1018 GND nRst active_75_265 GND nmos03553 w=48 l=7
-m1019 active_44_155 D GND GND nmos03553 w=48 l=7
-m1020 active_183_265 W GND GND nmos03553 w=48 l=7
-m1021 X Y active_183_265 GND nmos03553 w=48 l=7
-m1022 active_106_155 nRst active_44_155 GND nmos03553 w=48 l=7
-m1023 W Z active_106_155 GND nmos03553 w=48 l=7
-m1024 Y X Vdd Vdd pmos03553 w=48 l=7
-m1025 nQ Q active_142_325 GND nmos03553 w=48 l=7
-m1026 Y X active_50_265 GND nmos03553 w=48 l=7
-m1027 active_219_155 Y GND GND nmos03553 w=48 l=7
-m1028 Q nQ active_219_155 GND nmos03553 w=48 l=7
-m1029 active_75_95 Clk GND GND nmos03553 w=48 l=7
-m1030 active_183_95 W active_75_95 GND nmos03553 w=48 l=7
-m1031 Z Y active_183_95 GND nmos03553 w=48 l=7
-C0 active_50_265 GND 1.3fF
-C1 active_142_325 GND 0.7fF
-C2 X GND 4.7fF
-C3 Q GND 4.4fF
-C4 nQ GND 6.8fF
-C5 Z GND 4.6fF
-C6 W GND 4.1fF
-C7 Y GND 4.3fF
-C8 nRst GND 2.9fF
-C9 Clk GND 3.5fF
-C10 D GND 4.1fF
-C11 Vdd GND 6.6fF
+m1012 Vdd active_49_367 nQ Vdd pmos03553 w=48 l=7
+m1013 active_49_367 active_44_451 Vdd Vdd pmos03553 w=48 l=7
+m1014 Vdd active_78_511 active_49_367 Vdd pmos03553 w=48 l=7
+m1015 active_113_231 nRst GND GND nmos03553 w=30 l=7
+m1016 active_152_231 active_49_367 active_113_231 GND nmos03553 w=30 l=7
+m1017 active_78_179 Clk active_50_179 GND nmos03553 w=30 l=7
+m1018 GND nRst active_78_179 GND nmos03553 w=30 l=7
+m1019 active_44_113 D GND GND nmos03553 w=30 l=7
+m1020 active_193_179 active_44_451 GND GND nmos03553 w=30 l=7
+m1021 active_193_451 active_78_511 active_193_179 GND nmos03553 w=30 l=7
+m1022 active_113_113 nRst active_44_113 GND nmos03553 w=30 l=7
+m1023 active_44_451 active_49_367 active_113_113 GND nmos03553 w=30 l=7
+m1024 active_78_511 active_193_451 Vdd Vdd pmos03553 w=48 l=7
+m1025 nQ Q active_152_231 GND nmos03553 w=30 l=7
+m1026 active_78_511 active_193_451 active_50_179 GND nmos03553 w=30 l=7
+m1027 active_229_113 active_78_511 GND GND nmos03553 w=30 l=7
+m1028 Q nQ active_229_113 GND nmos03553 w=30 l=7
+m1029 active_78_71 Clk GND GND nmos03553 w=30 l=7
+m1030 active_193_71 active_44_451 active_78_71 GND nmos03553 w=30 l=7
+m1031 active_49_367 active_78_511 active_193_71 GND nmos03553 w=30 l=7
+C0 active_50_179 GND 1.0fF
+C1 active_152_231 GND 0.7fF
+C2 active_193_451 GND 2.5fF
+C3 active_49_367 GND 2.9fF
+C4 active_44_451 GND 2.6fF
+C5 Q GND 3.2fF
+C6 nQ GND 4.9fF
+C7 active_78_511 GND 3.1fF
+C8 nRst GND 1.9fF
+C9 Clk GND 2.4fF
+C10 D GND 2.9fF
+C11 Vdd GND 5.4fF
 
 ** hspice subcircuit dictionary

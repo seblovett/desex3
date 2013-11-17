@@ -1,61 +1,61 @@
-timestamp 1384600137
+timestamp 1384717411
 version 5.1
 tech c035u
 style poor
 scale 1000 1000 5
 resistclasses 2 72 55
-node "active_183_95#" 0 0 183 95 green 0 0 0 0 0 0
-node "active_75_95#" 0 0.42334 75 95 green 0 0 2928 218 0 0
-node "active_219_155#" 0 0 219 155 green 0 0 0 0 0 0
-node "active_106_155#" 0 0 106 155 green 0 0 0 0 0 0
-node "active_183_265#" 0 0 183 265 green 0 0 0 0 0 0
-node "active_44_155#" 0 0.13186 44 155 green 0 0 912 134 0 0
-node "active_75_265#" 0 0 75 265 green 0 0 0 0 0 0
-node "active_50_265#" 1 1.255 50 265 ndc 0 0 4000 532 0 0
-node "active_142_325#" 1 0.68272 142 325 green 0 0 2176 304 0 0
-node "active_106_325#" 0 0 106 325 green 0 0 0 0 0 0
-node "GND!" 4 4.72918 19 155 ndc 0 0 18867 2064 0 0
+node "active_193_71#" 0 0 193 71 green 0 0 0 0 0 0
+node "active_78_71#" 0 0.31222 78 71 green 0 0 670 154 0 0
+node "active_229_113#" 0 0 229 113 green 0 0 0 0 0 0
+node "active_113_113#" 0 0 113 113 green 0 0 0 0 0 0
+node "active_193_179#" 0 0 193 179 green 0 0 0 0 0 0
+node "active_44_113#" 0 0.09652 44 113 green 0 0 323 72 0 0
+node "active_78_179#" 0 0 78 179 green 0 0 0 0 0 0
+node "active_50_179#" 2 0.99424 50 179 ndc 0 0 2090 458 0 0
+node "active_152_231#" 1 0.68272 152 231 green 0 0 2176 304 0 0
+node "active_113_231#" 0 0 113 231 green 0 0 0 0 0 0
+node "GND!" 4 4.2675 19 113 ndc 0 0 15503 1860 0 0
 equiv "GND!" "GND!"
-node "X" 1 4.70147 183 622 brown 4333 1308 2592 388 0 0
-node "Q" 1 4.44266 219 709 brown 4109 1244 3360 400 0 0
-node "nQ" 3 6.80814 106 479 brown 4109 1244 12064 1308 0 0
-node "Z" 2 4.59545 49 479 pdc 3661 1144 4160 616 0 0
-node "W" 1 4.07245 44 621 brown 3675 1148 2476 382 0 0
-node "Y" 2 4.32692 75 713 brown 2891 966 5488 782 0 0
-node "nRst" 0 2.89159 99 55 p 3213 1016 0 0 0 0
-node "Clk" 0 3.48958 68 55 p 3885 1180 0 0 0 0
-node "D" 0 4.08756 37 55 p 4557 1344 0 0 0 0
-node "Vdd!" 6 6.61862 14 415 nw 0 0 25321 2818 0 0
+node "active_193_451#" 1 2.49097 193 451 brown 2121 662 1872 298 0 0
+node "active_49_367#" 2 2.91767 49 367 pdc 1848 626 3593 600 0 0
+node "active_44_451#" 1 2.59562 44 451 brown 1981 650 2749 432 0 0
+node "Q" 1 3.16826 229 511 brown 2891 896 2214 304 0 0
+node "nQ" 2 4.90402 113 367 brown 2884 894 8342 1000 0 0
+node "active_78_511#" 2 3.13529 78 511 brown 2044 738 4144 614 0 0
+node "nRst" 0 1.91987 106 54 p 2121 704 0 0 0 0
+node "Clk" 0 2.40573 71 54 p 2667 832 0 0 0 0
+node "D" 0 2.89159 37 54 p 3213 960 0 0 0 0
+node "Vdd!" 5 5.42159 18 373 nw 0 0 20291 2450 0 0
 equiv "Vdd!" "Vdd!"
-fet nfet 212 95 213 96 336 110 "GND!" "Y" 14 0 "active_183_95#" 48 0 "Z" 48 0
-fet nfet 176 95 177 96 336 110 "GND!" "W" 14 0 "active_75_95#" 48 0 "active_183_95#" 48 0
-fet nfet 68 95 69 96 336 110 "GND!" "Clk" 14 0 "GND!" 48 0 "active_75_95#" 48 0
-fet nfet 250 155 251 156 336 110 "GND!" "nQ" 14 0 "active_219_155#" 48 0 "Q" 48 0
-fet nfet 212 155 213 156 336 110 "GND!" "Y" 14 0 "GND!" 48 0 "active_219_155#" 48 0
-fet nfet 282 265 283 266 336 110 "GND!" "X" 14 0 "active_50_265#" 48 0 "Y" 48 0
-fet nfet 323 325 324 326 336 110 "GND!" "Q" 14 0 "active_142_325#" 48 0 "nQ" 48 0
-fet pfet 282 479 283 480 336 110 "Vdd!" "X" 14 0 "Vdd!" 48 0 "Y" 48 0
-fet nfet 135 155 136 156 336 110 "GND!" "Z" 14 0 "active_106_155#" 48 0 "W" 48 0
-fet nfet 99 155 100 156 336 110 "GND!" "nRst" 14 0 "active_44_155#" 48 0 "active_106_155#" 48 0
-fet nfet 212 265 213 266 336 110 "GND!" "Y" 14 0 "active_183_265#" 48 0 "X" 48 0
-fet nfet 176 265 177 266 336 110 "GND!" "W" 14 0 "GND!" 48 0 "active_183_265#" 48 0
-fet nfet 37 155 38 156 336 110 "GND!" "D" 14 0 "GND!" 48 0 "active_44_155#" 48 0
-fet nfet 99 265 100 266 336 110 "GND!" "nRst" 14 0 "active_75_265#" 48 0 "GND!" 48 0
-fet nfet 68 265 69 266 336 110 "GND!" "Clk" 14 0 "active_50_265#" 48 0 "active_75_265#" 48 0
-fet nfet 135 325 136 326 336 110 "GND!" "Z" 14 0 "active_106_325#" 48 0 "active_142_325#" 48 0
-fet nfet 99 325 100 326 336 110 "GND!" "nRst" 14 0 "GND!" 48 0 "active_106_325#" 48 0
-fet pfet 212 479 213 480 336 110 "Vdd!" "Y" 14 0 "Z" 48 0 "Vdd!" 48 0
-fet pfet 176 479 177 480 336 110 "Vdd!" "W" 14 0 "Vdd!" 48 0 "Z" 48 0
-fet pfet 135 479 136 480 336 110 "Vdd!" "Z" 14 0 "nQ" 48 0 "Vdd!" 48 0
-fet pfet 99 479 100 480 336 110 "Vdd!" "nRst" 14 0 "Vdd!" 48 0 "nQ" 48 0
-fet pfet 68 479 69 480 336 110 "Vdd!" "Clk" 14 0 "Z" 48 0 "Vdd!" 48 0
-fet pfet 323 622 324 623 336 110 "Vdd!" "Q" 14 0 "Vdd!" 48 0 "nQ" 48 0
-fet pfet 212 622 213 623 336 110 "Vdd!" "Y" 14 0 "X" 48 0 "Vdd!" 48 0
-fet pfet 176 622 177 623 336 110 "Vdd!" "W" 14 0 "Vdd!" 48 0 "X" 48 0
-fet pfet 135 622 136 623 336 110 "Vdd!" "Z" 14 0 "W" 48 0 "Vdd!" 48 0
-fet pfet 99 622 100 623 336 110 "Vdd!" "nRst" 14 0 "Vdd!" 48 0 "W" 48 0
-fet pfet 250 709 251 710 336 110 "Vdd!" "nQ" 14 0 "Q" 48 0 "Vdd!" 48 0
-fet pfet 212 709 213 710 336 110 "Vdd!" "Y" 14 0 "Vdd!" 48 0 "Q" 48 0
-fet pfet 37 621 38 622 336 110 "Vdd!" "D" 14 0 "Vdd!" 48 0 "W" 48 0
-fet pfet 99 713 100 714 336 110 "Vdd!" "nRst" 14 0 "Y" 48 0 "Vdd!" 48 0
-fet pfet 68 713 69 714 336 110 "Vdd!" "Clk" 14 0 "Vdd!" 48 0 "Y" 48 0
+fet nfet 222 71 223 72 210 74 "GND!" "active_78_511#" 14 0 "active_193_71#" 30 0 "active_49_367#" 30 0
+fet nfet 186 71 187 72 210 74 "GND!" "active_44_451#" 14 0 "active_78_71#" 30 0 "active_193_71#" 30 0
+fet nfet 71 71 72 72 210 74 "GND!" "Clk" 14 0 "GND!" 30 0 "active_78_71#" 30 0
+fet nfet 260 113 261 114 210 74 "GND!" "nQ" 14 0 "active_229_113#" 30 0 "Q" 30 0
+fet nfet 222 113 223 114 210 74 "GND!" "active_78_511#" 14 0 "GND!" 30 0 "active_229_113#" 30 0
+fet nfet 292 179 293 180 210 74 "GND!" "active_193_451#" 14 0 "active_50_179#" 30 0 "active_78_511#" 30 0
+fet nfet 333 231 334 232 210 74 "GND!" "Q" 14 0 "active_152_231#" 30 0 "nQ" 30 0
+fet pfet 292 367 293 368 336 110 "Vdd!" "active_193_451#" 14 0 "Vdd!" 48 0 "active_78_511#" 48 0
+fet nfet 145 113 146 114 210 74 "GND!" "active_49_367#" 14 0 "active_113_113#" 30 0 "active_44_451#" 30 0
+fet nfet 106 113 107 114 210 74 "GND!" "nRst" 14 0 "active_44_113#" 30 0 "active_113_113#" 30 0
+fet nfet 222 179 223 180 210 74 "GND!" "active_78_511#" 14 0 "active_193_179#" 30 0 "active_193_451#" 30 0
+fet nfet 186 179 187 180 210 74 "GND!" "active_44_451#" 14 0 "GND!" 30 0 "active_193_179#" 30 0
+fet nfet 37 113 38 114 210 74 "GND!" "D" 14 0 "GND!" 30 0 "active_44_113#" 30 0
+fet nfet 106 179 107 180 210 74 "GND!" "nRst" 14 0 "active_78_179#" 30 0 "GND!" 30 0
+fet nfet 71 179 72 180 210 74 "GND!" "Clk" 14 0 "active_50_179#" 30 0 "active_78_179#" 30 0
+fet nfet 145 231 146 232 210 74 "GND!" "active_49_367#" 14 0 "active_113_231#" 30 0 "active_152_231#" 30 0
+fet nfet 106 231 107 232 210 74 "GND!" "nRst" 14 0 "GND!" 30 0 "active_113_231#" 30 0
+fet pfet 222 367 223 368 336 110 "Vdd!" "active_78_511#" 14 0 "active_49_367#" 48 0 "Vdd!" 48 0
+fet pfet 186 367 187 368 336 110 "Vdd!" "active_44_451#" 14 0 "Vdd!" 48 0 "active_49_367#" 48 0
+fet pfet 145 367 146 368 336 110 "Vdd!" "active_49_367#" 14 0 "nQ" 48 0 "Vdd!" 48 0
+fet pfet 106 367 107 368 336 110 "Vdd!" "nRst" 14 0 "Vdd!" 48 0 "nQ" 48 0
+fet pfet 71 367 72 368 336 110 "Vdd!" "Clk" 14 0 "active_49_367#" 48 0 "Vdd!" 48 0
+fet pfet 333 451 334 452 336 110 "Vdd!" "Q" 14 0 "nQ" 48 0 "Vdd!" 48 0
+fet pfet 222 451 223 452 336 110 "Vdd!" "active_78_511#" 14 0 "active_193_451#" 48 0 "Vdd!" 48 0
+fet pfet 186 451 187 452 336 110 "Vdd!" "active_44_451#" 14 0 "Vdd!" 48 0 "active_193_451#" 48 0
+fet pfet 145 451 146 452 336 110 "Vdd!" "active_49_367#" 14 0 "active_44_451#" 48 0 "Vdd!" 48 0
+fet pfet 106 451 107 452 336 110 "Vdd!" "nRst" 14 0 "Vdd!" 48 0 "active_44_451#" 48 0
+fet pfet 260 511 261 512 336 110 "Vdd!" "nQ" 14 0 "Q" 48 0 "Vdd!" 48 0
+fet pfet 222 511 223 512 336 110 "Vdd!" "active_78_511#" 14 0 "Vdd!" 48 0 "Q" 48 0
+fet pfet 37 451 38 452 336 110 "Vdd!" "D" 14 0 "Vdd!" 48 0 "active_44_451#" 48 0
+fet pfet 106 511 107 512 336 110 "Vdd!" "nRst" 14 0 "active_78_511#" 48 0 "Vdd!" 48 0
+fet pfet 71 511 72 512 336 110 "Vdd!" "Clk" 14 0 "Vdd!" 48 0 "active_78_511#" 48 0

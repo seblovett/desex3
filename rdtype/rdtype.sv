@@ -4,10 +4,6 @@
 module rdtype(
 	output nQ ,
 	output Q ,
-	output W ,
-	output X ,
-	output Y ,
-	output Z ,
 	input Clk ,
 	input D ,
 	input nRst 

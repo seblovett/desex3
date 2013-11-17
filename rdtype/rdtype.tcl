@@ -1,31 +1,29 @@
-# SimVision command script rdtype.tcl for rdtype
-# created by ext2svmod 5.5
 
-database -open waves
-probe -all -depth all -database waves
-run
+simvision { 
+   # =========================================================================
+   # Waveform Window
+   # Open new Waveform window
 
-simvision {
+   window new WaveWindow  -name  "rdtype-desex3"
+   waveform  using  "rdtype-desex3"
 
-# List of signals to monitor defined here
-#
-set wave_signal_list {
-  rdtype_stim.Clk
-  rdtype_stim.D
-  rdtype_stim.nRst
-  rdtype_stim.nQ
-  rdtype_stim.Q
-  rdtype_stim.W
-  rdtype_stim.X
-  rdtype_stim.Y
-  rdtype_stim.Z
+   # Pe
+
+   waveform add -signals rdtype_stim.Clk        
+   waveform add -signals rdtype_stim.Rst
+   waveform add -signals rdtype_stim.D
+   waveform add -signals rdtype_stim.Q 
+   waveform add -signals rdtype_stim.nQ
+  
+
+
+   # =========================================================================
+   # Probe and run
+   # All remaing signals   
+  
+     probe -create -shm rdtype -depth all
+   
+     run
+   # =========================================================================
+   
 }
-
-# View Results
-#
-window new WaveWindow -name "Waves for magic cell rdtype"
-waveform add -using "Waves for magic cell rdtype" -signals $wave_signal_list
-waveform xview zoom -using "Waves for magic cell rdtype" -outfull
-
-}
-
