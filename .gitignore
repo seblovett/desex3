@@ -2,3 +2,16 @@
 */INCA_libs/*
 *.key
 *.log
+*.tr0
+*.al
+*.log
+*.st0
+*.vnet
+*.shm
+*.nodes
+*.ic0
+*.bak
+*.spice
+*.sim
+*.ext
+*.sv
