@@ -1,0 +1,50 @@
+* HSPICE file created from rdtype.ext - technology: c035u
+
+.option scale=0.05u
+
+m1000 active_78_448 Clk Vdd Vdd pmos03553 w=48 l=7
+m1001 Vdd nRst active_78_448 Vdd pmos03553 w=48 l=7
+m1002 active_44_388 D Vdd Vdd pmos03553 w=48 l=7
+m1003 Q active_78_448 Vdd Vdd pmos03553 w=48 l=7
+m1004 Vdd nQ Q Vdd pmos03553 w=48 l=7
+m1005 active_44_388 nRst Vdd Vdd pmos03553 w=48 l=7
+m1006 Vdd active_49_304 active_44_388 Vdd pmos03553 w=48 l=7
+m1007 active_211_388 active_44_388 Vdd Vdd pmos03553 w=48 l=7
+m1008 Vdd active_78_448 active_211_388 Vdd pmos03553 w=48 l=7
+m1009 Vdd Q nQ Vdd pmos03553 w=48 l=7
+m1010 Vdd Clk active_49_304 Vdd pmos03553 w=48 l=7
+m1011 nQ nRst Vdd Vdd pmos03553 w=48 l=7
+m1012 Vdd active_49_304 nQ Vdd pmos03553 w=48 l=7
+m1013 active_49_304 active_44_388 Vdd Vdd pmos03553 w=48 l=7
+m1014 Vdd active_78_448 active_49_304 Vdd pmos03553 w=48 l=7
+m1015 active_131_169 nRst active_83_169 GND nmos03553 w=29 l=7
+m1016 GND active_49_304 active_131_169 GND nmos03553 w=29 l=7
+m1017 active_211_169 active_44_388 GND GND nmos03553 w=29 l=7
+m1018 active_211_388 active_78_448 active_211_169 GND nmos03553 w=29 l=7
+m1019 active_78_120 Clk GND GND nmos03553 w=30 l=7
+m1020 active_131_120 nRst active_78_120 GND nmos03553 w=30 l=7
+m1021 active_44_72 D GND GND nmos03553 w=30 l=7
+m1022 active_78_448 active_211_388 Vdd Vdd pmos03553 w=48 l=7
+m1023 active_78_448 active_211_388 active_131_120 GND nmos03553 w=30 l=7
+m1024 active_131_72 nRst active_44_72 GND nmos03553 w=30 l=7
+m1025 active_44_388 active_49_304 active_131_72 GND nmos03553 w=30 l=7
+m1026 active_260_72 active_78_448 GND GND nmos03553 w=30 l=7
+m1027 Q nQ active_260_72 GND nmos03553 w=30 l=7
+m1028 active_78_30 Clk GND GND nmos03553 w=30 l=7
+m1029 active_211_30 active_44_388 active_78_30 GND nmos03553 w=30 l=7
+m1030 active_49_304 active_78_448 active_211_30 GND nmos03553 w=30 l=7
+m1031 active_83_169 Q nQ GND nmos03553 w=30 l=7
+C0 active_131_120 GND 0.7fF
+C1 active_83_169 GND 2.0fF
+C2 active_211_388 GND 2.2fF
+C3 active_49_304 GND 2.9fF
+C4 active_44_388 GND 2.4fF
+C5 Q GND 3.5fF
+C6 nQ GND 4.3fF
+C7 active_78_448 GND 3.0fF
+C8 D GND 4.8fF
+C9 Clk GND 4.4fF
+C10 nRst GND 4.2fF
+C11 Vdd GND 6.0fF
+
+** hspice subcircuit dictionary

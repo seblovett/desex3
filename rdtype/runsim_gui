@@ -1,0 +1,1 @@
+ncverilog -sv +ncaccess+r +gui  rdtype_stim.sv rdtype.sv +tcl+rdtype.tcl
