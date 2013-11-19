@@ -19,8 +19,37 @@ VnSDO   nSDO   GND PWL(0NS 0V  8NS 0V  8.25NS 3.3V  12NS 3.3V  12.25NS 0V)
 
 ** Specify ouput signals to measure here
 ** e.g. rise and fall delays for output Y
-**   .measure tran fall_delay TRIG v(Y) VAL='3.3*0.9' TD=0NS FALL=1
-**   + TARG v(Y) VAL='3.3*0.1' TD=0NS FALL=1
+.measure tran clock_rise_prop_delay 
++ TRIG v(Clock)    VAL='3.3*0.5' TD=0NS RISE=1
++ TARG v(ClockOut) VAL='3.3*0.5' TD=0NS RISE=1
+
+.measure tran clock_fall_prop_delay
++ TRIG v(Clock)    VAL='3.3*0.5' TD=0NS FALL=1
++ TARG v(ClockOut) VAL='3.3*0.5' TD=0NS FALL=1
+
+.measure tran test_rise_prop_delay 
++ TRIG v(Test)    VAL='3.3*0.5' TD=0NS RISE=1
++ TARG v(TestOut) VAL='3.3*0.5' TD=0NS RISE=1
+
+.measure tran test_fall_prop_delay
++ TRIG v(Test)    VAL='3.3*0.5' TD=0NS FALL=1
++ TARG v(TestOut) VAL='3.3*0.5' TD=0NS FALL=1
+
+.measure tran nreset_rise_prop_delay 
++ TRIG v(nReset)    VAL='3.3*0.5' TD=0NS RISE=1
++ TARG v(nResetOut) VAL='3.3*0.5' TD=0NS RISE=1
+
+.measure tran nreset_fall_prop_delay
++ TRIG v(nReset)    VAL='3.3*0.5' TD=0NS FALL=1
++ TARG v(nResetOut) VAL='3.3*0.5' TD=0NS FALL=1
+
+.measure tran sdo_rise_prop_delay 
++ TRIG v(nSDO)    VAL='3.3*0.5' TD=0NS RISE=1
++ TARG v(SDO)     VAL='3.3*0.5' TD=0NS RISE=1
+
+.measure tran sdo_fall_prop_delay
++ TRIG v(nSDO)    VAL='3.3*0.5' TD=0NS FALL=1
++ TARG v(SDO)     VAL='3.3*0.5' TD=0NS FALL=1
 **   .measure tran rise_delay TRIG v(Y) VAL='3.3*0.1' TD=0NS RISE=1
 **   + TARG v(Y) VAL='3.3*0.9' TD=0NS RISE=1
 
