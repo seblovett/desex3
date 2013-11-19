@@ -1,0 +1,94 @@
+magic
+tech c035u
+timestamp 1384895111
+<< nwell >>
+rect 1929 272 2079 484
+<< metal1 >>
+rect 1929 522 2079 532
+rect 1929 498 2079 508
+rect 1929 459 2079 484
+rect 1929 144 2079 169
+rect 1929 120 1976 130
+rect 1990 120 2079 130
+rect 1929 96 2014 106
+rect 2028 96 2079 106
+rect 1929 72 2055 82
+rect 2069 72 2079 82
+<< m2contact >>
+rect 1976 118 1990 132
+rect 2014 94 2028 108
+rect 2055 70 2069 84
+<< metal2 >>
+rect 223 592 3435 604
+rect 223 568 235 592
+rect 3183 536 3195 592
+rect 3303 536 3315 592
+rect 3423 536 3435 592
+rect 1978 12 1990 118
+rect 2016 37 2028 94
+rect 2057 61 2069 70
+rect 2103 61 2115 71
+rect 2223 61 2235 71
+rect 2343 61 2355 71
+rect 2057 49 2355 61
+rect 2463 37 2475 71
+rect 2583 37 2595 71
+rect 2703 37 2715 71
+rect 2016 25 2715 37
+rect 2823 12 2835 71
+rect 2943 12 2955 71
+rect 3063 12 3075 71
+rect 1978 0 3075 12
+use leftbuf leftbuf_0
+timestamp 1384893035
+transform 1 0 0 0 1 59
+box 0 0 1929 509
+use inv inv_0
+timestamp 1384893302
+transform 1 0 2079 0 1 71
+box 0 0 120 465
+use inv inv_1
+timestamp 1384893302
+transform 1 0 2199 0 1 71
+box 0 0 120 465
+use inv inv_2
+timestamp 1384893302
+transform 1 0 2319 0 1 71
+box 0 0 120 465
+use inv inv_3
+timestamp 1384893302
+transform 1 0 2439 0 1 71
+box 0 0 120 465
+use inv inv_4
+timestamp 1384893302
+transform 1 0 2559 0 1 71
+box 0 0 120 465
+use inv inv_5
+timestamp 1384893302
+transform 1 0 2679 0 1 71
+box 0 0 120 465
+use inv inv_6
+timestamp 1384893302
+transform 1 0 2799 0 1 71
+box 0 0 120 465
+use inv inv_7
+timestamp 1384893302
+transform 1 0 2919 0 1 71
+box 0 0 120 465
+use inv inv_8
+timestamp 1384893302
+transform 1 0 3039 0 1 71
+box 0 0 120 465
+use inv inv_9
+timestamp 1384893302
+transform 1 0 3159 0 1 71
+box 0 0 120 465
+use inv inv_10
+timestamp 1384893302
+transform 1 0 3279 0 1 71
+box 0 0 120 465
+use inv inv_11
+timestamp 1384893302
+transform 1 0 3399 0 1 71
+box 0 0 120 465
+<< end >>
