@@ -1,0 +1,35 @@
+#!bin/sh
+
+type="$1"
+module="$2"
+tcl="$3"
+clear
+echo Checking cell
+check_magic_cell $module
+if [ $? != 0 ]; then
+	echo check_magic_cell failed
+	return 1
+fi
+if [ "sv" = $type ]; then
+	echo Verilog simulation of $module
+	ext2svmod $module
+	if [ "tcl" = $tcl ]; then
+		ncverilog -sv +gui +ncaccess+r -y . +libext+.sv ${module}_stim.sv +tcl+${module}.tcl
+	elif [ "gui" = $tcl ]; then
+		ncverilog -sv +gui +ncaccess+r -y . +libext+.sv ${module}_stim.sv
+	else 
+		ncverilog -sv -q -y . +libext+.sv ${module}_stim.sv
+	fi
+elif [ "spice" = $type ]; then
+	echo HSpice Simulation of $module
+	ext2sp ${module}_ld
+	hspice ${module}_ld.sp
+	c_scope -pfiles ${module}_ld.tr0
+else
+	echo Quick Sim Script. Use:
+	echo simulate {type} {module} {opt}
+	echo {type} - "sv" or "spice"
+	echo {module} - the cell to simulate
+	echo {opt} - "gui" or "tcl" only for sv type.
+fi
+
