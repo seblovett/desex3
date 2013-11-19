@@ -1,0 +1,104 @@
+magic
+tech c035u
+timestamp 1384817513
+<< nwell >>
+rect 0 192 120 404
+<< polysilicon >>
+rect 57 260 64 268
+rect 57 201 64 212
+rect 61 185 64 201
+rect 57 172 64 185
+rect 57 134 64 142
+<< ndiffusion >>
+rect 55 142 57 172
+rect 64 142 66 172
+<< pdiffusion >>
+rect 55 212 57 260
+rect 64 212 66 260
+<< pohmic >>
+rect 0 64 9 74
+rect 25 64 37 74
+rect 53 64 65 74
+rect 81 64 93 74
+rect 109 64 120 74
+<< nohmic >>
+rect 0 394 11 404
+rect 27 394 39 404
+rect 55 394 67 404
+rect 83 394 95 404
+rect 111 394 120 404
+<< ntransistor >>
+rect 57 142 64 172
+<< ptransistor >>
+rect 57 212 64 260
+<< polycontact >>
+rect 45 185 61 201
+<< ndiffcontact >>
+rect 39 142 55 172
+rect 66 142 82 172
+<< pdiffcontact >>
+rect 39 212 55 260
+rect 66 212 82 260
+<< psubstratetap >>
+rect 9 64 25 80
+rect 37 64 53 80
+rect 65 64 81 80
+rect 93 64 109 80
+<< nsubstratetap >>
+rect 11 388 27 404
+rect 39 388 55 404
+rect 67 388 83 404
+rect 95 388 111 404
+<< metal1 >>
+rect 0 439 120 449
+rect 0 415 120 425
+rect 0 388 11 404
+rect 27 388 39 404
+rect 55 388 67 404
+rect 83 388 95 404
+rect 111 388 120 404
+rect 0 379 72 388
+rect 82 379 120 388
+rect 39 260 55 379
+rect 35 188 45 198
+rect 72 199 82 212
+rect 72 172 82 185
+rect 38 89 54 142
+rect 0 80 120 89
+rect 0 64 9 80
+rect 25 64 37 80
+rect 53 64 65 80
+rect 81 64 93 80
+rect 109 64 120 80
+rect 0 44 120 54
+rect 0 22 120 32
+rect 0 0 120 10
+<< m2contact >>
+rect 21 186 35 200
+rect 71 185 85 199
+<< metal2 >>
+rect 24 200 36 456
+rect 35 186 36 200
+rect 72 199 84 456
+rect 24 0 36 186
+rect 72 0 84 185
+<< labels >>
+rlabel metal1 0 415 0 425 3 Scan
+rlabel metal1 0 439 0 449 4 ScanReturn
+rlabel metal1 0 44 0 54 3 Test
+rlabel metal1 0 22 0 32 3 Clock
+rlabel metal1 0 0 0 10 2 nReset
+rlabel metal1 120 64 120 89 7 GND!
+rlabel metal1 120 415 120 425 7 Scan
+rlabel metal1 120 0 120 10 8 nReset
+rlabel metal1 120 22 120 32 7 Clock
+rlabel metal1 120 44 120 54 7 Test
+rlabel metal1 120 439 120 449 6 ScanReturn
+rlabel metal2 24 456 36 456 5 A
+rlabel metal2 72 456 84 456 5 Y
+rlabel metal2 24 0 36 0 1 A
+rlabel metal2 72 0 84 0 1 Y
+rlabel metal1 120 379 120 404 7 Vdd!
+rlabel metal1 0 379 0 404 3 Vdd!
+rlabel metal1 0 64 0 89 3 GND!
+<< end >>

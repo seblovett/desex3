@@ -1,16 +1,13 @@
 ncverilog: 10.20-s073: (c) Copyright 1995-2011 Cadence Design Systems, Inc.
-TOOL:	ncverilog	10.20-s073: Started on Nov 18, 2013 at 01:10:11 GMT
+TOOL:	ncverilog	10.20-s073: Started on Nov 19, 2013 at 12:39:03 GMT
 ncverilog
 	-sv
 	+ncaccess+r
 	rdtype_stim.sv
 	rdtype.sv
-Recompiling... reason: file './rdtype.vnet' is newer than expected.
+Recompiling... reason: file './rdtype.sv' is newer than expected.
 	expected: Sun Nov 17 18:26:17 2013
-	actual:   Mon Nov 18 01:10:06 2013
-file: rdtype.sv
-	module worklib.rdtype:sv
-		errors: 0, warnings: 0
+	actual:   Tue Nov 19 12:36:58 2013
 		Caching library 'worklib' ....... Done
 	Elaborating the design hierarchy:
 	Building instance overlay tables: .................... Done
@@ -62,5 +59,4 @@ ncsim> run
                  615      1    1       1  0
 Simulation stopped via $stop(1) at time 700 NS + 0
 ./rdtype_stim.sv:46           $stop;
-ncsim> exit
-TOOL:	ncverilog	10.20-s073: Exiting on Nov 18, 2013 at 01:12:53 GMT  (total: 00:02:42)
+ncsim> 
