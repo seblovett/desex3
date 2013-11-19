@@ -1,1 +1,3 @@
+ext2sp rdtype
+ext2svmod rdtype
 ncverilog -sv +ncaccess+r rdtype_stim.sv rdtype.sv
