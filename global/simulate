@@ -11,7 +11,7 @@ if [ "sv" = $type ]; then
 	check_magic_leaf_cell $module
 	if [ $? != 0 ]; then
 		echo check_magic_leaf_cell failed
-		return 1
+		exit 1
 	fi	
 	echo Verilog simulation of $module
 	ext2svmod $module
@@ -28,11 +28,15 @@ elif [ "spice" = $type ]; then
 	check_magic_cell ${module}_ld
 	if [ $? != 0 ]; then
 		echo check_magic_cell failed
-		return 1
+		exit 1
 	fi
 	echo HSpice Simulation of $module
 	ext2sp ${module}_ld
 	hspice ${module}_ld.sp
+	if [ $? != 0 ]; then
+		echo HSpice simulation failed
+		exit 2
+	fi
 	c_scope -pfiles ${module}_ld.tr0
 else
 	echo Quick Sim Script. Use:
