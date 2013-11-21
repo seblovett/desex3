@@ -10,7 +10,7 @@ if [ "sv" = $type ]; then
 
 	#extract the mag file
 	magic -T c035u -d null ${module} < extscript
-	echo Checking cell
+	echo Checking leaf cell...
 	check_magic_leaf_cell $module
 	if [ $? != 0 ]; then
 		echo check_magic_leaf_cell failed
@@ -18,16 +18,18 @@ if [ "sv" = $type ]; then
 	fi	
 	echo Verilog simulation of $module
 	ext2svmod $module
-	if [ "tcl" = $tcl ]; then
-		ncverilog -sv +gui +ncaccess+r -y . +libext+.sv ${module}_stim.sv +tcl+${module}.tcl
-	elif [ "gui" = $tcl ]; then
-		ncverilog -sv +gui +ncaccess+r -y . +libext+.sv ${module}_stim.sv
+	if [ "gui" = $tcl ]; then
+		if [ -e ${module}.tcl ]; then 
+			ncverilog -sv +gui +ncaccess+r -y . +libext+.sv ${module}_stim.sv +tcl+${module}.tcl
+		else 
+			ncverilog -sv +gui +ncaccess+r -y . +libext+.sv ${module}_stim.sv 
+		fi
 	else 
 		ncverilog -sv -q -y . +libext+.sv ${module}_stim.sv
 	fi
 elif [ "spice" = $type ]; then
 
-	echo Checking cell
+	echo Checking cell...
 	#extract the mag file
 	magic -T c035u -d null ${module}_ld < echo ":extract
 	:quit"
@@ -43,12 +45,14 @@ elif [ "spice" = $type ]; then
 		echo HSpice simulation failed
 		exit 2
 	fi
-	c_scope -pfiles ${module}_ld.tr0
+	if [ "gui" = $tcl ]; then
+		c_scope -pfiles ${module}_ld.tr0
+	fi
 else
 	echo Quick Sim Script. Use:
 	echo simulate {type} {module} {opt}
 	echo {type} - "sv" or "spice"
 	echo {module} - the cell to simulate
-	echo {opt} - "gui" or "tcl" only for sv type.
+	echo {opt} - "gui" to enable gui
 fi
 rm extscript
