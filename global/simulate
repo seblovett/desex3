@@ -4,9 +4,12 @@ type="$1"
 module="$2"
 tcl="$3"
 clear
-
+echo :extract > extscript
+echo :quit >> extscript
 if [ "sv" = $type ]; then
 
+	#extract the mag file
+	magic -T c035u -d null ${module} < extscript
 	echo Checking cell
 	check_magic_leaf_cell $module
 	if [ $? != 0 ]; then
@@ -25,6 +28,9 @@ if [ "sv" = $type ]; then
 elif [ "spice" = $type ]; then
 
 	echo Checking cell
+	#extract the mag file
+	magic -T c035u -d null ${module}_ld < echo ":extract
+	:quit"
 	check_magic_cell ${module}_ld
 	if [ $? != 0 ]; then
 		echo check_magic_cell failed
@@ -45,4 +51,4 @@ else
 	echo {module} - the cell to simulate
 	echo {opt} - "gui" or "tcl" only for sv type.
 fi
-
+rm extscript
