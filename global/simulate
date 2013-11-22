@@ -31,8 +31,8 @@ elif [ "spice" = $type ]; then
 
 	echo Checking cell...
 	#extract the mag file
-	magic -T c035u -d null ${module}_ld < echo ":extract
-	:quit"
+	magic -T c035u -d null ${module}_ld < extscript
+	
 	check_magic_cell ${module}_ld
 	if [ $? != 0 ]; then
 		echo check_magic_cell failed
@@ -45,6 +45,7 @@ elif [ "spice" = $type ]; then
 		echo HSpice simulation failed
 		exit 2
 	fi
+	cat ${module}_ld.mt0
 	if [ "gui" = $tcl ]; then
 		c_scope -pfiles ${module}_ld.tr0
 	fi
