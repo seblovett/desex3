@@ -1,0 +1,76 @@
+magic
+tech c035u
+timestamp 1385129782
+<< nwell >>
+rect 0 657 80 733
+<< polysilicon >>
+rect 60 743 62 759
+rect 55 705 62 743
+rect 55 617 62 657
+rect 55 579 62 587
+<< ndiffusion >>
+rect 53 587 55 617
+rect 62 587 64 617
+<< pdiffusion >>
+rect 53 657 55 705
+rect 62 657 64 705
+<< pohmic >>
+rect 0 73 6 83
+rect 22 73 34 83
+rect 50 73 62 83
+rect 78 73 92 83
+<< nohmic >>
+rect 0 723 6 733
+rect 22 723 34 733
+<< ntransistor >>
+rect 55 587 62 617
+<< ptransistor >>
+rect 55 657 62 705
+<< polycontact >>
+rect 44 743 60 759
+<< ndiffcontact >>
+rect 37 587 53 617
+rect 64 587 80 617
+<< pdiffcontact >>
+rect 37 657 53 705
+rect 64 657 80 705
+<< psubstratetap >>
+rect 6 73 22 89
+rect 34 73 50 89
+rect 62 73 78 89
+<< nsubstratetap >>
+rect 6 717 22 733
+rect 34 717 50 733
+<< metal1 >>
+rect 0 769 80 779
+rect 0 746 44 756
+rect 0 717 6 733
+rect 22 717 34 733
+rect 50 717 53 733
+rect 0 708 53 717
+rect 37 705 53 708
+rect 70 705 80 769
+rect 70 617 80 657
+rect 37 574 53 587
+rect 37 558 92 574
+rect 0 89 92 98
+rect 0 73 6 89
+rect 22 73 34 89
+rect 50 73 62 89
+rect 78 73 92 89
+<< m2contact >>
+rect 92 558 106 574
+rect 92 73 292 98
+<< metal2 >>
+rect 92 574 292 783
+rect 106 558 292 574
+rect 92 98 292 558
+rect 92 0 292 73
+<< labels >>
+rlabel metal1 0 769 0 779 6 ScanReturn
+rlabel metal1 0 746 0 756 7 Scan
+rlabel metal1 0 73 0 98 7 GND!
+rlabel metal1 0 708 0 733 3 Vdd!
+rlabel metal2 92 783 292 783 5 GND!
+rlabel metal2 92 0 292 0 1 GND!
+<< end >>
