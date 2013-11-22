@@ -10,16 +10,21 @@ Vsupply Vdd GND 3.3V
 ** Specify input signals here
 ** e.g. for inputs A and B
 VA A GND PWL(0NS 0V  2NS 0V  2.25NS 3.3V  6NS 3.3V  6.25NS 0V)
-VB B GND PWL(0NS 0V  4NS 0V  4.25NS 3.3V  8NS 3.3V  8.25NS 0V)
+VB B GND PWL(0NS 0V  8NS 0V  8.25NS 3.3V  12NS 3.3V  12.25NS 0V)
 
 ** Default Simulation - Type, Resolution & Duration
-.TRAN 10PS 10NS
+.TRAN 10PS 15NS
 
 ** Specify ouput signals to measure here
 ** e.g. rise and fall delays for output Y
 .measure tran a_rise_prop_delay TRIG v(A) VAL='3.3*0.5' TD=0NS RISE=1
 + TARG v(Y) VAL='3.3*0.5' TD=0NS FALL=1
 .measure tran a_fall_prop_delay TRIG v(A) VAL='3.3*0.5' TD=0NS FALL=1
++ TARG v(Y) VAL='3.3*0.5' TD=0NS RISE=1
+
+.measure tran b_rise_prop_delay TRIG v(B) VAL='3.3*0.5' TD=0NS RISE=1
++ TARG v(Y) VAL='3.3*0.5' TD=0NS FALL=1
+.measure tran b_fall_prop_delay TRIG v(B) VAL='3.3*0.5' TD=0NS FALL=1
 + TARG v(Y) VAL='3.3*0.5' TD=0NS RISE=1
 
 ** Save results for display
