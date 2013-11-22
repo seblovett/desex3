@@ -1,0 +1,40 @@
+magic
+tech c035u
+timestamp 1385123862
+<< metal1 >>
+rect 0 738 10 763
+rect 0 103 10 128
+<< metal2 >>
+rect 34 0 46 28
+rect 58 0 70 28
+rect 82 0 94 28
+rect 130 16 142 28
+rect 178 16 190 29
+rect 294 16 306 29
+rect 410 16 422 29
+rect 130 4 422 16
+rect 130 0 142 4
+use nor3 nor3_0
+timestamp 1385122487
+transform 1 0 10 0 1 28
+box 0 0 144 787
+use inv inv_0
+timestamp 1385031732
+transform 1 0 154 0 1 29
+box 0 0 116 785
+use inv inv_1
+timestamp 1385031732
+transform 1 0 270 0 1 29
+box 0 0 116 785
+use inv inv_2
+timestamp 1385031732
+transform 1 0 386 0 1 29
+box 0 0 116 785
+<< labels >>
+rlabel metal1 0 738 0 763 3 Vdd!
+rlabel metal1 0 103 0 128 3 GND!
+rlabel metal2 82 0 94 0 1 C
+rlabel metal2 58 0 70 0 1 B
+rlabel metal2 34 0 46 0 1 A
+rlabel metal2 130 0 142 0 1 Y
+<< end >>
