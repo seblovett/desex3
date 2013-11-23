@@ -18,9 +18,9 @@ VScan Scan GND PWL(0NS 0V  2NS 0V  2.25NS 3.3V  6NS 3.3V  6.25NS 0V)
 ** Specify ouput signals to measure here
 ** e.g. rise and fall delays for output Y
 .measure tran scan_fall_delay TRIG v(Scan) VAL='3.3*0.5' TD=0NS RISE=1
-+ TARG v(ScanReturn) VAL='3.3*0.5' TD=0NS FALL=1
++ TARG v(nScan) VAL='3.3*0.5' TD=0NS FALL=1
 .measure tran scan_rise_delay TRIG v(Scan) VAL='3.3*0.5' TD=0NS FALL=1
-+ TARG v(ScanReturn) VAL='3.3*0.5' TD=0NS RISE=1
++ TARG v(nScan) VAL='3.3*0.5' TD=0NS RISE=1
 
 ** Save results for display
 .OPTIONS POST

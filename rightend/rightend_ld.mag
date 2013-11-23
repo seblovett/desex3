@@ -1,6 +1,6 @@
 magic
 tech c035u
-timestamp 1385130171
+timestamp 1385131709
 << metal1 >>
 rect 11 779 21 793
 rect 0 769 27 779
@@ -21,11 +21,11 @@ timestamp 1385124685
 transform 1 0 147 0 1 0
 box 0 0 120 783
 use rightend rightend_0
-timestamp 1385129782
+timestamp 1385131598
 transform 1 0 267 0 1 0
 box 0 0 292 783
 << labels >>
 rlabel metal1 0 708 0 733 3 Vdd!
 rlabel metal1 0 746 0 756 3 Scan
-rlabel metal1 0 769 0 779 3 ScanReturn
+rlabel metal1 0 769 0 779 3 nScan
 << end >>
