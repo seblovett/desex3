@@ -1,0 +1,43 @@
+magic
+tech c035u
+timestamp 1385507992
+<< nwell >>
+rect 0 406 34 750
+<< pohmic >>
+rect 0 65 34 81
+<< nohmic >>
+rect 0 734 34 750
+<< metal1 >>
+rect 0 780 34 790
+rect 0 760 34 770
+rect 0 725 34 750
+rect 0 84 34 90
+rect 0 70 10 84
+rect 24 70 34 84
+rect 0 65 34 70
+rect 0 45 34 55
+rect 0 25 34 35
+rect 0 5 34 15
+<< m2contact >>
+rect 10 70 24 84
+<< metal2 >>
+rect 11 84 23 795
+rect 11 0 23 70
+<< labels >>
+rlabel metal1 34 725 34 750 7 Vdd!
+rlabel metal1 0 725 0 750 3 Vdd!
+rlabel metal1 34 780 34 790 7 ScanReturn
+rlabel metal1 34 760 34 770 7 Q
+rlabel metal1 0 780 0 790 3 ScanReturn
+rlabel metal1 0 760 0 770 3 Q
+rlabel metal1 34 65 34 90 7 GND!
+rlabel metal1 34 45 34 55 7 Clock
+rlabel metal1 34 25 34 35 7 Test
+rlabel metal1 34 5 34 15 7 Reset
+rlabel metal1 0 65 0 90 3 GND!
+rlabel metal1 0 45 0 55 3 Clock
+rlabel metal1 0 25 0 35 3 Test
+rlabel metal1 0 5 0 15 3 Reset
+rlabel metal2 11 795 23 795 5 GND!
+rlabel metal2 11 0 23 0 1 GND!
+<< end >>

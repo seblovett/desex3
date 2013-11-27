@@ -1,0 +1,31 @@
+magic
+tech c035u
+timestamp 1385131709
+<< metal1 >>
+rect 11 779 21 793
+rect 0 769 27 779
+rect 0 746 27 756
+rect 0 708 27 733
+<< m2contact >>
+rect 9 793 23 807
+<< metal2 >>
+rect 23 793 183 805
+rect 51 783 63 793
+rect 171 783 183 793
+use inv inv_1
+timestamp 1385124685
+transform 1 0 27 0 1 0
+box 0 0 120 783
+use inv inv_0
+timestamp 1385124685
+transform 1 0 147 0 1 0
+box 0 0 120 783
+use rightend rightend_0
+timestamp 1385131598
+transform 1 0 267 0 1 0
+box 0 0 292 783
+<< labels >>
+rlabel metal1 0 708 0 733 3 Vdd!
+rlabel metal1 0 746 0 756 3 Scan
+rlabel metal1 0 769 0 779 3 nScan
+<< end >>
