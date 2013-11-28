@@ -1,6 +1,6 @@
 magic
 tech c035u
-timestamp 1385636347
+timestamp 1385636587
 << nwell >>
 rect 0 534 120 746
 << polysilicon >>
@@ -38,11 +38,11 @@ rect 50 79 90 86
 rect 106 79 120 86
 rect 0 76 120 79
 << nohmic >>
-rect 0 743 117 746
+rect 0 743 120 746
 rect 0 736 6 743
 rect 22 736 34 743
 rect 50 736 62 743
-rect 78 736 117 743
+rect 78 736 120 743
 << ntransistor >>
 rect 28 333 35 363
 rect 55 333 62 363
