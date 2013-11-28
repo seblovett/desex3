@@ -1,9 +1,9 @@
 magic
 tech c035u
-timestamp 1385125399
+timestamp 1385633039
 << metal1 >>
-rect 0 745 10 770
-rect 0 110 10 135
+rect 0 758 10 783
+rect 0 113 10 138
 << metal2 >>
 rect 34 0 46 37
 rect 58 0 70 37
@@ -13,21 +13,21 @@ rect 274 27 286 37
 rect 82 15 286 27
 rect 82 0 94 15
 use nor2 nor2_0
-timestamp 1385124540
+timestamp 1385632928
 transform 1 0 10 0 1 37
-box 0 0 120 783
+box 0 0 120 799
 use inv inv_0
-timestamp 1385124685
+timestamp 1385631115
 transform 1 0 130 0 1 37
-box 0 0 120 783
+box 0 0 120 799
 use inv inv_1
-timestamp 1385124685
+timestamp 1385631115
 transform 1 0 250 0 1 37
-box 0 0 120 783
+box 0 0 120 799
 << labels >>
 rlabel metal2 34 0 46 0 1 A
 rlabel metal2 58 0 70 0 1 B
 rlabel metal2 82 0 94 0 1 Y
-rlabel metal1 0 110 0 135 3 GND!
-rlabel metal1 0 745 0 770 3 Vdd!
+rlabel metal1 0 113 0 138 3 GND!
+rlabel metal1 0 758 0 783 3 Vdd!
 << end >>
