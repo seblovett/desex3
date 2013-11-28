@@ -1,8 +1,6 @@
 magic
 tech c035u
-timestamp 1385128053
-<< error_s >>
-rect 108 500 110 514
+timestamp 1385633764
 << metal2 >>
 rect 24 0 36 31
 rect 48 0 60 31
@@ -13,21 +11,21 @@ rect 408 21 420 31
 rect 96 9 420 21
 rect 96 0 108 9
 use or2 or2_0
-timestamp 1385127552
+timestamp 1385633707
 transform 1 0 0 0 1 31
-box 0 0 144 783
+box 0 0 144 799
 use inv inv_0
-timestamp 1385124685
+timestamp 1385631115
 transform 1 0 144 0 1 31
-box 0 0 120 783
+box 0 0 120 799
 use inv inv_1
-timestamp 1385124685
+timestamp 1385631115
 transform 1 0 264 0 1 31
-box 0 0 120 783
+box 0 0 120 799
 use inv inv_2
-timestamp 1385124685
+timestamp 1385631115
 transform 1 0 384 0 1 31
-box 0 0 120 783
+box 0 0 120 799
 << labels >>
 rlabel metal2 96 0 108 0 1 Y
 rlabel metal2 48 0 60 0 1 B
