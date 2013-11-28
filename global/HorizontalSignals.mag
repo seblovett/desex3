@@ -1,6 +1,6 @@
 magic
 tech c035u
-timestamp 1385629589
+timestamp 1385630669
 << nwell >>
 rect 0 395 144 739
 << metal1 >>
@@ -11,6 +11,8 @@ rect 0 69 144 94
 rect 0 46 144 56
 rect 0 23 144 33
 rect 0 0 144 10
+<< metal2 >>
+rect 18 -7 30 792
 << labels >>
 rlabel metal1 144 714 144 739 7 Vdd!
 rlabel metal1 0 714 0 739 3 Vdd!
