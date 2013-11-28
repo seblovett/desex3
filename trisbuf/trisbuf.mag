@@ -1,130 +1,130 @@
 magic
 tech c035u
-timestamp 1385412478
+timestamp 1385637965
 << nwell >>
-rect 0 388 180 729
+rect 0 402 180 746
 << polysilicon >>
-rect 115 604 122 613
-rect 63 525 70 533
-rect 83 525 90 535
-rect 63 467 70 477
-rect 33 446 40 454
-rect 33 384 40 398
-rect 33 358 40 368
-rect 33 320 40 328
-rect 63 323 70 451
-rect 63 297 70 307
-rect 83 297 90 477
-rect 115 467 122 556
-rect 63 259 70 267
-rect 83 257 90 267
-rect 115 236 122 451
-rect 115 198 122 206
+rect 115 618 122 627
+rect 63 539 70 547
+rect 83 539 90 549
+rect 63 481 70 491
+rect 33 460 40 468
+rect 33 391 40 412
+rect 33 365 40 375
+rect 33 327 40 335
+rect 63 330 70 465
+rect 63 304 70 314
+rect 83 304 90 491
+rect 115 481 122 570
+rect 63 266 70 274
+rect 83 264 90 274
+rect 115 243 122 465
+rect 115 205 122 213
 << ndiffusion >>
-rect 31 328 33 358
-rect 40 328 42 358
-rect 61 267 63 297
-rect 70 267 83 297
-rect 90 267 92 297
-rect 113 206 115 236
-rect 122 206 124 236
+rect 31 335 33 365
+rect 40 335 42 365
+rect 61 274 63 304
+rect 70 274 83 304
+rect 90 274 92 304
+rect 113 213 115 243
+rect 122 213 124 243
 << pdiffusion >>
-rect 113 556 115 604
-rect 122 556 124 604
-rect 61 477 63 525
-rect 70 477 83 525
-rect 90 477 92 525
-rect 31 398 33 446
-rect 40 398 42 446
+rect 113 570 115 618
+rect 122 570 124 618
+rect 61 491 63 539
+rect 70 491 83 539
+rect 90 491 92 539
+rect 31 412 33 460
+rect 40 412 42 460
 << ntransistor >>
-rect 33 328 40 358
-rect 63 267 70 297
-rect 83 267 90 297
-rect 115 206 122 236
+rect 33 335 40 365
+rect 63 274 70 304
+rect 83 274 90 304
+rect 115 213 122 243
 << ptransistor >>
-rect 115 556 122 604
-rect 63 477 70 525
-rect 83 477 90 525
-rect 33 398 40 446
+rect 115 570 122 618
+rect 63 491 70 539
+rect 83 491 90 539
+rect 33 412 40 460
 << polycontact >>
-rect 83 535 99 551
-rect 57 451 73 467
-rect 32 368 48 384
-rect 57 307 73 323
-rect 115 451 131 467
-rect 83 241 99 257
+rect 83 549 99 565
+rect 57 465 73 481
+rect 32 375 48 391
+rect 57 314 73 330
+rect 115 465 131 481
+rect 83 248 99 264
 << ndiffcontact >>
-rect 15 328 31 358
-rect 42 328 58 358
-rect 45 267 61 297
-rect 92 267 108 297
-rect 97 206 113 236
-rect 124 206 140 236
+rect 15 335 31 365
+rect 42 335 58 365
+rect 45 274 61 304
+rect 92 274 108 304
+rect 97 213 113 243
+rect 124 213 140 243
 << pdiffcontact >>
-rect 96 556 113 604
-rect 124 556 141 604
-rect 45 477 61 525
-rect 92 477 108 525
-rect 15 398 31 446
-rect 42 398 58 446
+rect 96 570 113 618
+rect 124 570 141 618
+rect 45 491 61 539
+rect 92 491 108 539
+rect 15 412 31 460
+rect 42 412 58 460
 << metal1 >>
-rect 0 765 180 775
-rect 0 742 180 752
-rect 0 704 180 729
-rect 15 446 31 704
-rect 45 525 61 704
-rect 124 604 141 704
-rect 83 556 96 604
-rect 83 551 99 556
-rect 42 451 57 467
-rect 42 446 58 451
-rect 92 411 105 477
-rect 115 450 131 451
-rect 92 394 149 411
-rect 31 368 32 384
-rect 15 94 31 328
-rect 42 323 58 328
-rect 42 307 57 323
-rect 92 297 105 394
-rect 45 94 61 267
-rect 83 236 99 241
-rect 83 206 97 236
-rect 124 94 140 206
-rect 0 69 180 94
-rect 0 46 180 56
-rect 0 23 180 33
-rect 0 0 180 10
+rect 0 782 180 792
+rect 0 759 180 769
+rect 0 721 180 746
+rect 15 460 31 721
+rect 45 539 61 721
+rect 124 618 141 721
+rect 83 570 96 618
+rect 83 565 99 570
+rect 42 465 57 481
+rect 42 460 58 465
+rect 92 425 105 491
+rect 115 464 131 465
+rect 92 408 149 425
+rect 31 375 32 391
+rect 15 101 31 335
+rect 42 330 58 335
+rect 42 314 57 330
+rect 92 304 105 408
+rect 45 101 61 274
+rect 83 243 99 248
+rect 83 213 97 243
+rect 124 101 140 213
+rect 0 76 180 101
+rect 0 53 180 63
+rect 0 30 180 40
+rect 0 7 180 17
 << m2contact >>
-rect 115 434 131 450
-rect 149 394 165 411
-rect 15 368 31 384
+rect 115 448 131 464
+rect 149 408 165 425
+rect 15 375 31 391
 << metal2 >>
-rect 15 384 31 775
-rect 15 0 31 368
-rect 79 450 95 775
-rect 79 434 115 450
-rect 79 0 95 434
-rect 149 411 165 775
-rect 149 0 165 394
+rect 15 391 31 799
+rect 15 0 31 375
+rect 79 464 95 799
+rect 79 448 115 464
+rect 79 0 95 448
+rect 149 425 165 799
+rect 149 0 165 408
 << labels >>
-rlabel metal2 149 775 165 775 5 Y
+rlabel metal1 0 76 0 101 3 GND!
+rlabel metal1 0 53 0 63 3 Clock
+rlabel metal1 0 30 0 40 3 Test
+rlabel metal1 0 7 0 17 2 nReset
+rlabel metal1 180 7 180 17 8 nReset
+rlabel metal1 180 30 180 40 7 Test
+rlabel metal1 180 53 180 63 7 Clock
+rlabel metal1 180 76 180 101 7 GND!
+rlabel metal1 0 782 0 792 4 ScanReturn
+rlabel metal1 0 759 0 769 3 Scan
+rlabel metal1 0 721 0 746 3 Vdd!
+rlabel metal1 180 782 180 792 6 ScanReturn
+rlabel metal1 180 759 180 769 7 Scan
+rlabel metal1 180 721 180 746 7 Vdd!
 rlabel metal2 149 0 165 0 1 Y
 rlabel metal2 15 0 31 0 1 A
-rlabel metal1 0 69 0 94 3 GND!
-rlabel metal1 0 46 0 56 3 Clock
-rlabel metal1 0 23 0 33 3 Test
-rlabel metal1 0 0 0 10 2 nReset
-rlabel metal1 0 765 0 775 4 ScanReturn
-rlabel metal1 0 742 0 752 3 Scan
-rlabel metal1 0 704 0 729 3 Vdd!
-rlabel metal2 15 775 31 775 5 A
-rlabel metal2 79 775 95 775 5 Enable
 rlabel metal2 79 0 95 0 1 Enable
-rlabel metal1 180 765 180 775 6 ScanReturn
-rlabel metal1 180 742 180 752 7 Scan
-rlabel metal1 180 704 180 729 7 Vdd!
-rlabel metal1 180 0 180 10 8 nReset
-rlabel metal1 180 23 180 33 7 Test
-rlabel metal1 180 46 180 56 7 Clock
-rlabel metal1 180 69 180 94 7 GND!
+rlabel metal2 149 799 165 799 5 Y
+rlabel metal2 15 799 31 799 5 A
+rlabel metal2 79 799 95 799 5 Enable
 << end >>
