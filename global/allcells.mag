@@ -1,0 +1,70 @@
+magic
+tech c035u
+timestamp 1385638880
+<< error_s >>
+rect 3852 102 3873 158
+use ../leftbuf/leftbuf leftbuf_0
+timestamp 1385634621
+transform 1 0 0 0 1 10
+box 0 -10 1464 789
+use ../and2/and2 and2_0
+timestamp 1385636468
+transform 1 0 1464 0 1 0
+box 0 0 120 799
+use ../nand2/nand2 nand2_0
+timestamp 1385631319
+transform 1 0 1584 0 1 0
+box 0 0 96 799
+use ../nand3/nand3 nand3_0
+timestamp 1385636587
+transform 1 0 1680 0 1 0
+box 0 0 120 799
+use ../nand4/nand4 nand4_0
+timestamp 1385636690
+transform 1 0 1800 0 1 0
+box 0 0 144 799
+use ../nor2/nor2 nor2_0
+timestamp 1385632928
+transform 1 0 1944 0 1 0
+box 0 0 120 799
+use ../nor3/nor3 nor3_0
+timestamp 1385633286
+transform 1 0 2064 0 1 0
+box 0 0 144 799
+use ../or2/or2 or2_0
+timestamp 1385633707
+transform 1 0 2208 0 1 0
+box 0 0 144 799
+use ../mux2/mux2 mux2_0
+timestamp 1385634976
+transform 1 0 2352 0 1 0
+box 0 0 186 799
+use ../smux2/smux2 smux2_0
+timestamp 1385635083
+transform 1 0 2538 0 1 0
+box 0 0 188 799
+use ../smux3/smux3 smux3_0
+timestamp 1385634753
+transform 1 0 2726 0 1 0
+box 0 0 288 799
+use ../buffer/buffer buffer_0
+timestamp 1385637240
+transform 1 0 3014 0 1 0
+box 0 0 120 799
+use ../inv/inv inv_0
+timestamp 1385637599
+transform 1 0 3134 0 1 0
+box 0 0 120 799
+use ../trisbuf/trisbuf trisbuf_0
+timestamp 1385637965
+transform 1 0 3254 0 1 0
+box 0 0 180 799
+use ../rdtype/rdtype rdtype_0
+timestamp 1385633360
+transform 1 0 3434 0 1 0
+box 0 0 415 799
+use ../rightend/rightend rightend_0
+timestamp 1385632559
+transform 1 0 3849 0 1 0
+box 0 0 292 799
+<< end >>
