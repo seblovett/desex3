@@ -1,0 +1,2 @@
+ a rise delay   &   1.306e-10  \\
+ a fall delay  &   9.373e-11     \\  
