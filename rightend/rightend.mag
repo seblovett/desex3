@@ -1,19 +1,19 @@
 magic
 tech c035u
-timestamp 1385632559
+timestamp 1385751130
 << nwell >>
-rect 0 670 80 746
+rect 0 402 80 746
 << polysilicon >>
 rect 60 756 62 772
-rect 55 718 62 756
-rect 55 630 62 670
-rect 55 592 62 600
+rect 55 450 62 756
+rect 55 362 62 402
+rect 55 324 62 332
 << ndiffusion >>
-rect 53 600 55 630
-rect 62 600 64 630
+rect 53 332 55 362
+rect 62 332 64 362
 << pdiffusion >>
-rect 53 670 55 718
-rect 62 670 64 718
+rect 53 402 55 450
+rect 62 402 64 450
 << pohmic >>
 rect 0 76 6 86
 rect 22 76 34 86
@@ -23,17 +23,17 @@ rect 78 76 92 86
 rect 0 736 6 746
 rect 22 736 34 746
 << ntransistor >>
-rect 55 600 62 630
+rect 55 332 62 362
 << ptransistor >>
-rect 55 670 62 718
+rect 55 402 62 450
 << polycontact >>
 rect 44 756 60 772
 << ndiffcontact >>
-rect 37 600 53 630
-rect 64 600 80 630
+rect 37 332 53 362
+rect 64 332 80 362
 << pdiffcontact >>
-rect 37 670 53 718
-rect 64 670 80 718
+rect 37 402 53 450
+rect 64 402 80 450
 << psubstratetap >>
 rect 6 76 22 92
 rect 34 76 50 92
@@ -48,23 +48,19 @@ rect 0 730 6 746
 rect 22 730 34 746
 rect 50 730 53 746
 rect 0 721 53 730
-rect 37 718 53 721
-rect 70 718 80 782
-rect 70 630 80 670
-rect 37 587 53 600
-rect 37 571 92 587
+rect 37 450 53 721
+rect 70 450 80 782
+rect 70 362 80 402
+rect 37 101 53 332
 rect 0 92 92 101
 rect 0 76 6 92
 rect 22 76 34 92
 rect 50 76 62 92
 rect 78 76 92 92
 << m2contact >>
-rect 92 571 106 587
 rect 92 76 292 101
 << metal2 >>
-rect 92 587 292 799
-rect 106 571 292 587
-rect 92 101 292 571
+rect 92 101 292 799
 rect 92 0 292 76
 << labels >>
 rlabel metal2 92 799 292 799 5 GND!
