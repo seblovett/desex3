@@ -1,8 +1,6 @@
 magic
 tech c035u
-timestamp 1385638880
-<< error_s >>
-rect 3852 102 3873 158
+timestamp 1385750413
 use ../leftbuf/leftbuf leftbuf_0
 timestamp 1385634621
 transform 1 0 0 0 1 10
@@ -44,7 +42,7 @@ timestamp 1385635083
 transform 1 0 2538 0 1 0
 box 0 0 188 799
 use ../smux3/smux3 smux3_0
-timestamp 1385634753
+timestamp 1385636262
 transform 1 0 2726 0 1 0
 box 0 0 288 799
 use ../buffer/buffer buffer_0
@@ -60,11 +58,11 @@ timestamp 1385637965
 transform 1 0 3254 0 1 0
 box 0 0 180 799
 use ../rdtype/rdtype rdtype_0
-timestamp 1385633360
+timestamp 1385639216
 transform 1 0 3434 0 1 0
-box 0 0 415 799
+box 0 0 432 799
 use ../rightend/rightend rightend_0
 timestamp 1385632559
-transform 1 0 3849 0 1 0
+transform 1 0 3865 0 1 0
 box 0 0 292 799
 << end >>
