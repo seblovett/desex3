@@ -1,43 +1,43 @@
 magic
 tech c035u
-timestamp 1385920082
+timestamp 1385927229
 << nwell >>
-rect 0 403 34 747
+rect -7 403 41 747
 << pohmic >>
-rect 0 77 34 87
+rect -7 77 41 87
 << nohmic >>
-rect 0 737 34 747
+rect -7 737 41 747
 << metal1 >>
-rect 0 783 34 793
-rect 0 760 34 770
-rect 0 722 34 747
-rect 0 96 34 102
-rect 0 82 10 96
-rect 24 82 34 96
-rect 0 77 34 82
-rect 0 54 34 64
-rect 0 31 34 41
-rect 0 8 34 18
+rect -7 783 41 793
+rect -7 760 41 770
+rect -7 722 41 747
+rect -7 96 41 102
+rect -7 82 16 96
+rect 30 82 41 96
+rect -7 77 41 82
+rect -7 54 41 64
+rect -7 31 41 41
+rect -7 8 41 18
 << m2contact >>
-rect 10 82 24 96
+rect 16 82 30 96
 << metal2 >>
-rect 11 96 23 800
-rect 11 1 23 82
+rect 17 96 29 800
+rect 17 1 29 82
 << labels >>
-rlabel metal1 34 783 34 793 7 ScanReturn
-rlabel metal1 0 783 0 793 3 ScanReturn
-rlabel metal2 11 800 23 800 5 GND!
-rlabel metal1 0 760 0 770 3 Scan
-rlabel metal1 34 760 34 770 7 Scan
-rlabel metal1 0 722 0 747 3 Vdd!
-rlabel metal1 34 722 34 747 7 Vdd!
-rlabel metal1 34 8 34 18 7 nReset
-rlabel metal1 0 8 0 18 3 nReset
-rlabel metal2 11 1 23 1 1 GND!
-rlabel metal1 0 31 0 41 3 Test
-rlabel metal1 34 31 34 41 7 Test
-rlabel metal1 0 54 0 64 3 Clock
-rlabel metal1 34 54 34 64 7 Clock
-rlabel metal1 0 77 0 102 3 GND!
-rlabel metal1 34 77 34 102 7 GND!
+rlabel metal1 41 8 41 18 7 nReset
+rlabel metal1 41 31 41 41 7 Test
+rlabel metal1 41 54 41 64 7 Clock
+rlabel metal1 41 77 41 102 7 GND!
+rlabel metal1 -7 8 -7 18 3 nReset
+rlabel metal1 -7 31 -7 41 3 Test
+rlabel metal1 -7 54 -7 64 3 Clock
+rlabel metal1 -7 77 -7 102 3 GND!
+rlabel metal1 -7 783 -7 793 3 ScanReturn
+rlabel metal1 -7 760 -7 770 3 Scan
+rlabel metal1 41 783 41 793 7 ScanReturn
+rlabel metal1 41 760 41 770 7 Scan
+rlabel metal1 -7 722 -7 747 3 Vdd!
+rlabel metal1 41 722 41 747 7 Vdd!
+rlabel metal2 17 800 29 800 5 GND!
+rlabel metal2 17 1 29 1 1 GND!
 << end >>
