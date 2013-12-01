@@ -1,0 +1,12 @@
+
+for dir in ./*/
+do
+	dir=${dir%*/}
+	echo ${dir##*/}
+	if [ ".git" != ${dir} ]; then  
+		cp ${dir}/${dir}.mag ~/design/magic/c035u/cell_lib/${dir}.mag
+	fi
+done
+cp global/allcells.mag ~/design/magic/c035u/cell_lib/all.mag
+
+
