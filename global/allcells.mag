@@ -1,6 +1,24 @@
 magic
 tech c035u
-timestamp 1385925275
+timestamp 1385926514
+<< error_s >>
+rect 2544 782 2548 792
+rect 2736 782 2742 792
+rect 2544 759 2548 769
+rect 2544 402 2566 746
+rect 2736 402 2760 746
+rect 3872 730 3882 736
+rect 2544 86 2548 101
+rect 2736 96 2742 101
+rect 2544 76 2550 86
+rect 2736 76 2744 96
+rect 3872 76 3874 92
+rect 2544 53 2548 63
+rect 2736 53 2742 63
+rect 2544 30 2548 40
+rect 2736 30 2742 40
+rect 2544 7 2548 17
+rect 2736 7 2742 17
 use ../leftbuf/leftbuf leftbuf_0
 timestamp 1385752733
 transform 1 0 0 0 1 10
@@ -39,27 +57,27 @@ transform 1 0 2352 0 1 0
 box 0 0 186 799
 use ../smux2/smux2 smux2_0
 timestamp 1385635083
-transform 1 0 2538 0 1 0
+transform 1 0 2544 0 1 0
 box 0 0 188 799
 use ../smux3/smux3 smux3_0
 timestamp 1385920319
-transform 1 0 2726 0 1 0
+transform 1 0 2736 0 1 0
 box 0 0 288 799
 use ../buffer/buffer buffer_0
-timestamp 1385919140
-transform 1 0 3014 0 1 -1
+timestamp 1385926514
+transform 1 0 3024 0 1 -1
 box 0 1 120 800
 use ../inv/inv inv_0
 timestamp 1385924870
-transform 1 0 3134 0 1 0
+transform 1 0 3144 0 1 0
 box 0 0 120 799
 use ../trisbuf/trisbuf trisbuf_0
-timestamp 1385919412
-transform 1 0 3254 0 1 0
-box 0 0 180 799
+timestamp 1385926402
+transform 1 0 3264 0 1 0
+box 0 0 192 799
 use ../rdtype/rdtype rdtype_0
 timestamp 1385639216
-transform 1 0 3434 0 1 0
+transform 1 0 3456 0 1 0
 box 0 0 432 799
 use ../fulladder/fulladder fulladder_0
 timestamp 1385909444
