@@ -1,8 +1,8 @@
 magic
 tech c035u
-timestamp 1385929350
+timestamp 1385930293
 use ../leftbuf/leftbuf leftbuf_0
-timestamp 1385752733
+timestamp 1385930293
 transform 1 0 0 0 1 10
 box 0 -10 1464 789
 use ../and2/and2 and2_0
