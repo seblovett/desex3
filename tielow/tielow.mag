@@ -1,12 +1,12 @@
 magic
 tech c035u
-timestamp 1385918547
+timestamp 1385920082
 << nwell >>
 rect 0 403 34 747
 << pohmic >>
-rect 0 77 34 93
+rect 0 77 34 87
 << nohmic >>
-rect 0 731 34 747
+rect 0 737 34 747
 << metal1 >>
 rect 0 783 34 793
 rect 0 760 34 770
