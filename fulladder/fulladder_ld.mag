@@ -1,0 +1,19 @@
+magic
+tech c035u
+timestamp 1385744439
+<< error_s >>
+rect 318 80 326 81
+rect 326 64 336 73
+rect 326 54 336 60
+rect 326 44 336 50
+rect 326 34 336 37
+rect 326 24 336 27
+use fulladder fulladder_0
+timestamp 1385740638
+transform 1 0 -24 0 1 -13
+box 0 0 360 649
+use ../inv/inv.mag inv.mag_0
+timestamp 1385631115
+transform 1 0 336 0 1 -13
+box 0 0 120 799
+<< end >>

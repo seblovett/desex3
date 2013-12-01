@@ -1,0 +1,63 @@
+// stimulus file fulladder_stim.sv for fulladder
+// created by ext2svmod 5.5
+
+module fulladder_stim;
+
+timeunit 1ns;
+timeprecision 10ps;
+
+logic A ;
+logic B ;
+logic Cin ;
+
+wire Cout ;
+wire S ;
+
+fulladder instance1(
+	.Cout ( Cout ),
+	.S ( S ),
+	.A ( A ),
+	.B ( B ),
+	.Cin ( Cin )
+	);
+
+// stimulus information follows
+
+initial
+  begin
+    A = 0;
+    B = 0;
+    Cin = 0;
+    #1000
+          A = 1;
+    #1000
+          B = 1;
+    #1000
+          Cin = 1;
+    #1000
+          A = 0;
+    #1000
+          B = 0;
+    #1000
+          Cin = 0;
+
+    #1000
+          $stop;
+          $finish;
+  end
+
+// probe information follows
+
+initial
+  $monitor($time,
+    ,"%b", A ,
+    ,"%b", B ,
+    ,"%b", Cin ,
+    ,"%b", Cout ,
+    ,"%b", S ,
+    );
+
+
+//SIMVISION SCRIPT:fulladder.tcl
+
+endmodule
