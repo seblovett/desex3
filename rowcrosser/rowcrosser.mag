@@ -1,22 +1,22 @@
 magic
 tech c035u
-timestamp 1385906703
+timestamp 1385918654
 << nwell >>
-rect 0 302 34 646
+rect 0 402 34 746
 << pohmic >>
 rect 0 76 34 92
 << nohmic >>
-rect 0 630 34 646
+rect 0 730 34 746
 << metal1 >>
-rect 0 682 34 692
-rect 0 659 34 669
-rect 0 621 34 646
+rect 0 782 34 792
+rect 0 759 34 769
+rect 0 721 34 746
 rect 0 76 34 101
 rect 0 53 34 63
 rect 0 30 34 40
 rect 0 7 34 17
 << metal2 >>
-rect 11 0 23 699
+rect 11 0 23 799
 << labels >>
 rlabel metal1 34 76 34 101 7 GND!
 rlabel metal1 0 76 0 101 3 GND!
@@ -27,11 +27,11 @@ rlabel metal1 0 30 0 40 3 Test
 rlabel metal2 11 0 23 0 1 Cross
 rlabel metal1 34 7 34 17 7 nReset
 rlabel metal1 0 7 0 17 3 nReset
-rlabel metal1 34 621 34 646 7 Vdd!
-rlabel metal1 0 621 0 646 3 Vdd!
-rlabel metal1 0 659 0 669 3 Scan
-rlabel metal1 34 659 34 669 7 Scan
-rlabel metal1 34 682 34 692 7 ScanReturn
-rlabel metal1 0 682 0 692 3 ScanReturn
-rlabel metal2 11 699 23 699 5 Cross
+rlabel metal1 34 721 34 746 7 Vdd!
+rlabel metal1 0 721 0 746 3 Vdd!
+rlabel metal1 0 759 0 769 3 Scan
+rlabel metal1 34 759 34 769 7 Scan
+rlabel metal1 34 782 34 792 7 ScanReturn
+rlabel metal1 0 782 0 792 3 ScanReturn
+rlabel metal2 11 799 23 799 5 Cross
 << end >>
