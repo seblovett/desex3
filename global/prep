@@ -9,4 +9,6 @@ do
 done
 cp global/allcells.mag ~/design/magic/c035u/cell_lib/all.mag
 
+prepare_dicd desex3
+
 
