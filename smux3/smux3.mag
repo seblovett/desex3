@@ -1,6 +1,6 @@
 magic
 tech c035u
-timestamp 1385920319
+timestamp 1385926127
 << nwell >>
 rect 0 402 288 746
 << polysilicon >>
@@ -234,7 +234,6 @@ rect 228 553 238 563
 rect 73 495 83 505
 rect 73 485 180 495
 rect 261 385 271 505
-rect 70 367 72 381
 rect 120 365 127 379
 rect 261 375 288 385
 rect 261 358 271 375
@@ -276,20 +275,20 @@ rect 0 7 288 17
 rect 174 757 188 771
 rect 238 758 252 772
 rect 237 683 251 697
-rect 72 367 87 381
+rect 70 367 85 381
 rect 106 365 120 379
 rect 174 367 188 381
 rect 24 345 38 359
 rect 106 28 120 42
 << metal2 >>
 rect 24 359 36 799
-rect 75 381 87 799
+rect 72 381 84 799
 rect 175 743 187 757
 rect 174 727 187 743
 rect 175 381 187 727
 rect 239 697 251 758
 rect 24 0 36 345
-rect 75 0 87 367
+rect 72 0 84 367
 rect 107 42 119 365
 << labels >>
 rlabel metal1 0 782 0 792 3 ScanReturn
@@ -299,7 +298,6 @@ rlabel metal1 288 721 288 746 1 Vdd!
 rlabel metal1 288 759 288 769 7 Q
 rlabel metal1 288 782 288 792 7 ScanReturn
 rlabel metal2 24 799 36 799 5 D
-rlabel metal2 75 799 87 799 5 Load
 rlabel metal1 0 76 0 101 3 GND!
 rlabel metal1 0 30 0 40 3 Test
 rlabel metal1 0 7 0 17 2 nReset
@@ -309,6 +307,7 @@ rlabel metal1 288 30 288 40 7 Test
 rlabel metal1 288 7 288 17 8 nReset
 rlabel metal1 288 76 288 101 7 GND!
 rlabel metal2 24 0 36 0 1 D
-rlabel metal2 75 0 87 0 1 Load
 rlabel metal1 288 375 288 385 7 M
+rlabel metal2 72 0 84 0 1 Load
+rlabel metal2 72 799 84 799 5 Load
 << end >>
