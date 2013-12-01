@@ -1,72 +1,67 @@
 magic
 tech c035u
-timestamp 1385928057
+timestamp 1385928373
 << nwell >>
-rect 0 402 80 746
+rect 0 402 56 746
 << polysilicon >>
-rect 60 756 62 772
-rect 55 480 62 756
-rect 55 362 62 432
-rect 55 324 62 332
+rect 36 756 38 772
+rect 31 480 38 756
+rect 31 362 38 432
+rect 31 324 38 332
 << ndiffusion >>
-rect 53 332 55 362
-rect 62 332 64 362
+rect 29 332 31 362
+rect 38 332 40 362
 << pdiffusion >>
-rect 53 432 55 480
-rect 62 432 64 480
+rect 29 432 31 480
+rect 38 432 40 480
 << pohmic >>
 rect 0 76 6 86
 rect 22 76 34 86
-rect 50 76 62 86
-rect 78 76 92 86
+rect 50 76 72 86
 << nohmic >>
-rect 0 736 6 746
-rect 22 736 34 746
+rect 0 736 10 746
+rect 6 730 10 736
 << ntransistor >>
-rect 55 332 62 362
+rect 31 332 38 362
 << ptransistor >>
-rect 55 432 62 480
+rect 31 432 38 480
 << polycontact >>
-rect 44 756 60 772
+rect 20 756 36 772
 << ndiffcontact >>
-rect 37 332 53 362
-rect 64 332 80 362
+rect 13 332 29 362
+rect 40 332 56 362
 << pdiffcontact >>
-rect 37 432 53 480
-rect 64 432 80 480
+rect 13 432 29 480
+rect 40 432 56 480
 << psubstratetap >>
 rect 6 76 22 92
 rect 34 76 50 92
-rect 62 76 78 92
 << nsubstratetap >>
-rect 6 730 22 746
-rect 34 730 50 746
+rect 10 730 26 746
 << metal1 >>
-rect 0 782 80 792
-rect 0 759 44 769
-rect 0 730 6 746
-rect 22 730 34 746
-rect 50 730 53 746
-rect 0 721 53 730
-rect 37 480 53 721
-rect 70 480 80 782
-rect 70 362 80 432
-rect 37 101 53 332
-rect 0 92 92 101
+rect 0 782 56 792
+rect 0 759 20 769
+rect 0 730 10 746
+rect 26 730 29 746
+rect 0 721 29 730
+rect 13 480 29 721
+rect 46 480 56 782
+rect 46 362 56 432
+rect 13 101 29 332
+rect 0 92 72 101
 rect 0 76 6 92
 rect 22 76 34 92
-rect 50 76 62 92
-rect 78 76 92 92
+rect 50 76 72 92
 << m2contact >>
-rect 92 76 292 101
+rect 72 76 272 101
 << metal2 >>
-rect 92 101 292 799
-rect 92 0 292 76
+rect 72 101 272 799
+rect 72 0 272 76
 << labels >>
-rlabel metal2 92 799 292 799 5 GND!
-rlabel metal2 92 0 292 0 1 GND!
 rlabel metal1 0 759 0 769 7 Scan
 rlabel metal1 0 721 0 746 3 Vdd!
 rlabel metal1 0 782 0 792 3 nScan
 rlabel metal1 0 76 0 101 7 GND!
+rlabel metal2 72 799 272 799 5 GND!
+rlabel metal2 72 0 272 0 1 GND!
 << end >>
