@@ -1,9 +1,6 @@
 magic
 tech c035u
-timestamp 1385926993
-<< error_p >>
-rect 48 516 53 528
-rect 154 378 156 390
+timestamp 1385927741
 << nwell >>
 rect 0 402 192 746
 << polysilicon >>
@@ -11,10 +8,11 @@ rect 35 630 42 638
 rect 62 630 69 638
 rect 93 630 100 638
 rect 35 505 42 582
-rect 62 549 69 582
+rect 62 546 69 582
 rect 93 572 100 582
 rect 155 581 164 588
-rect 62 505 69 533
+rect 62 530 64 546
+rect 62 505 69 530
 rect 35 406 42 457
 rect 33 397 42 406
 rect 38 381 42 397
@@ -97,7 +95,7 @@ rect 157 457 164 505
 << polycontact >>
 rect 139 581 155 597
 rect 85 556 101 572
-rect 53 533 69 549
+rect 64 530 80 546
 rect 22 381 38 397
 rect 118 431 134 447
 rect 93 345 109 366
@@ -152,7 +150,6 @@ rect 118 582 139 596
 rect 17 505 33 582
 rect 47 569 57 582
 rect 47 559 85 569
-rect 53 532 69 533
 rect 166 505 183 721
 rect 124 457 154 467
 rect 182 457 183 505
@@ -182,23 +179,21 @@ rect 0 53 192 63
 rect 0 30 192 40
 rect 0 7 192 17
 << m2contact >>
-rect 53 516 69 532
+rect 48 530 64 546
 rect 22 398 38 414
-rect 138 378 154 394
+rect 141 378 157 394
 << metal2 >>
 rect 24 414 36 799
-rect 53 532 65 799
+rect 48 546 60 799
+rect 64 532 65 546
 rect 22 397 36 398
 rect 24 0 36 397
-rect 48 0 60 516
-rect 142 394 154 799
+rect 48 0 60 530
+rect 144 394 156 799
 rect 144 0 156 378
 << labels >>
 rlabel metal2 24 0 36 0 1 A
-rlabel metal2 53 799 65 799 5 B
-rlabel metal2 142 799 154 799 5 Y
 rlabel metal2 144 0 156 0 1 Y
-rlabel metal2 48 0 60 0 1 B
 rlabel metal2 24 799 36 799 5 A
 rlabel metal1 0 759 0 769 3 Scan
 rlabel metal1 0 782 0 792 4 ScanReturn
@@ -214,4 +209,7 @@ rlabel metal1 192 76 192 101 7 GND!
 rlabel metal1 192 721 192 746 1 Vdd!
 rlabel metal1 192 759 192 769 1 Scan
 rlabel metal1 192 782 192 792 1 ScanReturn
+rlabel metal2 48 0 60 0 1 B
+rlabel metal2 48 799 60 799 5 B
+rlabel metal2 144 799 156 799 5 Y
 << end >>
