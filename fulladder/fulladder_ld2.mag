@@ -1,18 +1,22 @@
 magic
 tech c035u
-timestamp 1385911015
+timestamp 1385914865
 << metal1 >>
 rect 253 851 623 861
 rect 637 851 743 861
+rect 757 851 983 861
 rect 325 828 383 838
 rect 397 828 503 838
+rect 517 828 863 838
 << m2contact >>
 rect 239 849 253 863
 rect 623 849 637 863
 rect 743 849 757 863
+rect 983 849 997 863
 rect 311 826 325 840
 rect 383 827 397 841
 rect 503 826 517 840
+rect 863 826 877 840
 << metal2 >>
 rect 48 799 60 871
 rect 120 799 132 871
@@ -29,6 +33,10 @@ rect 624 799 636 849
 rect 672 799 684 871
 rect 744 799 756 849
 rect 792 799 804 871
+rect 864 799 876 826
+rect 912 799 924 871
+rect 984 799 996 849
+rect 1032 799 1044 871
 use fulladder fulladder_0
 timestamp 1385909444
 transform 1 0 0 0 1 0
@@ -49,6 +57,14 @@ use inv inv_3
 timestamp 1385631115
 transform 1 0 720 0 1 0
 box 0 0 120 799
+use inv inv_4
+timestamp 1385631115
+transform 1 0 840 0 1 0
+box 0 0 120 799
+use inv inv_5
+timestamp 1385631115
+transform 1 0 960 0 1 0
+box 0 0 120 799
 << labels >>
 rlabel metal2 48 871 60 871 5 A
 rlabel metal2 120 871 132 871 5 B
@@ -59,4 +75,6 @@ rlabel metal2 672 871 684 871 5 S1
 rlabel metal2 792 871 804 871 5 S2
 rlabel metal2 240 871 252 871 5 S
 rlabel metal2 312 871 324 871 5 Cout
+rlabel metal2 912 871 924 871 5 Cout3
+rlabel metal2 1032 871 1044 871 5 S3
 << end >>
