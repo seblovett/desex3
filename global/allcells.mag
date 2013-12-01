@@ -1,8 +1,8 @@
 magic
 tech c035u
-timestamp 1385750413
+timestamp 1385931910
 use ../leftbuf/leftbuf leftbuf_0
-timestamp 1385634621
+timestamp 1385931910
 transform 1 0 0 0 1 10
 box 0 -10 1464 789
 use ../and2/and2 and2_0
@@ -14,7 +14,7 @@ timestamp 1385631319
 transform 1 0 1584 0 1 0
 box 0 0 96 799
 use ../nand3/nand3 nand3_0
-timestamp 1385636587
+timestamp 1385920731
 transform 1 0 1680 0 1 0
 box 0 0 120 799
 use ../nand4/nand4 nand4_0
@@ -34,35 +34,59 @@ timestamp 1385633707
 transform 1 0 2208 0 1 0
 box 0 0 144 799
 use ../mux2/mux2 mux2_0
-timestamp 1385634976
+timestamp 1385925694
 transform 1 0 2352 0 1 0
-box 0 0 186 799
+box 0 0 192 799
 use ../smux2/smux2 smux2_0
-timestamp 1385635083
-transform 1 0 2538 0 1 0
-box 0 0 188 799
+timestamp 1385926013
+transform 1 0 2544 0 1 0
+box 0 0 192 799
 use ../smux3/smux3 smux3_0
-timestamp 1385636262
-transform 1 0 2726 0 1 0
+timestamp 1385926127
+transform 1 0 2736 0 1 0
 box 0 0 288 799
 use ../buffer/buffer buffer_0
-timestamp 1385637240
-transform 1 0 3014 0 1 0
-box 0 0 120 799
+timestamp 1385926514
+transform 1 0 3024 0 1 -1
+box 0 1 120 800
 use ../inv/inv inv_0
-timestamp 1385637599
-transform 1 0 3134 0 1 0
+timestamp 1385924870
+transform 1 0 3144 0 1 0
 box 0 0 120 799
 use ../trisbuf/trisbuf trisbuf_0
-timestamp 1385637965
-transform 1 0 3254 0 1 0
-box 0 0 180 799
+timestamp 1385926402
+transform 1 0 3264 0 1 0
+box 0 0 192 799
 use ../rdtype/rdtype rdtype_0
 timestamp 1385639216
-transform 1 0 3434 0 1 0
+transform 1 0 3456 0 1 0
 box 0 0 432 799
+use ../fulladder/fulladder fulladder_0
+timestamp 1385909444
+transform 1 0 3888 0 1 0
+box 0 0 360 799
+use ../halfadder/halfadder halfadder_0
+timestamp 1385925245
+transform 1 0 4248 0 1 0
+box 0 0 312 799
+use ../xor2/xor2 xor2_0
+timestamp 1385927741
+transform 1 0 4560 0 1 0
+box 0 0 192 799
+use ../tielow/tielow tielow_0
+timestamp 1385927229
+transform 1 0 4759 0 1 -1
+box -7 1 41 800
+use ../tiehigh/tiehigh tiehigh_0
+timestamp 1385927307
+transform 1 0 4807 0 1 0
+box -7 0 41 799
+use ../rowcrosser/rowcrosser rowcrosser_0
+timestamp 1385927410
+transform 1 0 4855 0 1 0
+box -7 0 41 799
 use ../rightend/rightend rightend_0
-timestamp 1385632559
-transform 1 0 3865 0 1 0
-box 0 0 292 799
+timestamp 1385929350
+transform 1 0 4944 0 1 0
+box -48 0 272 799
 << end >>

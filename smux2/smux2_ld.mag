@@ -1,0 +1,66 @@
+magic
+tech c035u
+timestamp 1385931546
+<< metal1 >>
+rect -46 817 191 827
+rect -46 769 -36 817
+rect 325 814 695 824
+rect -46 759 0 769
+rect 792 375 817 385
+rect -20 30 0 40
+rect -20 -15 -10 30
+rect -20 -25 71 -15
+rect 398 -25 502 -15
+rect 807 -15 817 375
+rect 516 -25 817 -15
+<< m2contact >>
+rect 191 813 205 827
+rect 311 812 325 826
+rect 695 810 709 824
+rect 71 -25 85 -11
+rect 384 -27 398 -13
+rect 502 -27 516 -13
+<< metal2 >>
+rect 144 799 156 875
+rect 192 799 204 813
+rect 264 799 276 875
+rect 312 799 324 812
+rect 432 799 444 875
+rect 504 799 516 875
+rect 696 824 708 875
+rect 696 799 708 810
+rect 24 -46 36 0
+rect 72 -11 84 0
+rect 384 -13 396 0
+rect 504 -13 516 0
+use ../inv/inv inv_3
+timestamp 1385924870
+transform 1 0 0 0 1 0
+box 0 0 120 799
+use ../inv/inv inv_4
+timestamp 1385924870
+transform 1 0 120 0 1 0
+box 0 0 120 799
+use ../inv/inv inv_0
+timestamp 1385924870
+transform 1 0 240 0 1 0
+box 0 0 120 799
+use ../inv/inv inv_1
+timestamp 1385924870
+transform 1 0 360 0 1 0
+box 0 0 120 799
+use ../inv/inv inv_2
+timestamp 1385924870
+transform 1 0 480 0 1 0
+box 0 0 120 799
+use smux2 smux2_0
+timestamp 1385926013
+transform 1 0 600 0 1 0
+box 0 0 192 799
+<< labels >>
+rlabel metal2 24 -46 36 -46 1 nTest
+rlabel metal2 144 875 156 875 1 nSDI
+rlabel metal2 696 875 708 875 5 D
+rlabel metal2 432 875 444 875 5 n1
+rlabel metal2 504 875 516 875 5 n2
+<< end >>
