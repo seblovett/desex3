@@ -1,6 +1,6 @@
 magic
 tech c035u
-timestamp 1385671108
+timestamp 1385920130
 << nwell >>
 rect 0 476 185 729
 << polysilicon >>
@@ -61,6 +61,22 @@ rect 64 521 67 569
 rect 119 521 122 569
 rect 129 521 152 569
 rect 159 521 161 569
+<< pohmic >>
+rect 0 69 6 79
+rect 22 69 34 79
+rect 50 69 62 79
+rect 78 69 90 79
+rect 106 69 118 79
+rect 134 69 146 79
+rect 162 69 185 79
+<< nohmic >>
+rect 0 719 6 729
+rect 22 719 34 729
+rect 50 719 62 729
+rect 78 719 90 729
+rect 106 719 118 729
+rect 134 719 146 729
+rect 162 719 185 729
 << ntransistor >>
 rect 30 410 37 440
 rect 57 410 64 440
@@ -104,10 +120,31 @@ rect 12 521 28 569
 rect 67 521 83 569
 rect 103 521 119 569
 rect 161 521 177 569
+<< psubstratetap >>
+rect 6 69 22 85
+rect 34 69 50 85
+rect 62 69 78 85
+rect 90 69 106 85
+rect 118 69 134 85
+rect 146 69 162 85
+<< nsubstratetap >>
+rect 6 713 22 729
+rect 34 713 50 729
+rect 62 713 78 729
+rect 90 713 106 729
+rect 118 713 134 729
+rect 146 713 162 729
 << metal1 >>
 rect 0 765 185 775
 rect 0 742 185 752
-rect 0 704 185 729
+rect 0 713 6 729
+rect 22 713 34 729
+rect 50 713 62 729
+rect 78 713 90 729
+rect 106 713 118 729
+rect 134 713 146 729
+rect 162 713 185 729
+rect 0 704 185 713
 rect 12 694 28 704
 rect 66 694 82 704
 rect 113 646 134 660
@@ -132,10 +169,17 @@ rect 113 337 132 361
 rect 11 94 27 337
 rect 66 94 82 337
 rect 161 94 177 379
-rect 0 69 184 94
-rect 0 46 184 56
-rect 0 23 184 33
-rect 0 0 184 10
+rect 0 85 185 94
+rect 0 69 6 85
+rect 22 69 34 85
+rect 50 69 62 85
+rect 78 69 90 85
+rect 106 69 118 85
+rect 134 69 146 85
+rect 162 69 185 85
+rect 0 46 185 56
+rect 0 23 185 33
+rect 0 0 185 10
 << m2contact >>
 rect 48 580 64 596
 rect 19 472 35 488
@@ -155,17 +199,14 @@ rlabel metal1 0 69 0 94 3 GND!
 rlabel metal1 0 704 0 729 3 Vdd!
 rlabel metal1 0 742 0 752 3 Scan
 rlabel metal1 0 765 0 775 4 ScanReturn
-rlabel metal1 184 0 184 10 8 nReset
-rlabel metal1 184 23 184 33 7 Test
-rlabel metal1 184 46 184 56 7 Clock
-rlabel metal1 184 69 184 94 7 GND!
-rlabel metal1 185 704 185 729 7 Vdd!
-rlabel metal1 185 742 185 752 7 Scan
-rlabel metal1 185 765 185 775 6 ScanReturn
 rlabel metal2 19 782 31 782 5 A
 rlabel metal2 48 782 60 782 5 B
 rlabel metal2 137 782 149 782 5 Y
 rlabel metal2 137 -7 149 -7 1 Y
 rlabel metal2 19 -7 31 -7 1 A
 rlabel metal2 48 -7 60 -7 1 B
+rlabel metal1 185 0 185 10 8 nReset
+rlabel metal1 185 23 185 33 7 Test
+rlabel metal1 185 46 185 56 7 Clock
+rlabel metal1 185 69 185 94 7 GND!
 << end >>
