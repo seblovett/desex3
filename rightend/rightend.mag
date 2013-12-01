@@ -1,8 +1,8 @@
 magic
 tech c035u
-timestamp 1385928373
+timestamp 1385929350
 << nwell >>
-rect 0 402 56 746
+rect -48 402 85 746
 << polysilicon >>
 rect 36 756 38 772
 rect 31 480 38 756
@@ -15,11 +15,11 @@ rect 38 332 40 362
 rect 29 432 31 480
 rect 38 432 40 480
 << pohmic >>
-rect 0 76 6 86
+rect -48 76 6 86
 rect 22 76 34 86
 rect 50 76 72 86
 << nohmic >>
-rect 0 736 10 746
+rect -48 736 10 746
 rect 6 730 10 736
 << ntransistor >>
 rect 31 332 38 362
@@ -39,17 +39,17 @@ rect 34 76 50 92
 << nsubstratetap >>
 rect 10 730 26 746
 << metal1 >>
-rect 0 782 56 792
-rect 0 759 20 769
-rect 0 730 10 746
+rect -48 782 56 792
+rect -48 759 20 769
+rect -48 730 10 746
 rect 26 730 29 746
-rect 0 721 29 730
+rect -48 721 29 730
 rect 13 480 29 721
 rect 46 480 56 782
 rect 46 362 56 432
 rect 13 101 29 332
-rect 0 92 72 101
-rect 0 76 6 92
+rect -48 92 72 101
+rect -48 76 6 92
 rect 22 76 34 92
 rect 50 76 72 92
 << m2contact >>
@@ -58,10 +58,10 @@ rect 72 76 272 101
 rect 72 101 272 799
 rect 72 0 272 76
 << labels >>
-rlabel metal1 0 759 0 769 7 Scan
-rlabel metal1 0 721 0 746 3 Vdd!
-rlabel metal1 0 782 0 792 3 nScan
-rlabel metal1 0 76 0 101 7 GND!
 rlabel metal2 72 799 272 799 5 GND!
 rlabel metal2 72 0 272 0 1 GND!
+rlabel metal1 -48 759 -48 769 7 Scan
+rlabel metal1 -48 721 -48 746 3 Vdd!
+rlabel metal1 -48 782 -48 792 3 nScan
+rlabel metal1 -48 76 -48 101 7 GND!
 << end >>
