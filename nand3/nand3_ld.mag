@@ -1,0 +1,40 @@
+magic
+tech c035u
+timestamp 1385928321
+<< metal1 >>
+rect 109 813 144 823
+rect 158 813 263 823
+<< m2contact >>
+rect 95 809 109 823
+rect 144 811 158 825
+rect 263 811 277 825
+<< metal2 >>
+rect 24 799 36 830
+rect 48 799 60 830
+rect 72 799 84 830
+rect 96 823 108 830
+rect 96 799 108 809
+rect 144 799 156 811
+rect 192 799 204 830
+rect 264 799 276 811
+rect 312 799 324 830
+use nand3 nand3_0
+timestamp 1385920731
+transform 1 0 0 0 1 0
+box 0 0 120 799
+use ../inv/inv inv_0
+timestamp 1385924870
+transform 1 0 120 0 1 0
+box 0 0 120 799
+use ../inv/inv inv_1
+timestamp 1385924870
+transform 1 0 240 0 1 0
+box 0 0 120 799
+<< labels >>
+rlabel metal2 312 830 324 830 5 n2
+rlabel metal2 192 830 204 830 5 n1
+rlabel metal2 96 830 108 830 5 out
+rlabel metal2 72 830 84 830 5 C
+rlabel metal2 48 830 60 830 5 B
+rlabel metal2 24 830 36 830 5 A
+<< end >>
