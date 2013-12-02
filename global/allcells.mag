@@ -1,6 +1,6 @@
 magic
 tech c035u
-timestamp 1385931910
+timestamp 1385994513
 use ../leftbuf/leftbuf leftbuf_0
 timestamp 1385931910
 transform 1 0 0 0 1 10
@@ -70,7 +70,7 @@ timestamp 1385925245
 transform 1 0 4248 0 1 0
 box 0 0 312 799
 use ../xor2/xor2 xor2_0
-timestamp 1385927741
+timestamp 1385932968
 transform 1 0 4560 0 1 0
 box 0 0 192 799
 use ../tielow/tielow tielow_0
@@ -85,8 +85,16 @@ use ../rowcrosser/rowcrosser rowcrosser_0
 timestamp 1385927410
 transform 1 0 4855 0 1 0
 box -7 0 41 799
+use ../scandtype/scandtype scandtype_0
+timestamp 1385994490
+transform 1 0 4896 0 1 0
+box 0 0 648 799
+use ../scanreg/scanreg scanreg_0
+timestamp 1385994415
+transform 1 0 5592 0 1 0
+box -48 0 720 799
 use ../rightend/rightend rightend_0
 timestamp 1385929350
-transform 1 0 4944 0 1 0
+transform 1 0 6360 0 1 0
 box -48 0 272 799
 << end >>

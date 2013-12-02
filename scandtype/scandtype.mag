@@ -1,8 +1,8 @@
 magic
 tech c035u
-timestamp 1385636469
+timestamp 1385994490
 << nwell >>
-rect 0 402 603 746
+rect 0 402 648 746
 << polysilicon >>
 rect 29 691 36 699
 rect 59 691 66 699
@@ -343,11 +343,11 @@ rect 120 727 136 743
 rect 148 727 164 743
 rect 414 727 431 744
 << metal1 >>
-rect 0 782 603 792
+rect 0 782 648 792
 rect 0 759 118 769
 rect 188 759 493 769
-rect 509 759 603 769
-rect 0 744 603 746
+rect 509 759 648 769
+rect 0 744 648 746
 rect 0 743 414 744
 rect 0 727 8 743
 rect 24 727 36 743
@@ -356,8 +356,8 @@ rect 80 727 92 743
 rect 108 727 120 743
 rect 136 727 148 743
 rect 164 727 414 743
-rect 431 727 603 744
-rect 0 721 603 727
+rect 431 727 648 744
+rect 0 721 648 727
 rect 11 691 27 721
 rect 41 701 110 711
 rect 41 691 51 701
@@ -457,7 +457,7 @@ rect 200 101 218 131
 rect 309 111 310 127
 rect 448 121 464 131
 rect 368 111 464 121
-rect 0 97 603 101
+rect 0 97 648 101
 rect 0 95 404 97
 rect 0 79 6 95
 rect 22 79 34 95
@@ -466,15 +466,15 @@ rect 78 79 90 95
 rect 106 79 118 95
 rect 134 79 146 95
 rect 162 80 404 95
-rect 421 80 603 97
-rect 162 79 603 80
-rect 0 76 603 79
+rect 421 80 648 97
+rect 162 79 648 80
+rect 0 76 648 79
 rect 0 53 247 63
-rect 263 53 603 63
+rect 263 53 648 63
 rect 0 30 39 40
-rect 53 30 603 40
+rect 53 30 648 40
 rect 0 7 293 17
-rect 309 7 603 17
+rect 309 7 648 17
 << m2contact >>
 rect 118 757 132 771
 rect 493 756 509 772
@@ -512,14 +512,14 @@ rlabel metal1 0 30 0 40 3 Test
 rlabel metal1 0 53 0 63 3 Clock
 rlabel metal2 96 0 108 0 1 D
 rlabel metal1 0 721 0 746 3 Vdd!
-rlabel metal1 603 7 603 17 7 nReset
-rlabel metal1 603 30 603 40 7 Test
-rlabel metal1 603 53 603 63 7 Clock
-rlabel metal1 603 76 603 101 7 GND!
 rlabel metal2 495 0 507 0 1 Q
 rlabel metal2 466 0 478 0 1 nQ
-rlabel metal1 603 759 603 769 7 Q
-rlabel metal1 603 782 603 792 7 ScanReturn
 rlabel metal2 495 799 507 799 5 Q
 rlabel metal2 466 799 478 799 5 nQ
+rlabel metal1 648 7 648 17 7 nReset
+rlabel metal1 648 30 648 40 7 Test
+rlabel metal1 648 53 648 63 7 Clock
+rlabel metal1 648 76 648 101 7 GND!
+rlabel metal1 648 759 648 769 7 Q
+rlabel metal1 648 782 648 792 7 ScanReturn
 << end >>
