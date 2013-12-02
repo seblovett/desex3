@@ -34,26 +34,25 @@ initial
     Test = 0;
 
     #1000
-          D = 1;
+          Q = 1; //Q to output
     #1000
-          Load = 1;
+	Q = 0; //Q to output
     #1000
-          Q = 1;
+	Load = 1; //D to output
     #1000
-          SDI = 1;
+	D = 1; //D to output
     #1000
-          Test = 1;
+  	D = 0; //D to output
     #1000
-          D = 0;
+	Test = 1; //SDI to output
     #1000
-          Load = 0;
+	SDI = 1; //SDI to output
     #1000
-          Q = 0;
+	SDI = 0; //SDI to output
     #1000
-          SDI = 0;
+	Test = 0; //D to output
     #1000
-          Test = 0;
-
+	Load = 0; //Q to output
     #1000
           $stop;
 //          $finish;

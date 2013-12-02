@@ -10,9 +10,9 @@ simvision {
 # List of signals to monitor defined here
 #
 set wave_signal_list {
-  rdtype_stim.Clk
+  rdtype_stim.Clock
   rdtype_stim.D
-  rdtype_stim.nRst
+  rdtype_stim.nReset
   rdtype_stim.nQ
   rdtype_stim.Q
 }
