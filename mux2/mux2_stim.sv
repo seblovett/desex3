@@ -6,53 +6,51 @@ module mux2_stim;
 timeunit 1ns;
 timeprecision 10ps;
 
-logic D ;
-logic SDI ;
-logic Test ;
+logic I0 ;
+logic I1 ;
+logic S ;
+logic Y ;
 
 wire M ;
 
 mux2 instance1(
-	.M ( M ),
-	.D ( D ),
-	.SDI ( SDI ),
-	.Test ( Test )
+	.I0 ( I0 ),
+	.I1 ( I1 ),
+	.S ( S ),
+	.Y ( Y )
 	);
 
 // stimulus information follows
 
 initial
   begin
-    D = 0;
-    SDI = 0;
-    Test = 0;
-
+    I0 = 0;
+    I1 = 0;
+    S = 0;
+	
+    #1000 
+	I0 = 1;
     #1000
-          D = 1; //D to output
+	S = 1;
     #1000
-          D = 0; //D to output
+	I1 = 1;
     #1000
-	Test = 1; //SDI to output
+	I0 = 0;
     #1000
-	SDI = 1; //SDI to output
+	S = 0;
     #1000
-	SDI = 0; //SDI to output
-    #1000
-	Test = 0; //D to output
-
-    #1000
-          $stop;
-          $finish;
+    $stop;
+    $finish;
   end
 
 // probe information follows
 
 initial
   $monitor($time,
-    ,"%b", D ,
-    ,"%b", SDI ,
-    ,"%b", Test ,
-    ,"%b", M ,
+    ,"%b", I0,
+    ,"%b", I1 ,
+    ,"%b", S ,
+    ,"%b", Y ,
     );
 
 
