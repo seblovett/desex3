@@ -1,80 +1,113 @@
 magic
 tech c035u
-timestamp 1385914865
+timestamp 1385990254
 << metal1 >>
-rect 253 851 623 861
-rect 637 851 743 861
-rect 757 851 983 861
-rect 325 828 383 838
-rect 397 828 503 838
-rect 517 828 863 838
+rect 85 852 407 862
+rect 613 851 983 861
+rect 997 851 1103 861
+rect 1117 851 1343 861
+rect 205 832 479 842
+rect 685 828 743 838
+rect 757 828 863 838
+rect 877 828 1223 838
+rect 325 810 527 821
 << m2contact >>
-rect 239 849 253 863
-rect 623 849 637 863
-rect 743 849 757 863
+rect 71 851 85 865
+rect 407 852 421 866
+rect 599 849 613 863
 rect 983 849 997 863
-rect 311 826 325 840
-rect 383 827 397 841
-rect 503 826 517 840
+rect 1103 849 1117 863
+rect 1343 851 1357 865
+rect 191 828 205 842
+rect 479 831 493 845
+rect 671 826 685 840
+rect 743 827 757 841
 rect 863 826 877 840
+rect 1223 827 1237 841
+rect 311 808 325 822
+rect 527 808 541 822
 << metal2 >>
-rect 48 799 60 871
-rect 120 799 132 871
-rect 168 799 180 871
-rect 240 863 252 871
-rect 240 799 252 849
-rect 312 840 324 871
-rect 312 799 324 826
-rect 384 799 396 827
-rect 432 799 444 871
-rect 504 799 516 826
-rect 552 799 564 871
-rect 624 799 636 849
-rect 672 799 684 871
-rect 744 799 756 849
+rect 24 799 36 871
+rect 72 799 84 851
+rect 144 799 156 871
+rect 192 799 204 828
+rect 264 799 276 871
+rect 408 866 420 871
+rect 312 799 324 808
+rect 408 799 420 852
+rect 480 845 492 871
+rect 480 799 492 831
+rect 528 822 540 871
+rect 600 863 612 871
+rect 528 799 540 808
+rect 600 799 612 849
+rect 672 840 684 871
+rect 672 799 684 826
+rect 744 799 756 827
 rect 792 799 804 871
 rect 864 799 876 826
 rect 912 799 924 871
 rect 984 799 996 849
 rect 1032 799 1044 871
-use fulladder fulladder_0
-timestamp 1385909444
+rect 1104 799 1116 849
+rect 1152 799 1164 871
+rect 1224 798 1236 827
+rect 1272 799 1284 871
+rect 1344 799 1356 851
+rect 1392 799 1404 871
+use inv inv_6
+timestamp 1385631115
 transform 1 0 0 0 1 0
-box 0 0 360 799
-use inv inv_0
-timestamp 1385631115
-transform 1 0 360 0 1 0
-box 0 0 120 799
-use inv inv_1
-timestamp 1385631115
-transform 1 0 480 0 1 0
-box 0 0 120 799
-use inv inv_2
-timestamp 1385631115
-transform 1 0 600 0 1 0
-box 0 0 120 799
-use inv inv_3
-timestamp 1385631115
-transform 1 0 720 0 1 0
-box 0 0 120 799
-use inv inv_4
-timestamp 1385631115
-transform 1 0 840 0 1 0
 box 0 0 120 799
 use inv inv_5
 timestamp 1385631115
+transform 1 0 120 0 1 0
+box 0 0 120 799
+use inv inv_4
+timestamp 1385631115
+transform 1 0 240 0 1 0
+box 0 0 120 799
+use fulladder fulladder_0
+timestamp 1385909444
+transform 1 0 360 0 1 0
+box 0 0 360 799
+use inv inv_0
+timestamp 1385631115
+transform 1 0 720 0 1 0
+box 0 0 120 799
+use inv inv_1
+timestamp 1385631115
+transform 1 0 840 0 1 0
+box 0 0 120 799
+use inv inv_2
+timestamp 1385631115
 transform 1 0 960 0 1 0
 box 0 0 120 799
+use inv inv_3
+timestamp 1385631115
+transform 1 0 1080 0 1 0
+box 0 0 120 799
+use inv inv_7
+timestamp 1385631115
+transform 1 0 1200 0 1 0
+box 0 0 120 799
+use inv inv_8
+timestamp 1385631115
+transform 1 0 1320 0 1 0
+box 0 0 120 799
 << labels >>
-rlabel metal2 48 871 60 871 5 A
-rlabel metal2 120 871 132 871 5 B
-rlabel metal2 168 871 180 871 5 Cin
-rlabel metal2 432 871 444 871 5 Cout1
-rlabel metal2 552 871 564 871 5 Cout2
-rlabel metal2 672 871 684 871 5 S1
-rlabel metal2 792 871 804 871 5 S2
-rlabel metal2 240 871 252 871 5 S
-rlabel metal2 312 871 324 871 5 Cout
-rlabel metal2 912 871 924 871 5 Cout3
-rlabel metal2 1032 871 1044 871 5 S3
+rlabel metal2 264 871 276 871 5 nCin
+rlabel metal2 144 871 156 871 5 nB
+rlabel metal2 24 871 36 871 5 nA
+rlabel metal2 528 871 540 871 5 Cin
+rlabel metal2 672 871 684 871 5 Cout
+rlabel metal2 600 871 612 871 5 S
+rlabel metal2 1152 871 1164 871 5 S2
+rlabel metal2 1032 871 1044 871 5 S1
+rlabel metal2 912 871 924 871 5 Cout2
+rlabel metal2 792 871 804 871 5 Cout1
+rlabel metal2 480 871 492 871 5 B
+rlabel metal2 408 871 420 871 5 A
+rlabel metal2 1272 871 1284 871 5 Cout3
+rlabel metal2 1392 871 1404 871 5 S3
 << end >>

@@ -1,0 +1,64 @@
+magic
+tech c035u
+timestamp 1385987663
+<< metal1 >>
+rect 205 828 311 838
+rect 517 828 695 838
+rect 85 806 287 816
+rect 469 806 575 816
+<< m2contact >>
+rect 191 827 205 841
+rect 311 826 325 840
+rect 503 826 517 840
+rect 695 826 709 840
+rect 71 802 85 816
+rect 287 804 301 818
+rect 455 804 469 818
+rect 575 804 589 818
+<< metal2 >>
+rect 24 799 36 845
+rect 72 799 84 802
+rect 144 799 156 845
+rect 192 799 204 827
+rect 288 818 300 845
+rect 312 840 324 845
+rect 288 799 300 804
+rect 312 799 324 826
+rect 456 818 468 845
+rect 504 840 516 845
+rect 456 798 468 804
+rect 504 799 516 826
+rect 576 799 588 804
+rect 624 799 636 845
+rect 696 799 708 826
+rect 744 799 756 845
+use inv inv_1
+timestamp 1385631115
+transform 1 0 0 0 1 0
+box 0 0 120 799
+use inv inv_0
+timestamp 1385631115
+transform 1 0 120 0 1 0
+box 0 0 120 799
+use halfadder halfadder_0
+timestamp 1385925245
+transform 1 0 240 0 1 0
+box 0 0 312 799
+use inv inv_2
+timestamp 1385631115
+transform 1 0 552 0 1 0
+box 0 0 120 799
+use inv inv_3
+timestamp 1385631115
+transform 1 0 672 0 1 0
+box 0 0 120 799
+<< labels >>
+rlabel metal2 24 845 36 845 5 nA
+rlabel metal2 144 845 156 845 5 nB
+rlabel metal2 288 845 300 845 5 A
+rlabel metal2 312 845 324 845 5 B
+rlabel metal2 456 845 468 845 5 C
+rlabel metal2 504 845 516 845 5 S
+rlabel metal2 624 845 636 845 5 nC
+rlabel metal2 744 845 756 845 5 nS
+<< end >>

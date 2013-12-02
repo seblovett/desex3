@@ -1,0 +1,103 @@
+magic
+tech c035u
+timestamp 1385631115
+<< nwell >>
+rect 0 402 120 746
+<< polysilicon >>
+rect 55 450 62 458
+rect 55 391 62 402
+rect 60 375 62 391
+rect 55 362 62 375
+rect 55 324 62 332
+<< ndiffusion >>
+rect 53 332 55 362
+rect 62 332 64 362
+<< pdiffusion >>
+rect 53 402 55 450
+rect 62 402 64 450
+<< pohmic >>
+rect 0 76 6 86
+rect 22 76 34 86
+rect 50 76 62 86
+rect 78 76 90 86
+rect 106 76 120 86
+<< nohmic >>
+rect 0 736 6 746
+rect 22 736 34 746
+rect 50 736 62 746
+rect 78 736 90 746
+rect 106 736 120 746
+<< ntransistor >>
+rect 55 332 62 362
+<< ptransistor >>
+rect 55 402 62 450
+<< polycontact >>
+rect 44 375 60 391
+<< ndiffcontact >>
+rect 37 332 53 362
+rect 64 332 80 362
+<< pdiffcontact >>
+rect 37 402 53 450
+rect 64 402 80 450
+<< psubstratetap >>
+rect 6 76 22 92
+rect 34 76 50 92
+rect 62 76 78 92
+rect 90 76 106 92
+<< nsubstratetap >>
+rect 6 730 22 746
+rect 34 730 50 746
+rect 62 730 78 746
+rect 90 730 106 746
+<< metal1 >>
+rect 0 782 120 792
+rect 0 759 120 769
+rect 0 730 6 746
+rect 22 730 34 746
+rect 50 730 62 746
+rect 78 730 90 746
+rect 106 730 120 746
+rect 0 721 120 730
+rect 37 450 53 721
+rect 34 378 44 388
+rect 70 389 80 402
+rect 70 362 80 375
+rect 36 101 52 332
+rect 0 92 120 101
+rect 0 76 6 92
+rect 22 76 34 92
+rect 50 76 62 92
+rect 78 76 90 92
+rect 106 76 120 92
+rect 0 53 120 63
+rect 0 30 120 40
+rect 0 7 120 17
+<< m2contact >>
+rect 20 376 34 390
+rect 70 375 84 389
+<< metal2 >>
+rect 24 390 36 799
+rect 34 376 36 390
+rect 72 389 84 799
+rect 24 0 36 376
+rect 72 0 84 375
+<< labels >>
+rlabel metal1 0 721 0 746 7 Vdd!
+rlabel metal1 0 759 0 769 7 Scan
+rlabel metal1 0 782 0 792 6 ScanReturn
+rlabel metal1 120 721 120 746 7 Vdd!
+rlabel metal1 120 759 120 769 7 Scan
+rlabel metal1 120 782 120 792 6 ScanReturn
+rlabel metal2 24 799 36 799 5 A
+rlabel metal2 72 799 84 799 5 Y
+rlabel metal1 0 76 0 101 7 GND!
+rlabel metal1 0 53 0 63 7 Clock
+rlabel metal1 0 30 0 40 7 Test
+rlabel metal1 0 7 0 17 8 nReset
+rlabel metal1 120 7 120 17 8 nReset
+rlabel metal1 120 30 120 40 7 Test
+rlabel metal1 120 53 120 63 7 Clock
+rlabel metal1 120 76 120 101 7 GND!
+rlabel metal2 24 0 36 0 1 A
+rlabel metal2 72 0 84 0 1 Y
+<< end >>

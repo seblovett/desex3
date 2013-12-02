@@ -5,7 +5,7 @@ $DATA1 SOURCE='HSPICE' VERSION='D-2010.03-SP1 32-BIT'
  prop_delay_bcout_1 prop_delay_cincout_1 prop_delay_acout_0  
  prop_delay_bcout_0 prop_delay_cincout_0 temper            
  alter#            
-  2.454e-10       -1.755e-09       -5.755e-09        2.437e-09        
- -1.563e-09       -9.563e-09        4.250e-09        2.250e-09        
- -1.750e-09        4.373e-09        3.729e-10       -7.627e-09        
+  2.918e-10        2.584e-10        2.456e-10        3.646e-10        
+  3.131e-10        3.177e-10        2.991e-10        2.627e-10        
+  2.993e-10        3.402e-10        3.938e-10        3.175e-10        
    27.0000        1                 

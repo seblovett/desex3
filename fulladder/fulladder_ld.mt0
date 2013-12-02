@@ -2,8 +2,10 @@ $DATA1 SOURCE='HSPICE' VERSION='D-2010.03-SP1 32-BIT'
 .TITLE '** hspice file for fulladder_ld'
  prop_delay_as_1  prop_delay_bs_1  prop_delay_cins_1 prop_delay_as_0   
  prop_delay_bs_0  prop_delay_cins_0 prop_delay_acout_1  
- prop_delay_bcout_1 prop_delay_acout_0 prop_delay_bcout_0  
- temper           alter#            
+ prop_delay_bcout_1 prop_delay_cincout_1 prop_delay_acout_0  
+ prop_delay_bcout_0 prop_delay_cincout_0 temper            
+ alter#            
   2.553e-10        2.229e-10        2.069e-10        3.317e-10        
   2.984e-10        2.936e-10        2.614e-10        2.274e-10        
-  3.044e-10        3.583e-10         27.0000        1                 
+  2.621e-10        3.044e-10        3.583e-10        2.833e-10        
+   27.0000        1                 
