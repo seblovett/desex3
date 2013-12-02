@@ -1,0 +1,100 @@
+magic
+tech c035u
+timestamp 1385994513
+use leftbuf leftbuf_0
+timestamp 1385931910
+transform 1 0 0 0 1 10
+box 0 -10 1464 789
+use and2 and2_0
+timestamp 1385636468
+transform 1 0 1464 0 1 0
+box 0 0 120 799
+use nand2 nand2_0
+timestamp 1385631319
+transform 1 0 1584 0 1 0
+box 0 0 96 799
+use nand3 nand3_0
+timestamp 1385920731
+transform 1 0 1680 0 1 0
+box 0 0 120 799
+use nand4 nand4_0
+timestamp 1385636690
+transform 1 0 1800 0 1 0
+box 0 0 144 799
+use nor2 nor2_0
+timestamp 1385632928
+transform 1 0 1944 0 1 0
+box 0 0 120 799
+use nor3 nor3_0
+timestamp 1385633286
+transform 1 0 2064 0 1 0
+box 0 0 144 799
+use or2 or2_0
+timestamp 1385633707
+transform 1 0 2208 0 1 0
+box 0 0 144 799
+use mux2 mux2_0
+timestamp 1385925694
+transform 1 0 2352 0 1 0
+box 0 0 192 799
+use smux2 smux2_0
+timestamp 1385926013
+transform 1 0 2544 0 1 0
+box 0 0 192 799
+use smux3 smux3_0
+timestamp 1385926127
+transform 1 0 2736 0 1 0
+box 0 0 288 799
+use buffer buffer_0
+timestamp 1385926514
+transform 1 0 3024 0 1 -1
+box 0 1 120 800
+use inv inv_0
+timestamp 1385924870
+transform 1 0 3144 0 1 0
+box 0 0 120 799
+use trisbuf trisbuf_0
+timestamp 1385926402
+transform 1 0 3264 0 1 0
+box 0 0 192 799
+use rdtype rdtype_0
+timestamp 1385639216
+transform 1 0 3456 0 1 0
+box 0 0 432 799
+use fulladder fulladder_0
+timestamp 1385909444
+transform 1 0 3888 0 1 0
+box 0 0 360 799
+use halfadder halfadder_0
+timestamp 1385925245
+transform 1 0 4248 0 1 0
+box 0 0 312 799
+use xor2 xor2_0
+timestamp 1385932968
+transform 1 0 4560 0 1 0
+box 0 0 192 799
+use tielow tielow_0
+timestamp 1385927229
+transform 1 0 4759 0 1 -1
+box -7 1 41 800
+use tiehigh tiehigh_0
+timestamp 1385927307
+transform 1 0 4807 0 1 0
+box -7 0 41 799
+use rowcrosser rowcrosser_0
+timestamp 1385927410
+transform 1 0 4855 0 1 0
+box -7 0 41 799
+use scandtype scandtype_0
+timestamp 1385994490
+transform 1 0 4896 0 1 0
+box 0 0 648 799
+use scanreg scanreg_0
+timestamp 1385994415
+transform 1 0 5592 0 1 0
+box -48 0 720 799
+use rightend rightend_0
+timestamp 1385929350
+transform 1 0 6360 0 1 0
+box -48 0 272 799
+<< end >>
