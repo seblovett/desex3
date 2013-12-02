@@ -6,13 +6,13 @@ import subprocess
 
 #              Globe Name        Top         Bottom   Left
 globes   = [
-               ["ScanReturn"     ,"775"     ,"765"    ,"0"  ],
-               ["Scan"           ,"752"     ,"742"    ,"0"  ],
-               ["Vdd!"           ,"729"     ,"704"    ,"0"  ],
-               ["GND!"           ,"94"      ,"69"     ,"0"  ],
-               ["Clock"          ,"56"      ,"46"     ,"0"  ],
-               ["Test"           ,"33"      ,"23"     ,"0"  ],
-               ["nReset"         ,"10"      ,"0"      ,"0"  ]
+               ["ScanReturn"     ,"792"     ,"782"    ,"0"  ],
+               ["Scan"           ,"769"     ,"759"    ,"0"  ],
+               ["Vdd!"           ,"746"     ,"721"    ,"0"  ],
+               ["GND!"           ,"101"      ,"76"    ,"0"  ],
+               ["Clock"          ,"63"      ,"53"     ,"0"  ],
+               ["Test"           ,"40"      ,"30"     ,"0"  ],
+               ["nReset"         ,"17"      ,"7"      ,"0"  ]
             ]
 
 modules  = [
@@ -43,7 +43,6 @@ pfet = ["pfet","w=48","l=7"]
 nfet = ["nfet","w=30","l=7"]
 infoDump = "checkDesex3info"
 totalGlobals = (len(globes)*2)
-
 
 
 
@@ -93,6 +92,7 @@ for module in modules:
       if(nonGlobal == 1):
          print("         INFO: Found non global port "+rlabelBreak[7])
       else:
+         print("         INFO: Found global port "+rlabelBreak[7])
          numGlobals += 1
 
    if(numGlobals != totalGlobals):
