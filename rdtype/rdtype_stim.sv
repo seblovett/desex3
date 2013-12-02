@@ -4,14 +4,14 @@ timeunit 1ns;
 timeprecision 10ps;
 
 logic D ;
-logic Clk;
-logic nRst;
+logic Clock;
+logic nReset;
 logic nQ;  
 logic Q ;
 
 rdtype DUT(
-	.Clk  (Clk),
-	.nRst (nRst),
+	.Clock  (Clock),
+	.nReset (nReset),
 	.D    (D),
    .nQ   (nQ),
 	.Q    (Q)
@@ -20,18 +20,18 @@ rdtype DUT(
 // stimulus information follows
 
 always begin
-         Clk = 0;
-   #10   Clk = 1;
-   #10   Clk = 0;
+         Clock = 0;
+   #10   Clock = 1;
+   #10   Clock = 0;
 end
 
 initial
   begin
     D = 0;
-    nRst = 0;
+    nReset = 0;
 
     #100
-          nRst = 1;
+          nReset = 1;
     #100
           D = 1;
     #100
@@ -51,6 +51,6 @@ initial
 
 initial begin
    $display( "                Time     nRst  D       Q  nQ");
-   $monitor($time               ,"      %b    %b       %b  %b",nRst,D,Q,nQ);  
+   $monitor($time               ,"      %b    %b       %b  %b",nReset,D,Q,nQ);  
 end
 endmodule
