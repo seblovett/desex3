@@ -1,6 +1,6 @@
 magic
 tech c035u
-timestamp 1385998845
+timestamp 1386007215
 << nwell >>
 rect 0 402 120 746
 << polysilicon >>
@@ -76,7 +76,6 @@ rect 0 721 120 730
 rect 42 531 58 721
 rect 15 483 42 531
 rect 15 462 31 483
-rect 31 388 32 404
 rect 58 378 68 462
 rect 80 404 96 483
 rect 58 322 68 362
@@ -95,15 +94,15 @@ rect 0 53 120 63
 rect 0 30 120 40
 rect 0 7 120 17
 << m2contact >>
-rect 15 388 31 404
+rect 16 388 32 404
 rect 80 388 96 404
 << metal2 >>
-rect 24 404 40 799
-rect 31 388 40 404
-rect 24 0 40 388
-rect 72 404 88 799
+rect 24 404 36 799
+rect 72 404 84 799
+rect 32 388 40 404
 rect 72 388 80 404
-rect 72 0 88 388
+rect 24 0 36 388
+rect 72 0 84 388
 << labels >>
 rlabel metal1 0 76 0 101 3 GND!
 rlabel metal1 0 53 0 63 3 Clock
@@ -119,8 +118,8 @@ rlabel metal1 0 721 0 746 3 Vdd!
 rlabel metal1 120 721 120 746 7 Vdd!
 rlabel metal1 120 759 120 769 7 Scan
 rlabel metal1 120 782 120 792 6 ScanReturn
-rlabel metal2 24 0 40 0 1 A
-rlabel metal2 72 0 88 0 1 Y
-rlabel metal2 72 799 88 799 5 Y
-rlabel metal2 24 799 40 799 5 A
+rlabel metal2 24 0 36 0 1 A
+rlabel metal2 72 0 84 0 1 Y
+rlabel metal2 24 799 36 799 5 A
+rlabel metal2 72 799 84 799 5 Y
 << end >>
