@@ -1,24 +1,24 @@
 magic
 tech c035u
-timestamp 1385994513
+timestamp 1386006835
 use ../leftbuf/leftbuf leftbuf_0
-timestamp 1385931910
-transform 1 0 0 0 1 10
-box 0 -10 1464 789
+timestamp 1386006472
+transform 1 0 0 0 1 0
+box 0 0 1464 799
 use ../and2/and2 and2_0
 timestamp 1385636468
 transform 1 0 1464 0 1 0
 box 0 0 120 799
 use ../nand2/nand2 nand2_0
-timestamp 1385631319
+timestamp 1385998521
 transform 1 0 1584 0 1 0
 box 0 0 96 799
 use ../nand3/nand3 nand3_0
-timestamp 1385920731
+timestamp 1385998574
 transform 1 0 1680 0 1 0
 box 0 0 120 799
 use ../nand4/nand4 nand4_0
-timestamp 1385636690
+timestamp 1385998349
 transform 1 0 1800 0 1 0
 box 0 0 144 799
 use ../nor2/nor2 nor2_0
@@ -46,9 +46,9 @@ timestamp 1385926127
 transform 1 0 2736 0 1 0
 box 0 0 288 799
 use ../buffer/buffer buffer_0
-timestamp 1385926514
-transform 1 0 3024 0 1 -1
-box 0 1 120 800
+timestamp 1385998845
+transform 1 0 3024 0 1 0
+box 0 0 120 799
 use ../inv/inv inv_0
 timestamp 1385924870
 transform 1 0 3144 0 1 0
@@ -58,11 +58,11 @@ timestamp 1385926402
 transform 1 0 3264 0 1 0
 box 0 0 192 799
 use ../rdtype/rdtype rdtype_0
-timestamp 1385639216
+timestamp 1386002196
 transform 1 0 3456 0 1 0
 box 0 0 432 799
 use ../fulladder/fulladder fulladder_0
-timestamp 1385909444
+timestamp 1386001875
 transform 1 0 3888 0 1 0
 box 0 0 360 799
 use ../halfadder/halfadder halfadder_0
@@ -74,27 +74,27 @@ timestamp 1385932968
 transform 1 0 4560 0 1 0
 box 0 0 192 799
 use ../tielow/tielow tielow_0
-timestamp 1385927229
-transform 1 0 4759 0 1 -1
-box -7 1 41 800
+timestamp 1385999837
+transform 1 0 4752 0 1 0
+box 0 0 48 799
 use ../tiehigh/tiehigh tiehigh_0
-timestamp 1385927307
-transform 1 0 4807 0 1 0
-box -7 0 41 799
+timestamp 1386006554
+transform 1 0 4800 0 1 0
+box 0 0 48 799
 use ../rowcrosser/rowcrosser rowcrosser_0
-timestamp 1385927410
-transform 1 0 4855 0 1 0
-box -7 0 41 799
+timestamp 1386006577
+transform 1 0 4848 0 1 0
+box 0 0 48 799
 use ../scandtype/scandtype scandtype_0
 timestamp 1385994490
 transform 1 0 4896 0 1 0
 box 0 0 648 799
 use ../scanreg/scanreg scanreg_0
-timestamp 1385994415
-transform 1 0 5592 0 1 0
-box -48 0 720 799
+timestamp 1386006598
+transform 1 0 5544 0 1 0
+box 0 0 768 799
 use ../rightend/rightend rightend_0
-timestamp 1385929350
-transform 1 0 6360 0 1 0
-box -48 0 272 799
+timestamp 1386006533
+transform 1 0 6312 0 1 0
+box 0 0 320 799
 << end >>

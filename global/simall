@@ -1,0 +1,17 @@
+
+for dir in ./*/
+do
+	dir=${dir%*/}
+	echo ${dir##*/}
+	if [ ".git" != ${dir} ]; then  
+	if [ "global" != ${dir} ]; then
+		cd ${dir}
+		sh simulate sv ${dir##*/} gui
+		read -p "Press [Enter] key to continue"
+		cd ..
+	fi
+	fi
+done
+
+
+
