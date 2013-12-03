@@ -1,6 +1,6 @@
 magic
 tech c035u
-timestamp 1386086844
+timestamp 1386089107
 use leftbuf leftbuf_0
 timestamp 1386085587
 transform 1 0 0 0 1 0
@@ -90,9 +90,9 @@ timestamp 1386086759
 transform 1 0 4920 0 1 0
 box 0 0 624 799
 use scanreg scanreg_0
-timestamp 1386086844
-transform 1 0 5568 0 1 0
-box -24 0 720 799
+timestamp 1386087476
+transform 1 0 5544 0 1 0
+box 0 0 744 799
 use rightend rightend_0
 timestamp 1386086844
 transform 1 0 6288 0 1 0
