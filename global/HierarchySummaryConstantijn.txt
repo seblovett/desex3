@@ -1,0 +1,16 @@
+Hierarchy Rules
+
+
+1/2 Design Rule Spacing: 
+poly: 5
+metal1: 5
+metal2: 5
+ndiff: 6
+pdiff: 6
+ndc: 6
+pdc: 6
+nwt: 6
+pst: 6
+min extension of poly (or M2) over cell edge: 5
+-pimplant (nmos active area) 0.7 from boundary
+	-draw explicit pimplan areas (cover the whole area)? :paint pimplant
