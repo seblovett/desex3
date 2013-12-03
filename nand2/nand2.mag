@@ -1,8 +1,8 @@
 magic
 tech c035u
-timestamp 1385998521
+timestamp 1386069026
 << nwell >>
-rect 0 402 96 746
+rect 0 402 96 721
 << polysilicon >>
 rect 28 595 35 603
 rect 55 595 62 603
@@ -23,17 +23,15 @@ rect 35 547 37 595
 rect 53 547 55 595
 rect 62 547 64 595
 << pohmic >>
-rect 0 79 6 86
-rect 22 79 34 86
-rect 50 79 62 86
-rect 78 79 96 86
-rect 0 76 96 79
+rect 0 76 12 86
+rect 28 76 40 86
+rect 56 76 68 86
+rect 84 76 96 86
 << nohmic >>
-rect 0 743 96 746
-rect 0 736 6 743
-rect 22 736 34 743
-rect 50 736 62 743
-rect 78 736 96 743
+rect 0 736 12 746
+rect 28 736 40 746
+rect 56 736 68 746
+rect 84 736 96 746
 << ntransistor >>
 rect 28 309 35 339
 rect 55 309 62 339
@@ -51,22 +49,21 @@ rect 10 547 26 595
 rect 37 547 53 595
 rect 64 547 80 595
 << psubstratetap >>
-rect 6 79 22 95
-rect 34 79 50 95
-rect 62 79 78 95
+rect 12 76 28 92
+rect 40 76 56 92
+rect 68 76 84 92
 << nsubstratetap >>
-rect 6 727 22 743
-rect 34 727 50 743
-rect 62 727 78 743
+rect 12 730 28 746
+rect 40 730 56 746
+rect 68 730 84 746
 << metal1 >>
 rect 0 782 96 792
 rect 0 759 96 769
-rect 0 743 96 746
-rect 0 727 6 743
-rect 22 727 34 743
-rect 50 727 62 743
-rect 78 727 96 743
-rect 0 721 96 727
+rect 0 730 12 746
+rect 28 730 40 746
+rect 56 730 68 746
+rect 84 730 96 746
+rect 0 721 96 730
 rect 10 595 26 721
 rect 64 595 80 721
 rect 37 487 47 547
@@ -75,12 +72,11 @@ rect 71 401 81 473
 rect 70 391 81 401
 rect 70 339 80 391
 rect 10 101 26 309
-rect 0 95 96 101
-rect 0 79 6 95
-rect 22 79 34 95
-rect 50 79 62 95
-rect 78 79 96 95
-rect 0 76 96 79
+rect 0 92 96 101
+rect 0 76 12 92
+rect 28 76 40 92
+rect 56 76 68 92
+rect 84 76 96 92
 rect 0 53 96 63
 rect 0 30 96 40
 rect 0 7 96 17
@@ -89,8 +85,7 @@ rect 71 473 85 487
 rect 46 397 60 411
 rect 24 365 38 379
 << metal2 >>
-rect 24 722 36 799
-rect 23 595 36 722
+rect 24 595 36 799
 rect 24 547 37 595
 rect 24 379 36 547
 rect 48 427 60 799
@@ -99,9 +94,7 @@ rect 48 411 61 427
 rect 24 349 38 365
 rect 24 0 36 349
 rect 48 0 60 397
-rect 72 95 84 473
-rect 71 79 84 95
-rect 72 0 84 79
+rect 72 0 84 473
 << labels >>
 rlabel metal1 0 53 0 63 3 Clock
 rlabel metal1 0 30 0 40 3 Test
