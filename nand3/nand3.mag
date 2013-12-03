@@ -1,6 +1,6 @@
 magic
 tech c035u
-timestamp 1385998574
+timestamp 1386069261
 << nwell >>
 rect 0 402 120 746
 << polysilicon >>
@@ -32,17 +32,17 @@ rect 62 549 64 597
 rect 80 549 82 597
 rect 89 549 91 597
 << pohmic >>
-rect 0 79 6 86
-rect 22 79 34 86
-rect 50 79 90 86
-rect 106 79 120 86
-rect 0 76 120 79
+rect 0 76 10 86
+rect 26 76 38 86
+rect 54 76 66 86
+rect 82 76 94 86
+rect 110 76 120 86
 << nohmic >>
-rect 0 743 120 746
-rect 0 736 6 743
-rect 22 736 34 743
-rect 50 736 62 743
-rect 78 736 120 743
+rect 0 736 10 746
+rect 26 736 38 746
+rect 54 736 66 746
+rect 82 736 94 746
+rect 110 736 120 746
 << ntransistor >>
 rect 28 333 35 363
 rect 55 333 62 363
@@ -64,22 +64,24 @@ rect 37 549 53 597
 rect 64 549 80 597
 rect 91 549 107 597
 << psubstratetap >>
-rect 6 79 22 95
-rect 34 79 50 95
-rect 90 79 106 95
+rect 10 76 26 92
+rect 38 76 54 92
+rect 66 76 82 92
+rect 94 76 110 92
 << nsubstratetap >>
-rect 6 727 22 743
-rect 34 727 50 743
-rect 62 727 78 743
+rect 10 730 26 746
+rect 38 730 54 746
+rect 66 730 82 746
+rect 94 730 110 746
 << metal1 >>
 rect 0 782 120 792
 rect 0 759 120 769
-rect 0 743 120 746
-rect 0 727 6 743
-rect 22 727 34 743
-rect 50 727 62 743
-rect 78 727 120 743
-rect 0 721 120 727
+rect 0 730 10 746
+rect 26 730 38 746
+rect 54 730 66 746
+rect 82 730 94 746
+rect 110 730 120 746
+rect 0 721 120 730
 rect 10 597 26 721
 rect 64 597 80 721
 rect 43 499 53 549
@@ -88,12 +90,12 @@ rect 43 489 97 499
 rect 98 363 108 485
 rect 107 333 108 363
 rect 10 101 26 333
-rect 0 95 120 101
-rect 0 79 6 95
-rect 22 79 34 95
-rect 50 79 90 95
-rect 106 79 120 95
-rect 0 76 120 79
+rect 0 92 120 101
+rect 0 76 10 92
+rect 26 76 38 92
+rect 54 76 66 92
+rect 82 76 94 92
+rect 110 76 120 92
 rect 0 53 120 63
 rect 0 30 120 40
 rect 0 7 120 17
