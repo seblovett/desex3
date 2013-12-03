@@ -1,102 +1,102 @@
 magic
 tech c035u
-timestamp 1386072863
+timestamp 1386084908
 << error_s >>
 rect 5502 200 5534 213
 use ../leftbuf/leftbuf leftbuf_0
-timestamp 1386067757
+timestamp 1386084192
 transform 1 0 0 0 1 0
 box 0 0 1464 799
 use ../and2/and2 and2_0
-timestamp 1386066390
+timestamp 1386084212
 transform 1 0 1464 0 1 0
 box 0 0 120 799
 use ../nand2/nand2 nand2_0
-timestamp 1386069026
+timestamp 1386084233
 transform 1 0 1584 0 1 0
 box 0 0 96 799
 use ../nand3/nand3 nand3_0
-timestamp 1386069261
+timestamp 1386084295
 transform 1 0 1680 0 1 0
 box 0 0 120 799
 use ../nand4/nand4 nand4_0
-timestamp 1386069440
+timestamp 1386084796
 transform 1 0 1800 0 1 0
 box 0 0 144 799
 use ../nor2/nor2 nor2_0
-timestamp 1386070195
+timestamp 1386084299
 transform 1 0 1944 0 1 0
 box 0 0 120 799
 use ../nor3/nor3 nor3_0
-timestamp 1386071143
+timestamp 1386084335
 transform 1 0 2064 0 1 0
 box 0 0 144 799
 use ../or2/or2 or2_0
-timestamp 1386071445
+timestamp 1386084346
 transform 1 0 2208 0 1 0
 box 0 0 144 799
 use ../mux2/mux2 mux2_0
-timestamp 1386068286
+timestamp 1386084368
 transform 1 0 2352 0 1 0
 box 0 0 192 799
 use ../smux2/smux2 smux2_0
-timestamp 1385926013
+timestamp 1386084379
 transform 1 0 2544 0 1 0
 box 0 0 192 799
 use ../smux3/smux3 smux3_0
-timestamp 1385926127
+timestamp 1386084776
 transform 1 0 2736 0 1 0
 box 0 0 288 799
 use ../buffer/buffer buffer_0
-timestamp 1386066616
+timestamp 1386084403
 transform 1 0 3024 0 1 0
 box 0 0 120 799
 use ../inv/inv inv_0
-timestamp 1386067324
+timestamp 1386084416
 transform 1 0 3144 0 1 0
 box 0 0 120 799
 use ../trisbuf/trisbuf trisbuf_0
-timestamp 1386013797
+timestamp 1386084426
 transform 1 0 3264 0 1 0
 box 0 0 216 799
 use ../rdtype/rdtype rdtype_0
-timestamp 1386071643
+timestamp 1386084441
 transform 1 0 3480 0 1 0
 box 0 0 432 799
 use ../fulladder/fulladder fulladder_0
-timestamp 1386001875
+timestamp 1386084458
 transform 1 0 3912 0 1 0
 box 0 0 360 799
 use ../halfadder/halfadder halfadder_0
-timestamp 1386067105
+timestamp 1386084474
 transform 1 0 4272 0 1 0
 box 0 0 312 799
 use ../xor2/xor2 xor2_0
-timestamp 1385932968
+timestamp 1386084494
 transform 1 0 4584 0 1 0
 box 0 0 192 799
 use ../tielow/tielow tielow_0
-timestamp 1385999837
+timestamp 1386084509
 transform 1 0 4776 0 1 0
 box 0 0 48 799
 use ../tiehigh/tiehigh tiehigh_0
-timestamp 1386006554
+timestamp 1386084821
 transform 1 0 4824 0 1 0
 box 0 0 48 799
 use ../rowcrosser/rowcrosser rowcrosser_0
-timestamp 1386006577
+timestamp 1386084546
 transform 1 0 4872 0 1 0
 box 0 0 48 799
 use ../scandtype/scandtype scandtype_0
-timestamp 1386015402
+timestamp 1386084563
 transform 1 0 4920 0 1 0
 box 0 0 624 799
 use ../scanreg/scanreg scanreg_0
-timestamp 1386015194
+timestamp 1386084582
 transform 1 0 5544 0 1 0
 box 0 0 720 799
 use ../rightend/rightend rightend_0
-timestamp 1386071826
+timestamp 1386084698
 transform 1 0 6264 0 1 0
 box 0 0 320 799
 << end >>

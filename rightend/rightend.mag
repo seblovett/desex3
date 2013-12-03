@@ -1,8 +1,10 @@
 magic
 tech c035u
-timestamp 1386071826
+timestamp 1386086844
 << nwell >>
-rect 0 402 133 746
+rect 0 401 320 799
+<< pwell >>
+rect 0 0 320 401
 << polysilicon >>
 rect 84 756 86 772
 rect 79 480 86 756

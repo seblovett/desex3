@@ -1,11 +1,13 @@
 magic
 tech c035u
-timestamp 1386067324
+timestamp 1386086254
 << nwell >>
-rect 0 402 120 746
+rect 0 401 120 799
+<< pwell >>
+rect 0 0 120 401
 << polysilicon >>
-rect 55 450 62 458
-rect 55 391 62 402
+rect 55 469 62 477
+rect 55 391 62 421
 rect 60 375 62 391
 rect 55 340 62 375
 rect 55 302 62 310
@@ -13,8 +15,8 @@ rect 55 302 62 310
 rect 53 310 55 340
 rect 62 310 64 340
 << pdiffusion >>
-rect 53 402 55 450
-rect 62 402 64 450
+rect 53 421 55 469
+rect 62 421 64 469
 << pohmic >>
 rect 0 76 6 86
 rect 22 76 34 86
@@ -30,15 +32,15 @@ rect 106 736 120 746
 << ntransistor >>
 rect 55 310 62 340
 << ptransistor >>
-rect 55 402 62 450
+rect 55 421 62 469
 << polycontact >>
 rect 44 375 60 391
 << ndiffcontact >>
 rect 37 310 53 340
 rect 64 310 80 340
 << pdiffcontact >>
-rect 37 402 53 450
-rect 64 402 80 450
+rect 37 421 53 469
+rect 64 421 80 469
 << psubstratetap >>
 rect 6 76 22 92
 rect 34 76 50 92
@@ -58,8 +60,8 @@ rect 50 730 62 746
 rect 78 730 90 746
 rect 106 730 120 746
 rect 0 721 120 730
-rect 37 450 53 721
-rect 70 389 80 402
+rect 37 469 53 721
+rect 70 389 80 421
 rect 70 340 80 375
 rect 37 101 53 310
 rect 0 92 120 101
