@@ -1,6 +1,6 @@
 magic
 tech c035u
-timestamp 1386086500
+timestamp 1386234928
 << nwell >>
 rect 0 401 360 799
 << pwell >>
@@ -205,6 +205,7 @@ rect 215 456 231 504
 rect 274 456 290 504
 rect 301 456 317 504
 << psubstratetap >>
+rect 23 273 39 289
 rect 6 76 22 92
 rect 34 76 50 92
 rect 62 76 78 92
@@ -273,11 +274,13 @@ rect 280 514 301 524
 rect 280 504 290 514
 rect 143 475 188 485
 rect 231 474 274 484
-rect 103 281 113 456
-rect 317 288 327 466
-rect 6 271 66 281
+rect 6 273 23 289
+rect 39 273 66 289
+rect 6 271 66 273
 rect 6 101 16 271
 rect 56 261 66 271
+rect 103 281 113 456
+rect 317 288 327 466
 rect 103 271 143 281
 rect 159 271 288 281
 rect 103 261 113 271
@@ -354,7 +357,6 @@ rlabel metal1 0 76 0 101 3 GND!
 rlabel metal1 0 30 0 40 3 Test
 rlabel metal1 360 30 360 40 7 Test
 rlabel metal1 0 7 0 17 2 nReset
-rlabel metal2 48 0 60 0 1 A
 rlabel metal2 120 0 132 0 1 B
 rlabel metal2 168 0 180 0 1 Cin
 rlabel metal2 312 0 324 0 1 Cout
@@ -371,4 +373,5 @@ rlabel metal2 312 799 324 799 5 Cout
 rlabel metal1 360 782 360 792 7 ScanReturn
 rlabel metal1 0 721 0 746 3 Vdd!
 rlabel metal1 360 721 360 746 7 Vdd!
+rlabel metal2 48 0 60 0 1 A
 << end >>
