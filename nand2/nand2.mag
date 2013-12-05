@@ -1,6 +1,6 @@
 magic
 tech c035u
-timestamp 1386085868
+timestamp 1386234184
 << nwell >>
 rect 0 401 96 799
 << pwell >>
@@ -110,4 +110,11 @@ rlabel metal2 72 799 84 799 5 Y
 rlabel metal2 48 799 60 799 5 B
 rlabel metal2 24 799 36 799 5 A
 rlabel metal1 0 76 0 101 3 GND!
+rlabel metal1 96 7 96 17 7 nReset
+rlabel metal1 96 53 96 63 7 Clock
+rlabel metal1 96 30 96 40 7 Test
+rlabel metal1 96 76 96 101 7 GND!
+rlabel metal1 96 721 96 746 7 Vdd!
+rlabel metal1 96 759 96 769 7 Scan
+rlabel metal1 96 782 96 792 7 ScanReturn
 << end >>
