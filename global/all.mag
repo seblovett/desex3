@@ -1,6 +1,6 @@
 magic
 tech c035u
-timestamp 1386238340
+timestamp 1386241447
 use leftbuf leftbuf_0
 timestamp 1386235766
 transform 1 0 0 0 1 0
@@ -58,7 +58,7 @@ timestamp 1386237216
 transform 1 0 3264 0 1 0
 box 0 0 216 799
 use rdtype rdtype_0
-timestamp 1386238026
+timestamp 1386241308
 transform 1 0 3480 0 1 0
 box 0 0 432 799
 use fulladder fulladder_0
@@ -86,11 +86,11 @@ timestamp 1386086759
 transform 1 0 4872 0 1 0
 box 0 0 48 799
 use scandtype scandtype_0
-timestamp 1386238233
+timestamp 1386241353
 transform 1 0 4920 0 1 0
 box 0 0 624 799
 use scanreg scanreg_0
-timestamp 1386238177
+timestamp 1386241447
 transform 1 0 5544 0 1 0
 box 0 0 720 799
 use rightend rightend_0
