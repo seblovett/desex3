@@ -9,10 +9,10 @@ Vsupply Vdd GND 3.3V
 
 ** Specify input signals here
 ** e.g. for inputs A and B
-VClock  Clock  GND PWL(0NS 0V  2NS 0V  2.25NS 3.3V  6NS  3.3V  6.25NS  0V)
-VTest   Test   GND PWL(0NS 0V  4NS 0V  4.25NS 3.3V  8NS  3.3V  8.25NS  0V)
-VnReset nReset GND PWL(0NS 0V  6NS 0V  6.25NS 3.3V  10NS 3.3V  10.25NS 0V)
-VnSDO   nSDO   GND PWL(0NS 0V  8NS 0V  8.25NS 3.3V  12NS 3.3V  12.25NS 0V)
+VnClock  nClock  GND PWL(0NS 3.3V  2NS 3.3V  2.25NS 0V  6NS  0V  6.25NS  3.3V)
+VnTest   nTest   GND PWL(0NS 3.3V  4NS 3.3V  4.25NS 0V  8NS  0V  8.25NS  3.3V)
+VnnReset nnReset GND PWL(0NS 3.3V  6NS 3.3V  6.25NS 0V  10NS 0V  10.25NS 3.3V)
+VnnSDO   nnSDO   GND PWL(0NS 3.3V  8NS 3.3V  8.25NS 0V  12NS 0V  12.25NS 3.3V)
 
 ** Default Simulation - Type, Resolution & Duration
 .TRAN 10PS 15NS
@@ -45,11 +45,11 @@ VnSDO   nSDO   GND PWL(0NS 0V  8NS 0V  8.25NS 3.3V  12NS 3.3V  12.25NS 0V)
 
 .measure tran sdo_rise_prop_delay 
 + TRIG v(nSDO)    VAL='3.3*0.5' TD=0NS RISE=1
-+ TARG v(SDO)     VAL='3.3*0.5' TD=0NS RISE=1
++ TARG v(SDO)     VAL='3.3*0.5' TD=0NS FALL=1
 
 .measure tran sdo_fall_prop_delay
 + TRIG v(nSDO)    VAL='3.3*0.5' TD=0NS FALL=1
-+ TARG v(SDO)     VAL='3.3*0.5' TD=0NS FALL=1
++ TARG v(SDO)     VAL='3.3*0.5' TD=0NS RISE=1
 **   .measure tran rise_delay TRIG v(Y) VAL='3.3*0.1' TD=0NS RISE=1
 **   + TARG v(Y) VAL='3.3*0.9' TD=0NS RISE=1
 
