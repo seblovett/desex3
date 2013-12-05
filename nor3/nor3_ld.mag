@@ -1,40 +1,67 @@
 magic
 tech c035u
-timestamp 1385633363
+timestamp 1386255803
+<< error_ps >>
+rect 406 34 407 36
 << metal1 >>
-rect 0 749 10 774
-rect 0 104 10 129
+rect 325 58 431 68
+rect 205 36 406 46
+rect 85 14 383 24
+<< m2contact >>
+rect 311 57 325 71
+rect 431 56 445 70
+rect 191 35 205 49
+rect 406 34 420 48
+rect 71 12 85 26
+rect 383 12 397 26
 << metal2 >>
-rect 34 0 46 28
-rect 58 0 70 28
-rect 82 0 94 28
-rect 130 16 142 28
-rect 178 16 190 28
-rect 298 16 310 28
-rect 418 16 430 28
-rect 130 4 430 16
-rect 130 0 142 4
+rect 24 0 36 84
+rect 72 26 84 84
+rect 144 0 156 84
+rect 192 49 204 84
+rect 264 0 276 84
+rect 312 71 324 84
+rect 384 26 396 84
+rect 408 48 420 84
+rect 432 70 444 84
+rect 480 72 492 84
+rect 528 72 540 84
+rect 648 72 660 84
+rect 480 60 660 72
+rect 384 0 396 12
+rect 408 0 420 34
+rect 432 0 444 56
+rect 480 0 492 60
+use inv inv_3
+timestamp 1386238110
+transform 1 0 0 0 1 84
+box 0 0 120 799
+use inv inv_4
+timestamp 1386238110
+transform 1 0 120 0 1 84
+box 0 0 120 799
+use inv inv_5
+timestamp 1386238110
+transform 1 0 240 0 1 84
+box 0 0 120 799
 use nor3 nor3_0
-timestamp 1385633286
-transform 1 0 10 0 1 28
+timestamp 1386235396
+transform 1 0 360 0 1 84
 box 0 0 144 799
 use inv inv_0
-timestamp 1385631115
-transform 1 0 154 0 1 28
+timestamp 1386238110
+transform 1 0 504 0 1 84
 box 0 0 120 799
 use inv inv_1
-timestamp 1385631115
-transform 1 0 274 0 1 28
-box 0 0 120 799
-use inv inv_2
-timestamp 1385631115
-transform 1 0 394 0 1 28
+timestamp 1386238110
+transform 1 0 624 0 1 84
 box 0 0 120 799
 << labels >>
-rlabel metal2 82 0 94 0 1 C
-rlabel metal2 58 0 70 0 1 B
-rlabel metal2 34 0 46 0 1 A
-rlabel metal2 130 0 142 0 1 Y
-rlabel metal1 0 104 0 129 3 GND!
-rlabel metal1 0 749 0 774 3 Vdd!
+rlabel metal2 480 0 492 0 1 Y
+rlabel metal2 384 0 396 0 1 A
+rlabel metal2 408 0 420 0 1 B
+rlabel metal2 432 0 444 0 1 C
+rlabel metal2 24 0 36 0 1 NA
+rlabel metal2 144 0 156 0 1 NB
+rlabel metal2 264 0 276 0 1 NC
 << end >>
