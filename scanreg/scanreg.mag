@@ -1,6 +1,6 @@
 magic
 tech c035u
-timestamp 1386236508
+timestamp 1386238177
 << nwell >>
 rect 0 401 720 799
 << pwell >>
@@ -473,8 +473,8 @@ rect 690 730 706 746
 << metal1 >>
 rect 0 782 720 792
 rect 0 759 174 769
-rect 252 759 602 769
-rect 618 759 720 769
+rect 252 759 598 769
+rect 614 759 720 769
 rect 0 743 298 746
 rect 0 727 6 743
 rect 22 727 34 743
@@ -555,8 +555,8 @@ rect 420 549 436 564
 rect 334 539 436 549
 rect 488 554 504 564
 rect 488 544 622 554
-rect 394 516 554 526
-rect 570 516 594 526
+rect 394 516 550 526
+rect 566 516 594 526
 rect 648 526 664 564
 rect 610 516 664 526
 rect 303 501 381 511
@@ -664,10 +664,10 @@ rect 413 7 720 17
 << m2contact >>
 rect 174 757 188 771
 rect 238 758 252 772
-rect 602 756 618 772
+rect 598 756 614 772
 rect 237 683 251 697
 rect 658 695 674 711
-rect 554 516 570 532
+rect 550 516 566 532
 rect 70 367 85 381
 rect 106 365 120 379
 rect 174 367 188 381
@@ -684,17 +684,17 @@ rect 175 743 187 757
 rect 174 727 187 743
 rect 175 381 187 727
 rect 239 697 251 758
-rect 556 532 568 799
-rect 604 772 616 799
-rect 604 711 616 756
-rect 604 695 658 711
+rect 552 532 564 799
+rect 600 772 612 799
+rect 600 711 612 756
+rect 600 695 658 711
 rect 24 0 36 345
 rect 72 0 84 367
 rect 107 42 119 365
 rect 351 66 367 298
 rect 397 20 413 111
-rect 556 0 568 516
-rect 604 0 616 695
+rect 552 0 564 516
+rect 600 0 612 695
 << labels >>
 rlabel metal1 0 782 0 792 3 ScanReturn
 rlabel metal1 0 759 0 769 3 SDI
@@ -707,10 +707,6 @@ rlabel metal1 0 53 0 63 3 Clock
 rlabel metal2 24 0 36 0 1 D
 rlabel metal2 72 0 84 0 1 Load
 rlabel metal2 72 799 84 799 5 Load
-rlabel metal2 556 799 568 799 5 nQ
-rlabel metal2 556 0 568 0 1 nQ
-rlabel metal2 604 799 616 799 5 Q
-rlabel metal2 604 0 616 0 1 Q
 rlabel metal1 720 782 720 792 7 ScanReturn
 rlabel metal1 720 759 720 769 7 Q
 rlabel metal1 720 76 720 101 7 GND!
@@ -718,4 +714,8 @@ rlabel metal1 720 53 720 63 7 Clock
 rlabel metal1 720 30 720 40 7 Test
 rlabel metal1 720 7 720 17 7 nReset
 rlabel metal1 720 721 720 746 7 Vdd!
+rlabel metal2 552 0 564 0 1 nQ
+rlabel metal2 600 0 612 0 1 Q
+rlabel metal2 600 799 612 799 5 Q
+rlabel metal2 552 799 564 799 5 nQ
 << end >>
