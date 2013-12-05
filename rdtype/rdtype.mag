@@ -1,6 +1,6 @@
 magic
 tech c035u
-timestamp 1386236294
+timestamp 1386238026
 << nwell >>
 rect 0 401 432 799
 << pwell >>
@@ -295,8 +295,8 @@ rect 374 730 390 746
 rect 402 730 418 746
 << metal1 >>
 rect 0 782 432 792
-rect 0 759 314 769
-rect 330 759 432 769
+rect 0 759 310 769
+rect 326 759 432 769
 rect 0 730 10 746
 rect 26 730 38 746
 rect 54 730 66 746
@@ -341,8 +341,8 @@ rect 132 549 148 564
 rect 46 539 148 549
 rect 200 554 216 564
 rect 200 544 334 554
-rect 106 516 266 526
-rect 282 516 306 526
+rect 106 516 262 526
+rect 278 516 306 526
 rect 360 526 376 564
 rect 322 516 376 526
 rect 15 501 93 511
@@ -415,27 +415,23 @@ rect 0 30 432 40
 rect 0 7 109 17
 rect 125 7 432 17
 << m2contact >>
-rect 314 756 330 772
+rect 310 756 326 772
 rect 370 695 386 711
-rect 266 516 282 532
+rect 262 516 278 532
 rect 63 298 79 314
 rect 109 111 125 127
 rect 63 50 79 66
 rect 109 4 125 20
 << metal2 >>
-rect 268 532 280 799
-rect 316 772 328 799
-rect 316 711 328 756
-rect 316 695 370 711
+rect 264 532 276 799
+rect 312 772 324 799
+rect 312 711 324 756
+rect 312 695 370 711
 rect 63 66 79 298
 rect 109 20 125 111
-rect 268 0 280 516
-rect 316 0 328 695
+rect 264 0 276 516
+rect 312 0 324 695
 << labels >>
-rlabel metal2 268 799 280 799 5 nQ
-rlabel metal2 268 0 280 0 1 nQ
-rlabel metal2 316 799 328 799 5 Q
-rlabel metal2 316 0 328 0 1 Q
 rlabel metal1 0 375 0 385 3 D
 rlabel metal1 0 782 0 792 3 ScanReturn
 rlabel metal1 0 721 0 746 3 Vdd!
@@ -451,4 +447,8 @@ rlabel metal1 432 53 432 63 7 Clock
 rlabel metal1 432 30 432 40 7 Test
 rlabel metal1 432 7 432 17 7 nReset
 rlabel metal1 432 721 432 746 7 Vdd!
+rlabel metal2 264 0 276 0 1 nQ
+rlabel metal2 312 0 324 0 1 Q
+rlabel metal2 312 799 324 799 5 Q
+rlabel metal2 264 799 276 799 5 nQ
 << end >>
