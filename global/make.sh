@@ -1,6 +1,7 @@
 
 #run all simulations and make tables
 cd ..
+echo "Running HSPice on all cells" > spice.out
 for dir in ./*/
 do
         dir=${dir%*/}
@@ -13,8 +14,9 @@ do
                 fi
                 sh simulate spice ${dir##*/}  noguiplease
                 if [ $? != 0 ]; then
-                        echo "An error has occurred with " ${dir##*/} 
+                        echo "${dir##*/}  ERROR" >> ../spice.out
                 else
+			echo "${dir##*/}  PASS" >> ../spice.out
                         python ../global/mt0totable.py -i ${dir##*/}_ld.mt0 -o acresults.txt
                 fi
                 cd ..
@@ -22,8 +24,9 @@ do
         fi
 done
 
+#go back to the global directory
 cd global 
-
+#tex the hell out of it
 pdflatex Databook.tex
 pdflatex Databook.tex
 pdflatex Databook.tex
