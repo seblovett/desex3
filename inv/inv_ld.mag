@@ -1,26 +1,43 @@
 magic
 tech c035u
-timestamp 1385124936
+timestamp 1386262083
+<< metal1 >>
+rect 85 19 142 29
+rect 205 14 263 24
+rect 277 14 383 24
+<< m2contact >>
+rect 71 17 85 31
+rect 142 17 156 31
+rect 191 14 205 28
+rect 263 11 277 25
+rect 383 12 397 26
 << metal2 >>
-rect 24 806 36 843
-rect 72 806 84 843
-rect 72 12 84 23
-rect 144 12 156 23
-rect 264 12 276 23
-rect 72 0 276 12
+rect 24 0 36 43
+rect 72 31 84 43
+rect 144 31 156 43
+rect 192 28 204 43
+rect 144 0 156 17
+rect 264 25 276 43
+rect 384 26 396 43
+rect 192 0 204 14
+use inv inv_3
+timestamp 1386238110
+transform 1 0 0 0 1 43
+box 0 0 120 799
 use inv inv_0
-timestamp 1385124685
-transform 1 0 0 0 1 23
-box 0 0 120 783
+timestamp 1386238110
+transform 1 0 120 0 1 43
+box 0 0 120 799
 use inv inv_1
-timestamp 1385124685
-transform 1 0 120 0 1 23
-box 0 0 120 783
+timestamp 1386238110
+transform 1 0 240 0 1 43
+box 0 0 120 799
 use inv inv_2
-timestamp 1385124685
-transform 1 0 240 0 1 23
-box 0 0 120 783
+timestamp 1386238110
+transform 1 0 360 0 1 43
+box 0 0 120 799
 << labels >>
-rlabel metal2 72 843 84 843 5 Y
-rlabel metal2 24 843 36 843 5 A
+rlabel metal2 24 0 36 0 1 NA
+rlabel metal2 144 0 156 0 1 A
+rlabel metal2 192 0 204 0 1 Y
 << end >>
