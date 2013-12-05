@@ -1,76 +1,76 @@
 magic
 tech c035u
-timestamp 1386089107
+timestamp 1386238340
 use leftbuf leftbuf_0
-timestamp 1386085587
+timestamp 1386235766
 transform 1 0 0 0 1 0
 box 0 0 1464 799
 use and2 and2_0
-timestamp 1386085641
+timestamp 1386234845
 transform 1 0 1464 0 1 0
 box 0 0 120 799
 use nand2 nand2_0
-timestamp 1386085868
+timestamp 1386234792
 transform 1 0 1584 0 1 0
 box 0 0 96 799
 use nand3 nand3_0
-timestamp 1386085945
+timestamp 1386234893
 transform 1 0 1680 0 1 0
 box 0 0 120 799
 use nand4 nand4_0
-timestamp 1386085982
+timestamp 1386234936
 transform 1 0 1800 0 1 0
 box 0 0 144 799
 use nor2 nor2_0
-timestamp 1386086023
+timestamp 1386235306
 transform 1 0 1944 0 1 0
 box 0 0 120 799
 use nor3 nor3_0
-timestamp 1386086061
+timestamp 1386235396
 transform 1 0 2064 0 1 0
 box 0 0 144 799
 use or2 or2_0
-timestamp 1386086106
+timestamp 1386235472
 transform 1 0 2208 0 1 0
 box 0 0 144 799
 use mux2 mux2_0
-timestamp 1386086135
+timestamp 1386235218
 transform 1 0 2352 0 1 0
 box 0 0 192 799
 use smux2 smux2_0
-timestamp 1386086150
+timestamp 1386234984
 transform 1 0 2544 0 1 0
 box 0 0 192 799
 use smux3 smux3_0
-timestamp 1386086168
+timestamp 1386235180
 transform 1 0 2736 0 1 0
 box 0 0 288 799
 use buffer buffer_0
-timestamp 1386086205
+timestamp 1386236986
 transform 1 0 3024 0 1 0
 box 0 0 120 799
 use inv inv_0
-timestamp 1386086254
+timestamp 1386238110
 transform 1 0 3144 0 1 0
 box 0 0 120 799
 use trisbuf trisbuf_0
-timestamp 1386086299
+timestamp 1386237216
 transform 1 0 3264 0 1 0
 box 0 0 216 799
 use rdtype rdtype_0
-timestamp 1386086341
+timestamp 1386238026
 transform 1 0 3480 0 1 0
 box 0 0 432 799
 use fulladder fulladder_0
-timestamp 1386086500
+timestamp 1386234928
 transform 1 0 3912 0 1 0
 box 0 0 360 799
 use halfadder halfadder_0
-timestamp 1386086500
+timestamp 1386235204
 transform 1 0 4272 0 1 0
 box 0 0 312 799
 use xor2 xor2_0
-timestamp 1386086593
+timestamp 1386237344
 transform 1 0 4584 0 1 0
 box 0 0 192 799
 use tielow tielow_0
@@ -86,15 +86,15 @@ timestamp 1386086759
 transform 1 0 4872 0 1 0
 box 0 0 48 799
 use scandtype scandtype_0
-timestamp 1386086759
+timestamp 1386238233
 transform 1 0 4920 0 1 0
 box 0 0 624 799
 use scanreg scanreg_0
-timestamp 1386087476
+timestamp 1386238177
 transform 1 0 5544 0 1 0
-box 0 0 744 799
+box 0 0 720 799
 use rightend rightend_0
-timestamp 1386086844
-transform 1 0 6288 0 1 0
+timestamp 1386235834
+transform 1 0 6264 0 1 0
 box 0 0 320 799
 << end >>
