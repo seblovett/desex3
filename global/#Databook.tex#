@@ -1,0 +1,56 @@
+%% ----------------------------------------------------------------
+%% GDP.tex
+%% ---------------------------------------------------------------- 
+\documentclass{article}         % Use the GDP Report Style
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+
+\usepackage{lipsum}% dummy text
+\usepackage{todonotes}
+%\usepackage[disable]{todonotes} %uncomment this to disable to do notes
+\newcommand{\inote}[1] {\todo[inline]{#1}}https://github.com/seblovett/desex3
+%% \removecolourlinks    % Uncomment this command to remove colour from any links
+\newcommand{\cellname}[1] {\newpage \section*{#1} \makebox[\linewidth]{\rule{\textwidth}{0.4pt}}}
+\newcommand{\designer}[1] {{\bf Designer: } #1\\}https://github.com/seblovett/desex3
+\newcommand{\celldescription}[1]{{\bf Cell Description: } #1\\}
+\newcommand{\topimages}[3]{\begin{multicols}{3}\subsection*{Symbol}\includegraphics[width=0.3\textwidth,height=4cm,keepaspectratio=true]{#1}\subsection*{Circuit Diagram}\includegraphics[width=0.3\textwidth,height=4cm,keepaspectratio=true]{#2}\subsection*{Dimensions}\includegraphics[width=0.3\textwidth,height=4cm,keepaspectratio=true]{#3}\end{multicols}}
+
+\newcommand{\sysverilog}[1]{\subsection*{System Verilog Simulation} \begin{figure}[h!] \centering \includegraphics[width=0.8\textwidth]{#1} \end{figure}}
+
+\newcommand{\acchar}[1]{\subsection*{AC Characteristics}\begin{table}[h!]\centering\begin{tabular}{cc}Signal & Delay (s) \\ \hline\input{#1} \end{tabular}\end{table}}
+%% ----------------------------------------------------------------
+\begin{document}
+
+\title{Cell Library Databook}
+
+\author{by Team S5\\ H. Lovett (hl13g10) \\ A. J. Robinson (ajr2g10) \\ C. Schepens (cs7g10) \\ M. Wearn (mw20g10)}
+\maketitle
+
+%% ----------------------------------------------------------------
+\input{../and2/and2.tex}
+\input{../buffer/buffer.tex}
+\input{../fulladder/fulladder.tex}
+\input{../halfadder/halfadder.tex}
+\input{../inv/inv.tex}
+\input{../leftbuf/leftbuf.tex}
+\input{../mux2/mux2.tex}
+\input{../nand2/nand2.tex}
+\input{../nand3/nand3.tex}
+\input{../nand4/nand4.tex}
+\input{../nor2/nor2.tex}
+\input{../nor3/nor3.tex}
+\input{../or2/or2.tex}
+%\input{../rdtype/rdtype.tex}
+\input{../rightend/rightend.tex}
+\input{../rowcrosser/rowcrosser.tex}
+\input{../scandtype/scandtype.tex}
+\input{../scanreg/scanreg.tex}
+%\input{../smux2/smux2.tex}
+%\input{../smux3/smux3.tex}
+\input{../tiehigh/tiehigh.tex}
+\input{../tielow/tielow.tex}
+\input{../trisbuf/trisbuf.tex}
+\input{../xor2/xor2.tex}
+\end{document}
+%% ----------------------------------------------------------------
