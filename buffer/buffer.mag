@@ -1,6 +1,6 @@
 magic
 tech c035u
-timestamp 1386086205
+timestamp 1386236986
 << nwell >>
 rect 0 401 120 799
 << pwell >>
@@ -57,6 +57,12 @@ rect 80 490 96 538
 rect 15 421 31 469
 rect 42 421 58 469
 << psubstratetap >>
+rect 45 244 61 260
+rect 45 216 61 232
+rect 45 188 61 204
+rect 45 160 61 176
+rect 45 132 61 148
+rect 45 104 61 120
 rect 6 76 22 92
 rect 34 76 50 92
 rect 62 76 78 92
@@ -84,7 +90,13 @@ rect 58 322 68 362
 rect 15 309 31 322
 rect 15 279 45 309
 rect 80 308 96 388
-rect 45 101 61 279
+rect 45 260 61 279
+rect 45 232 61 244
+rect 45 204 61 216
+rect 45 176 61 188
+rect 45 148 61 160
+rect 45 120 61 132
+rect 45 101 61 104
 rect 0 92 120 101
 rect 0 76 6 92
 rect 22 76 34 92
