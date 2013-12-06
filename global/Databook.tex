@@ -1,7 +1,7 @@
 %% ----------------------------------------------------------------
 %% GDP.tex
 %% ---------------------------------------------------------------- 
-\documentclass{article}         % Use the GDP Report Style
+\documentclass{desex3}         % Use the GDP Report Style
 \usepackage{multicol}
 \usepackage{graphicx}
 \usepackage{epstopdf}
@@ -14,7 +14,10 @@
 \newcommand{\cellname}[1] {\newpage \section{#1} \makebox[\linewidth]{\rule{\textwidth}{0.4pt}}}
 \newcommand{\designer}[1] {{\bf Designer: } #1\\}
 \newcommand{\celldescription}[1]{{\bf Cell Description: } #1\\}
-\newcommand{\topimages}[3]{\begin{multicols}{3}\subsection*{Symbol}\includegraphics[width=0.3\textwidth,height=4cm,keepaspectratio=true]{#1}\subsection*{Circuit Diagram}\includegraphics[width=0.3\textwidth,height=4cm,keepaspectratio=true]{#2}\subsection*{Dimensions}\includegraphics[width=0.3\textwidth,height=4cm,keepaspectratio=true]{#3}\end{multicols}}
+\newcommand{\topimages}[3]{\begin{multicols}{3}\subsection*{Symbol}\includegraphics[width=\textwidth,height=4cm,keepaspectratio=true]{#1}\subsection*{Circuit Diagram}\includegraphics[width=\textwidth,height=4cm,keepaspectratio=true]{#2}\subsection*{Dimensions}\includegraphics[width=\textwidth,height=4cm,keepaspectratio=true]{#3}\end{multicols}}
+
+\newcommand{\topimagesgate}[2]{\begin{multicols}{2}\subsection*{Symbol}\includegraphics[width=\textwidth,height=4cm,keepaspectratio=true]{#1}\subsection*{Dimensions}\includegraphics[width=\textwidth,height=4cm,keepaspectratio=true]{#2}\end{multicols}}
+
 
 \newcommand{\sysverilog}[1]{\subsection*{System Verilog Simulation} \begin{figure}[h!] \centering \includegraphics[width=0.8\textwidth]{#1} \end{figure}}
 
