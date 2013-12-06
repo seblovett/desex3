@@ -1,0 +1,7 @@
+$DATA1 SOURCE='HSPICE' VERSION='D-2010.03-SP1 32-BIT'
+.TITLE '** hspice file for and2_ld'
+ a_fall_propagation_delay a_rise_propagation_delay  
+ b_fall_propagation_delay b_rise_propagation_delay temper            
+ alter#            
+  1.714e-10        7.206e-11        1.797e-10        6.829e-11        
+   27.0000        1                 

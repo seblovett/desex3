@@ -1,6 +1,6 @@
 magic
 tech c035u
-timestamp 1385929005
+timestamp 1386345784
 << metal1 >>
 rect 205 834 287 844
 rect 85 812 263 822
@@ -20,6 +20,8 @@ rect 72 799 84 812
 rect 144 799 156 878
 rect 192 846 204 847
 rect 192 799 204 832
+rect 264 824 276 878
+rect 288 846 300 878
 rect 264 799 276 810
 rect 288 799 300 832
 rect 336 819 348 878
@@ -28,30 +30,32 @@ rect 384 799 396 878
 rect 432 799 444 807
 rect 504 799 516 807
 rect 552 799 564 878
-use ../inv/inv inv_3
-timestamp 1385924870
+use inv inv_3
+timestamp 1386238110
 transform 1 0 0 0 1 0
 box 0 0 120 799
-use ../inv/inv inv_2
-timestamp 1385924870
+use inv inv_2
+timestamp 1386238110
 transform 1 0 120 0 1 0
 box 0 0 120 799
 use and2 and2_0
-timestamp 1385636468
+timestamp 1386234845
 transform 1 0 240 0 1 0
 box 0 0 120 799
-use ../inv/inv inv_0
-timestamp 1385924870
+use inv inv_0
+timestamp 1386238110
 transform 1 0 360 0 1 0
 box 0 0 120 799
-use ../inv/inv inv_1
-timestamp 1385924870
+use inv inv_1
+timestamp 1386238110
 transform 1 0 480 0 1 0
 box 0 0 120 799
 << labels >>
 rlabel metal2 384 878 396 878 5 n1
 rlabel metal2 552 878 564 878 5 n2
-rlabel metal2 336 878 348 878 5 out
-rlabel metal2 24 878 36 878 5 nA
-rlabel metal2 144 878 156 878 5 nB
+rlabel metal2 336 878 348 878 5 Y
+rlabel metal2 24 878 36 878 5 NA
+rlabel metal2 144 878 156 878 5 NB
+rlabel metal2 264 878 276 878 5 A
+rlabel metal2 288 878 300 878 5 B
 << end >>
