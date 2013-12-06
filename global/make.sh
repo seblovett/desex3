@@ -9,12 +9,13 @@ do
         if [ ".git" != ${dir##*/} ]; then
         if [ "global" != ${dir##*/} ]; then
                 cd ${dir}
-                if [ "inv" != ${dir##*/} ]; then
-                        cp ../inv/inv.mag inv.mag
-                fi
+#                if [ "inv" != ${dir##*/} ]; then
+#                        cp ../inv/inv.mag inv.mag
+#                fi
                 sh simulate spice ${dir##*/}  noguiplease
                 if [ $? != 0 ]; then
                         echo "${dir##*/}  ERROR" >> ../spice.out
+			read -p "Error"
                 else
 			echo "${dir##*/}  PASS" >> ../spice.out
                         python ../global/mt0totable.py -i ${dir##*/}_ld.mt0 -o acresults.txt
