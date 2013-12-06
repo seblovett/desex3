@@ -1,0 +1,9 @@
+
+\cellname{halfadder}
+\designer{Martin Wearn}
+\celldescription{A Half Adder}
+\topimages{../fulladder/symbol.jpg}{../fulladder/circuitdiagram.jpg}{../fulladder/blackbox.jpg}
+
+\acchar{../fulladder/acresults.txt}
+
+\sysverilog{../fulladder/sv.jpg}
