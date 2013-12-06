@@ -1,0 +1,10 @@
+$DATA1 SOURCE='HSPICE' VERSION='D-2010.03-SP1 32-BIT'
+.TITLE '** hspice file for nand4_ld'
+ a_rise_propagation_delay a_fall_propagation_delay  
+ b_rise_propagation_delay b_fall_propagation_delay  
+ c_rise_propagation_delay c_fall_propagation_delay  
+ d_rise_propagation_delay d_fall_propagation_delay temper            
+ alter#            
+  1.375e-10        2.046e-10        1.327e-10        2.030e-10        
+  1.277e-10        2.026e-10        1.212e-10        1.980e-10        
+   27.0000        1                 

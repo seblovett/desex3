@@ -43,19 +43,19 @@ rect 648 799 660 809
 rect 696 799 708 907
 rect 768 799 780 811
 rect 816 799 828 907
-use ../inv/inv inv_0
+use inv inv_0
 timestamp 1385924870
 transform 1 0 0 0 1 0
 box 0 0 120 799
-use ../inv/inv inv_1
+use inv inv_1
 timestamp 1385924870
 transform 1 0 120 0 1 0
 box 0 0 120 799
-use ../inv/inv inv_2
+use inv inv_2
 timestamp 1385924870
 transform 1 0 240 0 1 0
 box 0 0 120 799
-use ../inv/inv inv_3
+use inv inv_3
 timestamp 1385924870
 transform 1 0 360 0 1 0
 box 0 0 120 799
@@ -63,24 +63,24 @@ use nand4 nand4_0
 timestamp 1385636690
 transform 1 0 480 0 1 0
 box 0 0 144 799
-use ../inv/inv inv_4
+use inv inv_4
 timestamp 1385924870
 transform 1 0 624 0 1 0
 box 0 0 120 799
-use ../inv/inv inv_5
+use inv inv_5
 timestamp 1385924870
 transform 1 0 744 0 1 0
 box 0 0 120 799
 << labels >>
-rlabel metal2 24 907 36 907 5 nA
-rlabel metal2 144 907 156 907 5 nB
-rlabel metal2 264 907 276 907 5 nC
-rlabel metal2 384 907 396 907 5 nD
+rlabel metal2 24 907 36 907 5 NA
+rlabel metal2 144 907 156 907 5 NB
+rlabel metal2 264 907 276 907 5 NC
+rlabel metal2 384 907 396 907 5 ND
 rlabel metal2 504 907 516 907 5 A
 rlabel metal2 528 907 540 907 5 B
 rlabel metal2 552 907 564 907 5 C
 rlabel metal2 576 907 588 907 5 D
-rlabel metal2 600 907 612 907 5 out
+rlabel metal2 600 907 612 907 5 Y
 rlabel metal2 696 907 708 907 5 n1
 rlabel metal2 816 907 828 907 5 n2
 << end >>
