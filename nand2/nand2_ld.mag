@@ -1,56 +1,61 @@
 magic
 tech c035u
-timestamp 1385929305
+timestamp 1386341366
 << metal1 >>
-rect -32 832 51 842
-rect -152 808 27 818
-rect 88 803 122 813
-rect 136 803 241 813
+rect 205 836 286 846
+rect 85 810 261 820
+rect 325 810 359 820
+rect 373 810 479 820
 << m2contact >>
-rect -46 828 -32 842
-rect 51 830 65 844
-rect -166 805 -152 819
-rect 27 806 41 820
-rect 74 803 88 817
-rect 122 802 136 816
-rect 241 802 255 816
+rect 191 833 205 847
+rect 286 834 300 848
+rect 71 807 85 821
+rect 261 808 275 822
+rect 311 808 325 822
+rect 359 808 373 822
+rect 479 808 493 822
 << metal2 >>
-rect -213 799 -201 860
-rect -165 799 -153 805
-rect -93 799 -81 860
-rect -45 799 -33 828
-rect 27 799 39 806
-rect 51 799 63 830
-rect 75 817 87 860
-rect 75 799 87 803
-rect 123 799 135 802
-rect 171 799 183 860
-rect 243 799 255 802
-rect 291 799 303 860
-use ../inv/inv inv_2
-timestamp 1385924870
-transform 1 0 -237 0 1 0
+rect 24 799 36 862
+rect 72 799 84 807
+rect 144 799 156 862
+rect 192 799 204 833
+rect 264 822 276 862
+rect 288 848 300 862
+rect 275 808 276 822
+rect 264 799 276 808
+rect 288 799 300 834
+rect 312 822 324 862
+rect 312 799 324 808
+rect 360 799 372 808
+rect 408 799 420 862
+rect 480 799 492 808
+rect 528 799 540 862
+use inv inv_0
+timestamp 1386238110
+transform 1 0 0 0 1 0
 box 0 0 120 799
-use ../inv/inv inv_3
-timestamp 1385924870
-transform 1 0 -117 0 1 0
+use inv inv_1
+timestamp 1386238110
+transform 1 0 120 0 1 0
 box 0 0 120 799
 use nand2 nand2_0
-timestamp 1385631319
-transform 1 0 3 0 1 0
+timestamp 1386234792
+transform 1 0 240 0 1 0
 box 0 0 96 799
-use ../inv/inv inv_0
-timestamp 1385924870
-transform 1 0 99 0 1 0
+use inv inv_2
+timestamp 1386238110
+transform 1 0 336 0 1 0
 box 0 0 120 799
-use ../inv/inv inv_1
-timestamp 1385924870
-transform 1 0 219 0 1 0
+use inv inv_3
+timestamp 1386238110
+transform 1 0 456 0 1 0
 box 0 0 120 799
 << labels >>
-rlabel metal2 171 860 183 860 5 n1
-rlabel metal2 291 860 303 860 5 n2
-rlabel metal2 75 860 87 860 5 out
-rlabel metal2 -213 860 -201 860 5 nA
-rlabel metal2 -93 860 -81 860 5 nB
+rlabel metal2 24 862 36 862 5 NA
+rlabel metal2 144 862 156 862 5 NB
+rlabel metal2 264 862 276 862 5 A
+rlabel metal2 288 862 300 862 5 B
+rlabel metal2 312 862 324 862 5 Y
+rlabel metal2 408 862 420 862 5 n1
+rlabel metal2 528 862 540 862 5 n2
 << end >>
