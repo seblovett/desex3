@@ -1,1 +1,2 @@
-TO BE & DONE \\
+A to S/Cout prop delay (tPA)			256.2ps
+B to S/Cout prop delay (tPB)			242.8ps

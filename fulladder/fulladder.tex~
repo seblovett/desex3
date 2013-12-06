@@ -1,0 +1,9 @@
+
+\cellname{fulladder}
+\designer{Martin Wearn}
+\celldescription{A Full Adder}
+\topimages{../fulladder/symbol.jpg}{../fulladder/circuitdiagram.jpg}{../fulladder/blackbox.jpg}
+
+\acchar{../fulladder/acresults.txt}
+
+\sysverilog{../fulladder/sv.jpg}

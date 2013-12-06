@@ -1,31 +1,37 @@
 magic
 tech c035u
-timestamp 1385632638
+timestamp 1386275188
 << metal1 >>
-rect 11 792 21 809
-rect 0 782 27 792
-rect 0 759 27 769
-rect 0 721 27 746
+rect 6 833 250 843
+rect 6 769 16 833
+rect 43 792 53 809
+rect 32 782 59 792
+rect 0 759 59 769
+rect 0 721 59 746
 << m2contact >>
-rect 9 809 23 823
+rect 250 831 264 845
+rect 41 809 55 823
 << metal2 >>
-rect 23 809 183 821
-rect 51 799 63 809
-rect 171 799 183 809
+rect 83 821 95 858
+rect 55 809 95 821
+rect 83 799 95 809
+rect 203 799 215 858
+rect 251 799 263 831
 use inv inv_1
-timestamp 1385631115
-transform 1 0 27 0 1 0
+timestamp 1386238110
+transform 1 0 59 0 1 0
 box 0 0 120 799
 use inv inv_0
-timestamp 1385631115
-transform 1 0 147 0 1 0
+timestamp 1386238110
+transform 1 0 179 0 1 0
 box 0 0 120 799
 use rightend rightend_0
-timestamp 1385632559
-transform 1 0 267 0 1 0
-box 0 0 292 799
+timestamp 1386235834
+transform 1 0 299 0 1 0
+box 0 0 320 799
 << labels >>
 rlabel metal1 0 721 0 746 3 Vdd!
 rlabel metal1 0 759 0 769 3 Scan
-rlabel metal1 0 782 0 792 3 nScan
+rlabel metal2 203 858 215 858 5 ScanIn
+rlabel metal2 83 858 95 858 5 nScan
 << end >>

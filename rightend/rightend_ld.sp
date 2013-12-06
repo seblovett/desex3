@@ -9,7 +9,7 @@ Vsupply Vdd GND 3.3V
 
 ** Specify input signals here
 ** e.g. for inputs A and B
-VScan Scan GND PWL(0NS 0V  2NS 0V  2.25NS 3.3V  6NS 3.3V  6.25NS 0V)
+VScan ScanIn GND PWL(0NS 3.3V  2NS 3.3V  2.25NS 0V  6NS 0V  6.25NS 3.3V)
 ** VB B GND PWL(0NS 0V  4NS 0V  4.25NS 3.3V  8NS 3.3V  8.25NS 0V)
 
 ** Default Simulation - Type, Resolution & Duration

@@ -1,33 +1,52 @@
 magic
 tech c035u
-timestamp 1385633764
+timestamp 1386261661
+<< metal1 >>
+rect 205 32 287 42
+rect 85 10 263 20
+<< m2contact >>
+rect 191 30 205 44
+rect 287 30 301 44
+rect 71 8 85 22
+rect 263 8 277 22
 << metal2 >>
-rect 24 0 36 31
-rect 48 0 60 31
-rect 96 21 108 31
-rect 168 21 180 31
-rect 288 21 300 31
-rect 408 21 420 31
-rect 96 9 420 21
-rect 96 0 108 9
-use or2 or2_0
-timestamp 1385633707
-transform 1 0 0 0 1 31
-box 0 0 144 799
-use inv inv_0
-timestamp 1385631115
-transform 1 0 144 0 1 31
-box 0 0 120 799
-use inv inv_1
-timestamp 1385631115
-transform 1 0 264 0 1 31
+rect 24 0 36 53
+rect 72 22 84 53
+rect 144 0 156 53
+rect 192 44 204 53
+rect 264 22 276 53
+rect 288 44 300 53
+rect 336 43 348 53
+rect 408 43 420 53
+rect 528 43 540 53
+rect 336 31 540 43
+rect 264 0 276 8
+rect 288 0 300 30
+rect 336 0 348 31
+use inv inv_3
+timestamp 1386238110
+transform 1 0 0 0 1 53
 box 0 0 120 799
 use inv inv_2
-timestamp 1385631115
-transform 1 0 384 0 1 31
+timestamp 1386238110
+transform 1 0 120 0 1 53
+box 0 0 120 799
+use or2 or2_0
+timestamp 1386235472
+transform 1 0 240 0 1 53
+box 0 0 144 799
+use inv inv_0
+timestamp 1386238110
+transform 1 0 384 0 1 53
+box 0 0 120 799
+use inv inv_1
+timestamp 1386238110
+transform 1 0 504 0 1 53
 box 0 0 120 799
 << labels >>
-rlabel metal2 96 0 108 0 1 Y
-rlabel metal2 48 0 60 0 1 B
-rlabel metal2 24 0 36 0 1 A
+rlabel metal2 144 0 156 0 1 NB
+rlabel metal2 24 0 36 0 1 NA
+rlabel metal2 264 0 276 0 1 A
+rlabel metal2 288 0 300 0 1 B
+rlabel metal2 336 0 348 0 1 Y
 << end >>

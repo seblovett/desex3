@@ -1,33 +1,41 @@
 %% ----------------------------------------------------------------
 %% GDP.tex
 %% ---------------------------------------------------------------- 
-\documentclass{article}         % Use the GDP Report Style
+\documentclass{desex3}         % Use the GDP Report Style
 \usepackage{multicol}
 \usepackage{graphicx}
 \usepackage{epstopdf}
 
-\usepackage{lipsum}% dummy text
-\usepackage{todonotes}
+%\usepackage{lipsum}% dummy text
+%\usepackage{todonotes}
 %\usepackage[disable]{todonotes} %uncomment this to disable to do notes
 \newcommand{\inote}[1] {\todo[inline]{#1}}
 %% \removecolourlinks    % Uncomment this command to remove colour from any links
-\newcommand{\cellname}[1] {\newpage \section*{#1} \makebox[\linewidth]{\rule{\textwidth}{0.4pt}}}
+\newcommand{\cellname}[1] {\newpage \section{#1} \makebox[\linewidth]{\rule{\textwidth}{0.4pt}}}
 \newcommand{\designer}[1] {{\bf Designer: } #1\\}
 \newcommand{\celldescription}[1]{{\bf Cell Description: } #1\\}
-\newcommand{\topimages}[3]{\begin{multicols}{3}\subsection*{Symbol}\includegraphics[width=0.3\textwidth,height=4cm,keepaspectratio=true]{#1}\subsection*{Circuit Diagram}\includegraphics[width=0.3\textwidth,height=4cm,keepaspectratio=true]{#2}\subsection*{Dimensions}\includegraphics[width=0.3\textwidth,height=4cm,keepaspectratio=true]{#3}\end{multicols}}
+\newcommand{\topimages}[3]{\begin{multicols}{3}\subsection*{Symbol}\includegraphics[width=\textwidth,height=4cm,keepaspectratio=true]{#1}\subsection*{Circuit Diagram}\includegraphics[width=\textwidth,height=4cm,keepaspectratio=true]{#2}\subsection*{Dimensions}\includegraphics[width=\textwidth,height=4cm,keepaspectratio=true]{#3}\end{multicols}}
+
+\newcommand{\topimagesgate}[2]{\begin{multicols}{2}\subsection*{Symbol}\includegraphics[width=\textwidth,height=4cm,keepaspectratio=true]{#1}\subsection*{Dimensions}\includegraphics[width=\textwidth,height=4cm,keepaspectratio=true]{#2}\end{multicols}}
+
 
 \newcommand{\sysverilog}[1]{\subsection*{System Verilog Simulation} \begin{figure}[h!] \centering \includegraphics[width=0.8\textwidth]{#1} \end{figure}}
 
-\newcommand{\acchar}[1]{\subsection*{AC Characteristics}\begin{table}[h!]\centering\begin{tabular}{cc}Signal & Delay (s) \\ \hline\input{#1} \end{tabular}\end{table}}
+\newcommand{\acchar}[1]{\subsection*{AC Characteristics}\begin{table}[h!]\centering\begin{tabular}{cc}Signal & Delay (ps) \\ \hline\input{#1} \end{tabular}\end{table}}
+
+
 %% ----------------------------------------------------------------
 \begin{document}
 
 \title{Cell Library Databook}
 
 \author{by Team S5\\ H. Lovett (hl13g10) \\ A. J. Robinson (ajr2g10) \\ C. Schepens (cs7g10) \\ M. Wearn (mw20g10)}
+%\frontmatter
 \maketitle
-
+\cleardoublepage
+\tableofcontents
 %% ----------------------------------------------------------------
+%\mainmatter
 \input{../and2/and2.tex}
 \input{../buffer/buffer.tex}
 \input{../fulladder/fulladder.tex}
@@ -52,5 +60,24 @@
 \input{../tielow/tielow.tex}
 \input{../trisbuf/trisbuf.tex}
 \input{../xor2/xor2.tex}
+
+\appendix
+\input{AppendixA.tex}
+
+\clearpage
+\section{Design Detail}
+\renewcommand{\cellname}[1] {\newpage \subsection{#1} \makebox[\linewidth]{\rule{\textwidth}{0.4pt}}}
+\newcommand{\stickdiagram}[1]{\subsubsection*{Stick Diagram} \includegraphics[width=0.5\textwidth,keepaspectratio=true]{#1}}
+\newcommand{\transistor}[1]{\subsubsection*{Transistor Level Circuit Diagram} \includegraphics[width=0.5\textwidth,keepaspectratio=true]{#1}}
+
+\input{../fulladder/detail.tex}
+\input{../halfadder/detail.tex}
+\input{../leftbuf/detail.tex}
+\input{../rdtype/detail.tex}
+\input{../smux2/detail.tex}
+\input{../smux3/detail.tex}
+\input{../xor2/detail.tex}
+
+
 \end{document}
 %% ----------------------------------------------------------------

@@ -1,0 +1,9 @@
+
+\cellname{halfadder}
+\designer{Martin Wearn}
+\celldescription{Adds two bits to produce a sum and carry}
+\topimages{../fulladder/symbol.jpg}{../fulladder/circuitdiagram.jpg}{../fulladder/blackbox.jpg}
+
+\acchar{../fulladder/acresults.txt}
+
+\sysverilog{../fulladder/sv.jpg}

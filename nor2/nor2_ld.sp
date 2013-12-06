@@ -9,8 +9,8 @@ Vsupply Vdd GND 3.3V
 
 ** Specify input signals here
 ** e.g. for inputs A and B
-VA A GND PWL(0NS 0V  2NS 0V  2.25NS 3.3V  6NS 3.3V  6.25NS 0V)
-VB B GND PWL(0NS 0V  8NS 0V  8.25NS 3.3V  12NS 3.3V  12.25NS 0V)
+VNA NA GND PWL(0NS 3.3V  2NS 3.3V  2.25NS 0V  6NS 0V  6.25NS 3.3V)
+VNB NB GND PWL(0NS 3.3V  8NS 3.3V  8.25NS 0V  12NS 0V  12.25NS 3.3V)
 
 ** Default Simulation - Type, Resolution & Duration
 .TRAN 10PS 15NS
