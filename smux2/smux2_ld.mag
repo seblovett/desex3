@@ -1,12 +1,16 @@
 magic
 tech c035u
-timestamp 1386362310
+timestamp 1386363295
+<< pwell >>
+rect 0 122 46 147
 << metal1 >>
 rect 0 863 237 873
 rect 0 815 10 863
 rect 371 860 741 870
 rect 0 805 46 815
+rect 0 767 46 792
 rect 838 421 863 431
+rect 0 122 46 147
 rect 26 76 46 86
 rect 26 31 36 76
 rect 26 21 117 31
@@ -33,23 +37,23 @@ rect 70 0 82 46
 rect 118 35 130 46
 rect 430 33 442 46
 rect 550 33 562 46
-use ../inv/inv inv_3
+use inv inv_3
 timestamp 1386238110
 transform 1 0 46 0 1 46
 box 0 0 120 799
-use ../inv/inv inv_4
+use inv inv_4
 timestamp 1386238110
 transform 1 0 166 0 1 46
 box 0 0 120 799
-use ../inv/inv inv_0
+use inv inv_0
 timestamp 1386238110
 transform 1 0 286 0 1 46
 box 0 0 120 799
-use ../inv/inv inv_1
+use inv inv_1
 timestamp 1386238110
 transform 1 0 406 0 1 46
 box 0 0 120 799
-use ../inv/inv inv_2
+use inv inv_2
 timestamp 1386238110
 transform 1 0 526 0 1 46
 box 0 0 120 799
@@ -63,4 +67,6 @@ rlabel metal2 190 921 202 921 1 nSDI
 rlabel metal2 742 921 754 921 5 D
 rlabel metal2 478 921 490 921 5 n1
 rlabel metal2 550 921 562 921 5 n2
+rlabel metal1 0 767 0 792 3 Vdd!
+rlabel metal1 0 122 0 147 3 GND!
 << end >>
