@@ -1,6 +1,6 @@
 \cellname{fulladder}
 \designer{Martin Wearn}
-\celldescription{Adds two bit values and the previous bitslice carry out, to produce a sum and carry}
+\celldescription{full adding thing.}
 
 \stickdiagram{../fulladder/stickdiagram.jpg}
 \transistor{../fulladder/transistorcd.jpg}

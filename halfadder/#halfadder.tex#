@@ -1,7 +1,7 @@
 
-\cellname{fulladder}
+\cellname{halfadder}
 \designer{Martin Wearn}
-\celldescription{Adds two bit values and the previous bitsclie carry out, to produce a sum and carry}
+\celldescription{Adds two bits to produce a sum and carry}
 \topimages{../fulladder/symbol.jpg}{../fulladder/circuitdiagram.jpg}{../fulladder/blackbox.jpg}
 
 \acchar{../fulladder/acresults.txt}

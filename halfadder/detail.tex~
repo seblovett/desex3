@@ -1,6 +1,6 @@
 \cellname{halfadder}
 \designer{Martin Wearn}
-\celldescription{Adds two bits to produce a sum and carry}
+\celldescription{A half adder.}
 
 \stickdiagram{../halfadder/stickdiagram.jpg}
 \transistor{../halfadder/transistorcd.jpg}
