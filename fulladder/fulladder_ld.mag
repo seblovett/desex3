@@ -1,6 +1,6 @@
 magic
 tech c035u
-timestamp 1385934571
+timestamp 1386362832
 << metal1 >>
 rect 85 852 407 862
 rect 613 851 983 861
@@ -48,35 +48,35 @@ rect 1032 799 1044 871
 rect 1104 799 1116 849
 rect 1152 799 1164 871
 use inv inv_6
-timestamp 1385631115
+timestamp 1386238110
 transform 1 0 0 0 1 0
 box 0 0 120 799
 use inv inv_5
-timestamp 1385631115
+timestamp 1386238110
 transform 1 0 120 0 1 0
 box 0 0 120 799
 use inv inv_4
-timestamp 1385631115
+timestamp 1386238110
 transform 1 0 240 0 1 0
 box 0 0 120 799
 use fulladder fulladder_0
-timestamp 1385909444
+timestamp 1386234928
 transform 1 0 360 0 1 0
 box 0 0 360 799
 use inv inv_0
-timestamp 1385631115
+timestamp 1386238110
 transform 1 0 720 0 1 0
 box 0 0 120 799
 use inv inv_1
-timestamp 1385631115
+timestamp 1386238110
 transform 1 0 840 0 1 0
 box 0 0 120 799
 use inv inv_2
-timestamp 1385631115
+timestamp 1386238110
 transform 1 0 960 0 1 0
 box 0 0 120 799
 use inv inv_3
-timestamp 1385631115
+timestamp 1386238110
 transform 1 0 1080 0 1 0
 box 0 0 120 799
 << labels >>
