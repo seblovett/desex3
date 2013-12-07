@@ -1,0 +1,48 @@
+magic
+tech c035u
+timestamp 1386447360
+<< metal2 >>
+rect 24 799 36 923
+rect 72 799 84 923
+rect 144 799 156 923
+rect 192 799 204 923
+rect 264 799 276 923
+rect 312 799 324 923
+rect 408 799 420 923
+rect 432 799 444 923
+rect 480 799 492 923
+rect 504 799 516 923
+rect 576 799 588 923
+rect 624 799 636 923
+rect 696 799 708 923
+rect 744 799 756 923
+use inv inv_0
+timestamp 1386238110
+transform 1 0 0 0 1 0
+box 0 0 120 799
+use inv inv_1
+timestamp 1386238110
+transform 1 0 120 0 1 0
+box 0 0 120 799
+use inv inv_2
+timestamp 1386238110
+transform 1 0 240 0 1 0
+box 0 0 120 799
+use mux2 mux2_0
+timestamp 1386235218
+transform 1 0 360 0 1 0
+box 0 0 192 799
+use inv inv_3
+timestamp 1386238110
+transform 1 0 552 0 1 0
+box 0 0 120 799
+use inv inv_4
+timestamp 1386238110
+transform 1 0 672 0 1 0
+box 0 0 120 799
+<< labels >>
+rlabel metal2 408 923 420 923 5 S
+rlabel metal2 432 923 444 923 5 I0
+rlabel metal2 480 923 492 923 5 I1
+rlabel metal2 504 923 516 923 5 Y
+<< end >>
