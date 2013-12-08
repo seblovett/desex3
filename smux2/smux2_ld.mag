@@ -1,72 +1,79 @@
 magic
 tech c035u
-timestamp 1386363295
-<< pwell >>
-rect 0 122 46 147
+timestamp 1386444371
 << metal1 >>
-rect 0 863 237 873
-rect 0 815 10 863
-rect 371 860 741 870
-rect 0 805 46 815
-rect 0 767 46 792
-rect 838 421 863 431
-rect 0 122 46 147
-rect 26 76 46 86
-rect 26 31 36 76
-rect 26 21 117 31
-rect 444 21 548 31
-rect 853 31 863 421
-rect 562 21 863 31
+rect 23 878 114 888
+rect 23 824 33 878
+rect 368 874 738 884
+rect 22 814 43 824
+rect 0 776 43 801
+rect 835 430 876 440
+rect 890 430 906 440
+rect 0 131 43 156
+rect 12 85 43 95
+rect 12 30 22 85
+rect 12 20 234 30
+rect 440 24 546 35
+rect 560 24 877 34
 << m2contact >>
-rect 237 859 251 873
-rect 357 858 371 872
-rect 741 856 755 870
-rect 117 21 131 35
-rect 430 19 444 33
-rect 548 19 562 33
+rect 114 874 128 888
+rect 354 872 368 886
+rect 738 872 752 886
+rect 876 428 890 442
+rect 234 20 248 34
+rect 426 23 440 37
+rect 546 22 560 36
+rect 877 24 891 38
 << metal2 >>
-rect 190 845 202 921
-rect 238 845 250 859
-rect 310 845 322 921
-rect 358 845 370 858
-rect 478 845 490 921
-rect 550 845 562 921
-rect 742 870 754 921
-rect 742 845 754 856
-rect 70 0 82 46
-rect 118 35 130 46
-rect 430 33 442 46
-rect 550 33 562 46
-use inv inv_3
-timestamp 1386238110
-transform 1 0 46 0 1 46
-box 0 0 120 799
-use inv inv_4
-timestamp 1386238110
-transform 1 0 166 0 1 46
-box 0 0 120 799
+rect 67 854 79 913
+rect 115 888 127 913
+rect 115 854 127 874
+rect 307 854 319 913
+rect 355 854 367 872
+rect 475 854 487 913
+rect 595 854 607 913
+rect 739 886 751 913
+rect 739 854 751 872
+rect 187 0 199 55
+rect 235 34 247 55
+rect 427 37 439 55
+rect 547 36 559 55
+rect 878 38 890 428
+rect 235 0 247 20
 use inv inv_0
 timestamp 1386238110
-transform 1 0 286 0 1 46
+transform 1 0 43 0 1 55
 box 0 0 120 799
 use inv inv_1
 timestamp 1386238110
-transform 1 0 406 0 1 46
+transform 1 0 163 0 1 55
 box 0 0 120 799
 use inv inv_2
 timestamp 1386238110
-transform 1 0 526 0 1 46
+transform 1 0 283 0 1 55
+box 0 0 120 799
+use inv inv_3
+timestamp 1386238110
+transform 1 0 403 0 1 55
+box 0 0 120 799
+use inv inv_4
+timestamp 1386238110
+transform 1 0 523 0 1 55
 box 0 0 120 799
 use smux2 smux2_0
 timestamp 1386234984
-transform 1 0 646 0 1 46
+transform 1 0 643 0 1 55
 box 0 0 192 799
 << labels >>
-rlabel metal2 70 0 82 0 1 nTest
-rlabel metal2 190 921 202 921 1 nSDI
-rlabel metal2 742 921 754 921 5 D
-rlabel metal2 478 921 490 921 5 n1
-rlabel metal2 550 921 562 921 5 n2
-rlabel metal1 0 767 0 792 3 Vdd!
-rlabel metal1 0 122 0 147 3 GND!
+rlabel metal1 0 131 0 156 3 GND!
+rlabel metal1 0 776 0 801 3 Vdd!
+rlabel metal1 906 430 906 440 7 M
+rlabel metal2 595 913 607 913 5 n2
+rlabel metal2 475 913 487 913 5 n1
+rlabel metal2 739 913 751 913 5 D
+rlabel metal2 307 913 319 913 5 ND
+rlabel metal2 235 0 247 0 1 TEST
+rlabel metal2 187 0 199 0 1 NTEST
+rlabel metal2 115 913 127 913 5 SDI
+rlabel metal2 67 913 79 913 5 NSDI
 << end >>
