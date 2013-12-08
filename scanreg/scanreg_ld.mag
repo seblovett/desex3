@@ -1,85 +1,122 @@
 magic
 tech c035u
-timestamp 1386536704
-<< error_ps >>
-rect 1955 86 1969 87
+timestamp 1386541191
 << metal1 >>
-rect 1920 840 1940 850
-rect 1920 134 1932 144
-rect 1920 111 1988 121
-rect 1920 88 1955 98
-rect 1525 65 1955 75
-rect 1765 43 1931 53
-rect 1645 17 1988 27
+rect 1951 840 1971 850
+rect 0 802 31 827
+rect 0 157 31 182
+rect 1951 134 1963 144
+rect 1951 111 2019 121
+rect 1951 88 1986 98
+rect 1556 65 1986 75
+rect 1796 43 1962 53
+rect 1676 17 2019 27
 << m2contact >>
-rect 1940 837 1954 851
-rect 1932 131 1946 145
-rect 1988 109 2002 123
-rect 1955 86 1969 100
-rect 1511 63 1525 77
-rect 1955 63 1969 77
-rect 1751 41 1765 55
-rect 1931 41 1945 55
-rect 1631 15 1645 29
-rect 1988 15 2002 29
+rect 1971 837 1985 851
+rect 1963 131 1977 145
+rect 2019 109 2033 123
+rect 1986 87 2000 101
+rect 1542 63 1556 77
+rect 1986 63 2000 77
+rect 1782 41 1796 55
+rect 1962 41 1976 55
+rect 1662 15 1676 29
+rect 2019 15 2033 29
 << metal2 >>
-rect 24 956 1404 968
-rect 24 880 36 956
-rect 72 934 1284 946
-rect 72 880 84 934
-rect 552 912 1116 924
-rect 552 880 564 912
-rect 600 890 876 902
-rect 600 880 612 890
-rect 744 880 756 890
-rect 864 880 876 890
-rect 984 880 996 912
-rect 1104 880 1116 912
-rect 1272 880 1284 934
-rect 1392 880 1404 956
-rect 1872 894 1953 906
-rect 1872 880 1884 894
-rect 1941 851 1953 894
-rect 24 0 36 81
-rect 72 0 84 81
-rect 552 0 564 81
-rect 600 0 612 81
-rect 1224 0 1236 81
-rect 1344 0 1356 81
-rect 1464 0 1476 81
-rect 1512 77 1524 81
-rect 1512 0 1524 63
-rect 1584 0 1596 81
-rect 1632 29 1644 81
-rect 1632 0 1644 15
-rect 1704 0 1716 81
-rect 1752 55 1764 81
-rect 1752 0 1764 41
-rect 1824 0 1836 81
-rect 1933 55 1945 131
-rect 1956 77 1968 86
-rect 1989 29 2001 109
+rect 55 956 1435 968
+rect 55 880 67 956
+rect 103 934 1315 946
+rect 103 880 115 934
+rect 583 912 1147 924
+rect 583 880 595 912
+rect 631 890 907 902
+rect 631 880 643 890
+rect 775 880 787 890
+rect 895 880 907 890
+rect 1015 880 1027 912
+rect 1135 880 1147 912
+rect 1303 880 1315 934
+rect 1423 880 1435 956
+rect 1903 894 1984 906
+rect 1903 880 1915 894
+rect 1972 851 1984 894
+rect 55 0 67 81
+rect 103 0 115 81
+rect 583 0 595 81
+rect 631 0 643 81
+rect 1255 0 1267 81
+rect 1375 0 1387 81
+rect 1495 0 1507 81
+rect 1543 77 1555 81
+rect 1543 0 1555 63
+rect 1615 0 1627 81
+rect 1663 29 1675 81
+rect 1663 0 1675 15
+rect 1735 0 1747 81
+rect 1783 55 1795 81
+rect 1783 0 1795 41
+rect 1855 0 1867 81
+rect 1964 55 1976 131
+rect 1987 77 1999 87
+rect 2020 29 2032 109
 use scanreg scanreg_0
 timestamp 1386241447
-transform 1 0 0 0 1 81
+transform 1 0 31 0 1 81
 box 0 0 720 799
 use inv inv_0
-array 0 9 120 0 0 799
 timestamp 1386238110
-transform 1 0 720 0 1 81
+transform 1 0 751 0 1 81
+box 0 0 120 799
+use inv inv_1
+timestamp 1386238110
+transform 1 0 871 0 1 81
+box 0 0 120 799
+use inv inv_2
+timestamp 1386238110
+transform 1 0 991 0 1 81
+box 0 0 120 799
+use inv inv_3
+timestamp 1386238110
+transform 1 0 1111 0 1 81
+box 0 0 120 799
+use inv inv_4
+timestamp 1386238110
+transform 1 0 1231 0 1 81
+box 0 0 120 799
+use inv inv_5
+timestamp 1386238110
+transform 1 0 1351 0 1 81
+box 0 0 120 799
+use inv inv_6
+timestamp 1386238110
+transform 1 0 1471 0 1 81
+box 0 0 120 799
+use inv inv_7
+timestamp 1386238110
+transform 1 0 1591 0 1 81
+box 0 0 120 799
+use inv inv_8
+timestamp 1386238110
+transform 1 0 1711 0 1 81
+box 0 0 120 799
+use inv inv_9
+timestamp 1386238110
+transform 1 0 1831 0 1 81
 box 0 0 120 799
 << labels >>
-rlabel metal2 1704 0 1716 0 1 nClock
-rlabel metal2 1824 0 1836 0 1 nSDI
-rlabel metal2 1344 0 1356 0 1 nD
-rlabel metal2 1464 0 1476 0 1 nnReset
-rlabel metal2 1584 0 1596 0 1 nTest
-rlabel metal2 1224 0 1236 0 1 nLoad
-rlabel metal2 72 0 84 0 1 Load
-rlabel metal2 24 0 36 0 1 D
-rlabel metal2 600 0 612 0 1 Q
-rlabel metal2 552 0 564 0 1 nQ
-rlabel metal2 1512 0 1524 0 1 nReset
-rlabel metal2 1632 0 1644 0 1 Test
-rlabel metal2 1752 0 1764 0 1 Clock
+rlabel metal2 1735 0 1747 0 1 nClock
+rlabel metal2 1855 0 1867 0 1 nSDI
+rlabel metal2 1375 0 1387 0 1 nD
+rlabel metal2 1255 0 1267 0 1 nLoad
+rlabel metal2 103 0 115 0 1 Load
+rlabel metal2 55 0 67 0 1 D
+rlabel metal2 631 0 643 0 1 Q
+rlabel metal2 583 0 595 0 1 nQ
+rlabel metal2 1663 0 1675 0 1 Test
+rlabel metal2 1783 0 1795 0 1 Clock
+rlabel metal1 0 157 0 182 3 GND!
+rlabel metal1 0 802 0 827 3 Vdd!
+rlabel metal2 1615 0 1627 0 1 nTest
+rlabel metal2 1543 0 1555 0 1 nReset
+rlabel metal2 1495 0 1507 0 1 nnReset
 << end >>
