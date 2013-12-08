@@ -27,14 +27,14 @@ Vsupply Vdd GND 3.3V
    .measure tran D_Fall_Propagation_Delay TRIG v(D) VAL='3.3*0.5' TD=0NS FALL=1
    + TARG v(M) VAL='3.3*0.5' TD=0NS FALL=2
 
-   .measure tran Test_Pass_SDI_Rise_Propagation_Delay TRIG v(Test) VAL='3.3*0.5' TD=0NS RISE=1
+   .measure tran Test_Pass_SDI_Rise_Propagation_Delay TRIG v(TEST) VAL='3.3*0.5' TD=0NS RISE=1
    + TARG v(M) VAL='3.3*0.5' TD=0NS RISE=3
-   .measure tran Test_Pass_D_Fall_Propagation_Delay TRIG v(Test) VAL='3.3*0.5' TD=0NS FALL=2
+   .measure tran Test_Pass_D_Fall_Propagation_Delay TRIG v(TEST) VAL='3.3*0.5' TD=0NS FALL=2
    + TARG v(M) VAL='3.3*0.5' TD=0NS FALL=3
 
-   .measure tran Test_Pass_SDI_Fall_Propagation_Delay TRIG v(Test) VAL='3.3*0.5' TD=0NS RISE=2
+   .measure tran Test_Pass_SDI_Fall_Propagation_Delay TRIG v(TEST) VAL='3.3*0.5' TD=0NS RISE=2
    + TARG v(M) VAL='3.3*0.5' TD=0NS FALL=4
-   .measure tran Test_Pass_D_Rise_Propagation_Delay TRIG v(Test) VAL='3.3*0.5' TD=0NS FALL=3
+   .measure tran Test_Pass_D_Rise_Propagation_Delay TRIG v(TEST) VAL='3.3*0.5' TD=0NS FALL=3
    + TARG v(M) VAL='3.3*0.5' TD=0NS RISE=5
 
 ** Save results for display
