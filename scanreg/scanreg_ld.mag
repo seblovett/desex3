@@ -1,0 +1,85 @@
+magic
+tech c035u
+timestamp 1386536704
+<< error_ps >>
+rect 1955 86 1969 87
+<< metal1 >>
+rect 1920 840 1940 850
+rect 1920 134 1932 144
+rect 1920 111 1988 121
+rect 1920 88 1955 98
+rect 1525 65 1955 75
+rect 1765 43 1931 53
+rect 1645 17 1988 27
+<< m2contact >>
+rect 1940 837 1954 851
+rect 1932 131 1946 145
+rect 1988 109 2002 123
+rect 1955 86 1969 100
+rect 1511 63 1525 77
+rect 1955 63 1969 77
+rect 1751 41 1765 55
+rect 1931 41 1945 55
+rect 1631 15 1645 29
+rect 1988 15 2002 29
+<< metal2 >>
+rect 24 956 1404 968
+rect 24 880 36 956
+rect 72 934 1284 946
+rect 72 880 84 934
+rect 552 912 1116 924
+rect 552 880 564 912
+rect 600 890 876 902
+rect 600 880 612 890
+rect 744 880 756 890
+rect 864 880 876 890
+rect 984 880 996 912
+rect 1104 880 1116 912
+rect 1272 880 1284 934
+rect 1392 880 1404 956
+rect 1872 894 1953 906
+rect 1872 880 1884 894
+rect 1941 851 1953 894
+rect 24 0 36 81
+rect 72 0 84 81
+rect 552 0 564 81
+rect 600 0 612 81
+rect 1224 0 1236 81
+rect 1344 0 1356 81
+rect 1464 0 1476 81
+rect 1512 77 1524 81
+rect 1512 0 1524 63
+rect 1584 0 1596 81
+rect 1632 29 1644 81
+rect 1632 0 1644 15
+rect 1704 0 1716 81
+rect 1752 55 1764 81
+rect 1752 0 1764 41
+rect 1824 0 1836 81
+rect 1933 55 1945 131
+rect 1956 77 1968 86
+rect 1989 29 2001 109
+use scanreg scanreg_0
+timestamp 1386241447
+transform 1 0 0 0 1 81
+box 0 0 720 799
+use inv inv_0
+array 0 9 120 0 0 799
+timestamp 1386238110
+transform 1 0 720 0 1 81
+box 0 0 120 799
+<< labels >>
+rlabel metal2 1704 0 1716 0 1 nClock
+rlabel metal2 1824 0 1836 0 1 nSDI
+rlabel metal2 1344 0 1356 0 1 nD
+rlabel metal2 1464 0 1476 0 1 nnReset
+rlabel metal2 1584 0 1596 0 1 nTest
+rlabel metal2 1224 0 1236 0 1 nLoad
+rlabel metal2 72 0 84 0 1 Load
+rlabel metal2 24 0 36 0 1 D
+rlabel metal2 600 0 612 0 1 Q
+rlabel metal2 552 0 564 0 1 nQ
+rlabel metal2 1512 0 1524 0 1 nReset
+rlabel metal2 1632 0 1644 0 1 Test
+rlabel metal2 1752 0 1764 0 1 Clock
+<< end >>
