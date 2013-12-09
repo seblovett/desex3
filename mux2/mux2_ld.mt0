@@ -1,10 +1,12 @@
 $DATA1 SOURCE='HSPICE' VERSION='D-2010.03-SP1 32-BIT'
 .TITLE '** hspice file for mux2_ld'
- i1_rise_propagation_delay i1_fall_propagation_delay  
- i0_rise_propagation_delay i0_fall_propagation_delay  
- s_pass_i1_rise_propagation_delay s_pass_i0_fall_propagation_delay  
- s_pass_i1_fall_propagation_delay s_pass_i0_rise_propagation_delay  
- temper           alter#            
+ x_i1_rise_propagation_delay x_i1_fall_propagation_delay  
+ x_i0_rise_propagation_delay x_i0_fall_propagation_delay  
+ x_s_pass_i1_rise_propagation_delay x_s_pass_i0_fall_propagation_delay  
+ x_s_pass_i1_fall_propagation_delay x_s_pass_i0_rise_propagation_delay  
+ i0_propagation   i1_propagation   s_pass_i0_propagation  
+ s_pass_i1_propagation temper           alter#            
   2.173e-10        2.087e-10        1.805e-10        1.844e-10        
   2.016e-10        1.921e-10        2.479e-10        2.360e-10        
+  1.825e-10        2.130e-10        2.140e-10        2.247e-10        
    27.0000        1                 

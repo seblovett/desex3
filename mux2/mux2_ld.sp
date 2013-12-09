@@ -18,25 +18,30 @@ Vsupply Vdd GND 3.3V
 
 ** Specify ouput signals to measure here
 ** e.g. rise and fall delays for output Y
-   .measure tran I1_Rise_Propagation_Delay TRIG v(I1) VAL='3.3*0.5' TD=0NS RISE=1
+   .measure tran x_I1_Rise_Propagation_Delay TRIG v(I1) VAL='3.3*0.5' TD=0NS RISE=1
    + TARG v(Y) VAL='3.3*0.5' TD=0NS RISE=1
-   .measure tran I1_Fall_Propagation_Delay TRIG v(I1) VAL='3.3*0.5' TD=0NS FALL=1
+   .measure tran x_I1_Fall_Propagation_Delay TRIG v(I1) VAL='3.3*0.5' TD=0NS FALL=1
    + TARG v(Y) VAL='3.3*0.5' TD=0NS FALL=1
    
-   .measure tran I0_Rise_Propagation_Delay TRIG v(I0) VAL='3.3*0.5' TD=0NS RISE=1
+   .measure tran x_I0_Rise_Propagation_Delay TRIG v(I0) VAL='3.3*0.5' TD=0NS RISE=1
    + TARG v(Y) VAL='3.3*0.5' TD=0NS RISE=2
-   .measure tran I0_Fall_Propagation_Delay TRIG v(I0) VAL='3.3*0.5' TD=0NS FALL=1
+   .measure tran x_I0_Fall_Propagation_Delay TRIG v(I0) VAL='3.3*0.5' TD=0NS FALL=1
    + TARG v(Y) VAL='3.3*0.5' TD=0NS FALL=2
 
-   .measure tran S_Pass_I1_Rise_Propagation_Delay TRIG v(S) VAL='3.3*0.5' TD=0NS RISE=1
+   .measure tran x_S_Pass_I1_Rise_Propagation_Delay TRIG v(S) VAL='3.3*0.5' TD=0NS RISE=1
    + TARG v(Y) VAL='3.3*0.5' TD=0NS RISE=3
-   .measure tran S_Pass_I0_Fall_Propagation_Delay TRIG v(S) VAL='3.3*0.5' TD=0NS FALL=2
+   .measure tran x_S_Pass_I0_Fall_Propagation_Delay TRIG v(S) VAL='3.3*0.5' TD=0NS FALL=2
    + TARG v(Y) VAL='3.3*0.5' TD=0NS FALL=3
 
-   .measure tran S_Pass_I1_Fall_Propagation_Delay TRIG v(S) VAL='3.3*0.5' TD=0NS RISE=2
+   .measure tran x_S_Pass_I1_Fall_Propagation_Delay TRIG v(S) VAL='3.3*0.5' TD=0NS RISE=2
    + TARG v(Y) VAL='3.3*0.5' TD=0NS FALL=4
-   .measure tran S_Pass_I0_Rise_Propagation_Delay TRIG v(S) VAL='3.3*0.5' TD=0NS FALL=3
+   .measure tran x_S_Pass_I0_Rise_Propagation_Delay TRIG v(S) VAL='3.3*0.5' TD=0NS FALL=3
    + TARG v(Y) VAL='3.3*0.5' TD=0NS RISE=5
+   
+   .measure I0_Propagation PARAM = '(x_I0_Fall_Propagation_Delay + x_I0_Rise_Propagation_Delay)/2'
+   .measure I1_Propagation PARAM = '(x_I1_Fall_Propagation_Delay + x_I1_Rise_Propagation_Delay)/2'
+   .measure S_Pass_I0_Propagation PARAM = '(x_S_Pass_I0_Fall_Propagation_Delay + x_S_Pass_I0_Rise_Propagation_Delay)/2'
+   .measure S_Pass_I1_Propagation PARAM = '(x_S_Pass_I1_Fall_Propagation_Delay + x_S_Pass_I1_Rise_Propagation_Delay)/2'
 
 ** Save results for display
 .OPTIONS POST

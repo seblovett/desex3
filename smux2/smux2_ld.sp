@@ -17,25 +17,30 @@ Vsupply Vdd GND 3.3V
 
 ** Specify ouput signals to measure here
 ** e.g. rise and fall delays for output Y
-   .measure tran SDI_Rise_Propagation_Delay TRIG v(SDI) VAL='3.3*0.5' TD=0NS RISE=1
+   .measure tran x_SDI_Rise_Propagation_Delay TRIG v(SDI) VAL='3.3*0.5' TD=0NS RISE=1
    + TARG v(M) VAL='3.3*0.5' TD=0NS RISE=1
-   .measure tran SDI_Fall_Propagation_Delay TRIG v(SDI) VAL='3.3*0.5' TD=0NS FALL=1
+   .measure tran x_SDI_Fall_Propagation_Delay TRIG v(SDI) VAL='3.3*0.5' TD=0NS FALL=1
    + TARG v(M) VAL='3.3*0.5' TD=0NS FALL=1
    
-   .measure tran D_Rise_Propagation_Delay TRIG v(D) VAL='3.3*0.5' TD=0NS RISE=1
+   .measure tran x_D_Rise_Propagation_Delay TRIG v(D) VAL='3.3*0.5' TD=0NS RISE=1
    + TARG v(M) VAL='3.3*0.5' TD=0NS RISE=2
-   .measure tran D_Fall_Propagation_Delay TRIG v(D) VAL='3.3*0.5' TD=0NS FALL=1
+   .measure tran x_D_Fall_Propagation_Delay TRIG v(D) VAL='3.3*0.5' TD=0NS FALL=1
    + TARG v(M) VAL='3.3*0.5' TD=0NS FALL=2
 
-   .measure tran Test_Pass_SDI_Rise_Propagation_Delay TRIG v(TEST) VAL='3.3*0.5' TD=0NS RISE=1
+   .measure tran x_Test_Pass_SDI_Rise_Propagation_Delay TRIG v(TEST) VAL='3.3*0.5' TD=0NS RISE=1
    + TARG v(M) VAL='3.3*0.5' TD=0NS RISE=3
-   .measure tran Test_Pass_D_Fall_Propagation_Delay TRIG v(TEST) VAL='3.3*0.5' TD=0NS FALL=2
+   .measure tran x_Test_Pass_D_Fall_Propagation_Delay TRIG v(TEST) VAL='3.3*0.5' TD=0NS FALL=2
    + TARG v(M) VAL='3.3*0.5' TD=0NS FALL=3
 
-   .measure tran Test_Pass_SDI_Fall_Propagation_Delay TRIG v(TEST) VAL='3.3*0.5' TD=0NS RISE=2
+   .measure tran x_Test_Pass_SDI_Fall_Propagation_Delay TRIG v(TEST) VAL='3.3*0.5' TD=0NS RISE=2
    + TARG v(M) VAL='3.3*0.5' TD=0NS FALL=4
-   .measure tran Test_Pass_D_Rise_Propagation_Delay TRIG v(TEST) VAL='3.3*0.5' TD=0NS FALL=3
+   .measure tran x_Test_Pass_D_Rise_Propagation_Delay TRIG v(TEST) VAL='3.3*0.5' TD=0NS FALL=3
    + TARG v(M) VAL='3.3*0.5' TD=0NS RISE=5
+   
+   .measure SDI_Propagation PARAM = '(x_SDI_Fall_Propagation_Delay + x_SDI_Rise_Propagation_Delay)/2'
+   .measure D_Propagation PARAM = '(x_D_Fall_Propagation_Delay + x_D_Rise_Propagation_Delay)/2'
+   .measure Test_Pass_SDI_Propagation PARAM = '(x_Test_Pass_SDI_Fall_Propagation_Delay + x_Test_Pass_SDI_Rise_Propagation_Delay)/2'
+   .measure Test_Pass_D_Propagation PARAM = '(x_Test_Pass_D_Fall_Propagation_Delay + x_Test_Pass_D_Rise_Propagation_Delay)/2'
 
 ** Save results for display
 .OPTIONS POST

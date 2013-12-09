@@ -1,0 +1,79 @@
+magic
+tech c035u
+timestamp 1386517525
+<< metal1 >>
+rect 593 908 1195 918
+rect 472 882 940 892
+rect 3 859 99 869
+rect 3 801 13 859
+rect 353 850 893 860
+rect 1185 801 1195 908
+rect 3 791 28 801
+rect 1156 791 1195 801
+rect 1156 753 1214 778
+rect 1156 407 1182 417
+rect 1196 407 1214 418
+rect 1156 108 1214 133
+rect 0 62 28 72
+rect 0 18 10 62
+rect 0 8 219 18
+<< m2contact >>
+rect 579 907 593 921
+rect 458 881 472 895
+rect 940 880 954 894
+rect 99 855 113 869
+rect 339 847 353 861
+rect 893 848 907 862
+rect 1182 405 1196 419
+rect 219 8 233 22
+<< metal2 >>
+rect 52 831 64 951
+rect 100 869 112 951
+rect 100 831 112 855
+rect 172 831 184 951
+rect 220 831 232 951
+rect 292 831 304 951
+rect 340 831 352 847
+rect 412 831 424 951
+rect 460 831 472 881
+rect 532 831 544 951
+rect 580 921 592 951
+rect 580 831 592 907
+rect 700 831 712 951
+rect 820 831 832 951
+rect 892 862 904 951
+rect 940 894 952 951
+rect 892 848 893 862
+rect 892 831 904 848
+rect 940 831 952 880
+rect 220 22 232 32
+rect 652 12 664 32
+rect 772 12 784 32
+rect 1182 12 1194 405
+rect 652 0 1194 12
+use inv inv_0
+array 0 6 120 0 0 799
+timestamp 1386238110
+transform 1 0 28 0 1 32
+box 0 0 120 799
+use smux3 smux3_0
+timestamp 1386235180
+transform 1 0 868 0 1 32
+box 0 0 288 799
+<< labels >>
+rlabel metal1 1214 108 1214 133 7 GND!
+rlabel metal1 1214 753 1214 778 7 Vdd!
+rlabel metal2 52 951 64 951 5 NSDI
+rlabel metal2 100 951 112 951 5 SDI
+rlabel metal2 172 951 184 951 5 NTEST
+rlabel metal2 220 951 232 951 5 TEST
+rlabel metal2 892 951 904 951 5 D
+rlabel metal2 940 951 952 951 5 LOAD
+rlabel metal2 292 951 304 951 5 ND
+rlabel metal2 412 951 424 951 5 NLOAD
+rlabel metal2 532 951 544 951 5 NQ
+rlabel metal2 700 951 712 951 5 n1
+rlabel metal2 820 951 832 951 5 n2
+rlabel metal1 1214 407 1214 417 7 M
+rlabel metal2 580 951 592 951 5 Q
+<< end >>

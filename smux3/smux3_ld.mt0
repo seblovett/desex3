@@ -1,0 +1,25 @@
+$DATA1 SOURCE='HSPICE' VERSION='D-2010.03-SP1 32-BIT'
+.TITLE '** hspice file for smux3_ld'
+ x_d_rise_propagation_delay x_d_fall_propagation_delay  
+ x_q_rise_propagation_delay x_q_fall_propagation_delay  
+ x_load_pass_d_rise_propagation_delay  
+ x_load_pass_q_fall_propagation_delay  
+ x_load_pass_d_fall_propagation_delay  
+ x_load_pass_q_rise_propagation_delay x_sdi_rise_propagation_delay  
+ x_sdi_fall_propagation_delay x_test_pass_q_rise_propagation_delay  
+ x_test_pass_sdi_fall_propagation_delay  
+ x_test_pass_q_fall_propagation_delay  
+ x_test_pass_sdi_rise_propagation_delay  
+ x_test_pass_d_fall_propagation_delay  
+ x_test_pass_d_rise_propagation_delay sdi_propagation   
+ d_propagation    q_propagation    test_pass_sdi_propagation  
+ test_pass_d_propagation test_pass_q_propagation  
+ load_pass_d_propagation load_pass_q_propagation temper            
+ alter#            
+  3.174e-10        2.613e-10        2.678e-10        2.505e-10        
+  2.853e-10        2.852e-10        3.069e-10        3.220e-10        
+  2.083e-10        2.456e-10        3.183e-10        2.937e-10        
+  2.395e-10        1.921e-10        2.113e-10        3.627e-10        
+  2.270e-10        2.894e-10        2.591e-10        2.429e-10        
+  2.870e-10        2.789e-10        2.961e-10        3.036e-10        
+   27.0000        1                 

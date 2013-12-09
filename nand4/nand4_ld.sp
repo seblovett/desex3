@@ -19,26 +19,32 @@ Vsupply Vdd GND 3.3V
 co
 ** Specify ouput signals to measure here
 ** e.g. rise and fall delays for output Y
-   .measure tran A_Rise_Propagation_Delay TRIG v(A) VAL='3.3*0.5' TD=0NS FALL=1
+   .measure tran x_A_Rise_Propagation_Delay TRIG v(A) VAL='3.3*0.5' TD=0NS FALL=1
    + TARG v(Y) VAL='3.3*0.5' TD=0NS RISE=1
-   .measure tran A_Fall_Propagation_Delay TRIG v(A) VAL='3.3*0.5' TD=0NS RISE=1
+   .measure tran x_A_Fall_Propagation_Delay TRIG v(A) VAL='3.3*0.5' TD=0NS RISE=1
    + TARG v(Y) VAL='3.3*0.5' TD=0NS FALL=1
    
-   .measure tran B_Rise_Propagation_Delay TRIG v(B) VAL='3.3*0.5' TD=0NS FALL=1
+   .measure tran x_B_Rise_Propagation_Delay TRIG v(B) VAL='3.3*0.5' TD=0NS FALL=1
    + TARG v(Y) VAL='3.3*0.5' TD=0NS RISE=2
-   .measure tran B_Fall_Propagation_Delay TRIG v(B) VAL='3.3*0.5' TD=0NS RISE=1
+   .measure tran x_B_Fall_Propagation_Delay TRIG v(B) VAL='3.3*0.5' TD=0NS RISE=1
    + TARG v(Y) VAL='3.3*0.5' TD=0NS FALL=2
    
-   .measure tran C_Rise_Propagation_Delay TRIG v(C) VAL='3.3*0.5' TD=0NS FALL=1
+   .measure tran x_C_Rise_Propagation_Delay TRIG v(C) VAL='3.3*0.5' TD=0NS FALL=1
    + TARG v(Y) VAL='3.3*0.5' TD=0NS RISE=3
-   .measure tran C_Fall_Propagation_Delay TRIG v(C) VAL='3.3*0.5' TD=0NS RISE=1
+   .measure tran x_C_Fall_Propagation_Delay TRIG v(C) VAL='3.3*0.5' TD=0NS RISE=1
    + TARG v(Y) VAL='3.3*0.5' TD=0NS FALL=3
 
 
-   .measure tran D_Rise_Propagation_Delay TRIG v(D) VAL='3.3*0.5' TD=0NS FALL=1
+   .measure tran x_D_Rise_Propagation_Delay TRIG v(D) VAL='3.3*0.5' TD=0NS FALL=1
    + TARG v(Y) VAL='3.3*0.5' TD=0NS RISE=4
-   .measure tran D_Fall_Propagation_Delay TRIG v(D) VAL='3.3*0.5' TD=0NS RISE=1
+   .measure tran x_D_Fall_Propagation_Delay TRIG v(D) VAL='3.3*0.5' TD=0NS RISE=1
    + TARG v(Y) VAL='3.3*0.5' TD=0NS FALL=4
+   
+   .measure A_Propagation PARAM = '(x_A_Fall_Propagation_Delay + x_A_Rise_Propagation_Delay)/2'
+   .measure B_Propagation PARAM = '(x_B_Fall_Propagation_Delay + x_B_Rise_Propagation_Delay)/2'
+   .measure C_Propagation PARAM = '(x_C_Fall_Propagation_Delay + x_C_Rise_Propagation_Delay)/2'
+   .measure D_Propagation PARAM = '(x_D_Fall_Propagation_Delay + x_D_Rise_Propagation_Delay)/2'
+   
 ** Save results for display
 .OPTIONS POST
 ** Avoid DC convergence in at unreasonable voltage

@@ -1,0 +1,32 @@
+\contentsline {section}{\numberline {1}And2}{3}
+\contentsline {section}{\numberline {2}buffer}{4}
+\contentsline {section}{\numberline {3}fulladder}{6}
+\contentsline {section}{\numberline {4}halfadder}{7}
+\contentsline {section}{\numberline {5}Inverter}{9}
+\contentsline {section}{\numberline {6}leftbuf}{10}
+\contentsline {section}{\numberline {7}mux2}{12}
+\contentsline {section}{\numberline {8}nand2}{13}
+\contentsline {section}{\numberline {9}nand3}{15}
+\contentsline {section}{\numberline {10}nand4}{16}
+\contentsline {section}{\numberline {11}nor2}{18}
+\contentsline {section}{\numberline {12}nor3}{19}
+\contentsline {section}{\numberline {13}or2}{21}
+\contentsline {section}{\numberline {14}rightend}{22}
+\contentsline {section}{\numberline {15}rowcrosser}{24}
+\contentsline {section}{\numberline {16}scandtype}{25}
+\contentsline {section}{\numberline {17}scanreg}{27}
+\contentsline {section}{\numberline {18}tiehigh}{28}
+\contentsline {section}{\numberline {19}tielow}{30}
+\contentsline {section}{\numberline {20}trisbuf}{31}
+\contentsline {section}{\numberline {21}xor2}{33}
+\contentsline {section}{\numberline {A}Appendix A}{35}
+\contentsline {subsection}{\numberline {A.1}Team Management}{35}
+\contentsline {subsection}{\numberline {A.2}Division of Labour}{36}
+\contentsline {section}{\numberline {B}Design Detail}{37}
+\contentsline {subsection}{\numberline {B.1}fulladder}{38}
+\contentsline {subsection}{\numberline {B.2}halfadder}{39}
+\contentsline {subsection}{\numberline {B.3}leftbuf}{40}
+\contentsline {subsection}{\numberline {B.4}rdtype}{41}
+\contentsline {subsection}{\numberline {B.5}smux2}{42}
+\contentsline {subsection}{\numberline {B.6}smux3}{43}
+\contentsline {subsection}{\numberline {B.7}xor2}{44}
