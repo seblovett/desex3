@@ -1,6 +1,13 @@
 \cellname{smux2}
-\designer{Schep}
-\celldescription{A start of row buffer cell.}
+\designer{Constantijn Schepens}
+\celldescription{A 2 input scannable multiplexer, intended to be connected to a
+raw D-type to create a scannable D-type.}
+
+A single Euler path was used when laying out this cell, before taking into
+account inverters. The Euler path (T-nT-D-S) was designed such that the output was all the
+way on the right side such that it could connect directly to the D input of the
+raw D-type. Once this was done the required internal inverters were added in by
+creating a gate matrix design. 
 
 \stickdiagram{../smux2/stickdiagram.pdf}
 \transistor{../smux2/transistorcd.pdf}

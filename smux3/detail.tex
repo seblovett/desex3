@@ -1,6 +1,16 @@
 \cellname{smux3}
 \designer{Schep}
-\celldescription{A scan multiplexor.}
+\celldescription{A 3 input scannable multiplexer, intended to be connected to a
+raw D-type to create a scannable register.}
+
+A similar approach was taken for the layout of this cell as for the smux2.
+Initially inverters were excluded and a single Euler path
+(D-Load-nTest-Test-SDI-nLoad-Q) was found that both
+kept M and Q as close to the right side as possible (to connect to the raw
+D-type) and  kept the Test/Load nearest to their inverted partners for easy wiring.
+For the internal inverter placement multiple layouts were trialed to find the
+most efficient one, that also allowed all the internal wiring to be done with
+metal 1 exclusively(to reduce the number of vias).
 
 \stickdiagram{../smux3/stickdiagram.pdf}
 \transistor{../smux3/transistorcd.pdf}
