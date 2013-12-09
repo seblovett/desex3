@@ -1,0 +1,363 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Engineering Calculation Paper
+% LaTeX Template
+% Version 1.0 (20/1/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Dmitry Volynkin (dim_voly@yahoo.com.au)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper]{article} % Use A4 paper with a 12pt font size - different paper sizes will require manual recalculation of page margins and border positions
+\usepackage{subcaption}
+\usepackage{marginnote} % Required for margin notes
+\usepackage{wallpaper} % Required to set each page to have a background
+\usepackage{lastpage} % Required to print the total number of pages
+\usepackage[left=2.7cm,right=2cm,top=1.8cm,bottom=1.5cm,marginparwidth=3.4cm]{geometry} % Adjust page margins
+\usepackage{amsmath} % Required for equation customization
+\usepackage{amssymb} % Required to include mathematical symbols
+\usepackage{xcolor} % Required to specify colors by name
+\usepackage{wrapfig}
+\graphicspath{{./Pictures/}}
+\usepackage[title,titletoc,toc]{appendix}
+
+
+\usepackage{fancyhdr} % Required to customize headers
+%\setlength{\headheight}{80pt} % Increase the size of the header to accommodate meta-information
+\pagestyle{fancy}\fancyhf{} % Use the custom header specified below
+\renewcommand{\headrulewidth}{0pt} % Remove the default horizontal rule under the header
+\rfoot{\thepage\ of \pageref{LastPage} } %page number on bottom right hand side 
+
+
+
+\setlength{\parindent}{0cm} % Remove paragraph indentation
+\newcommand{\tab}{\hspace*{2em}} % Defines a new command for some horizontal space
+
+\newcommand\BackgroundStructure{ % Command to specify the background of each page
+\setlength{\unitlength}{1mm} % Set the unit length to millimeters
+\setlength\fboxsep{0mm} % Adjusts the distance between the frameboxes and the borderlines
+\setlength\fboxrule{0.5mm} % Increase the thickness of the border line
+\put(15, 15){\fcolorbox{black}{white!10}{\framebox(187,252){}}} % Main content box
+%\put(165, 10){\fcolorbox{black}{white!10}{\framebox(37,247){}}} % Margin box
+\put(15, 272){\fcolorbox{black}{white!10}{\framebox(187, 10){}}} % Header box
+%\put(137, 263){\includegraphics[height=23mm,keepaspectratio]{logo}} % Logo box - maximum height/width: 
+}
+
+%----------------------------------------------------------------------------------------
+%	HEADER INFORMATION
+%----------------------------------------------------------------------------------------
+
+%\fancyhead[L]{
+%}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%\AddToShipoutPicture{\BackgroundStructure} % Set the background of each page to that specified above in the header information section
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+%\begin{titlepage}
+
+%\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+
+\begin{center}
+%
+\AddToShipoutPicture*{\BackgroundStructure} % Set the background of this page to that specified above in the header information section
+%\center % Center everything on the page
+%textsc all capital
+
+\LARGE \textsc{Cell Library Data Book}\\[2cm] % Name of your university/college
+
+\LARGE \textsc{Team S4} \\[5cm] % Name 
+
+\textsc{Jonathan Griffiths}\\
+\textsc{Nayaab Gupta}\\
+\textsc{Yusra Hussain}\\
+\textsc{Do\u{g}a Kuyucu}\\[5cm]
+% Author
+\large \today\\[1cm]
+
+\end{center}
+
+
+\vfill % Fill the rest of the page with whitespace
+
+%\end{titlepage}
+ \newpage\null%\thispagestyle{empty}
+ \newpage 
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS
+%----------------------------------------------------------------------------------------
+
+\tableofcontents % Include a table of contents
+%\newpage
+%
+%\listoffigures
+%\newpage
+%
+%\listoftables
+ \newpage\null%\thispagestyle{empty}
+ \newpage 
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT CONTENT
+%----------------------------------------------------------------------------------------
+%
+
+
+
+%----------------------------------------------------------------------------------------
+%	MAJOR SECTION 1: Introduction
+%----------------------------------------------------------------------------------------
+%\lipsum[5] % Dummy text
+ \newpage 
+\section{Introduction}
+
+ %  Introduces the library and the databook.
+%Gives detail of features common to all cells in the library (e.g. cell height)
+%Picture showing position of signals and other cell structures such as the N-well
+%as they exist at the interface between cells
+
+This databook details a basic cell library designed for a 0.35$\mu$m CMOS process. The cells it contains can be seen in the table of contents. The following table gives details on common parameters for the cells within the library.
+
+\begin{center}
+\textbf{Cell Features}\\[0.2cm]
+
+    \begin{tabular}{|l|l|l|l|}
+    \hline
+    Cell Height      &  N-Well Height & P-Well Height & Grid of Placement \\ \hline \hline
+      50$\mu$m & $\mu$m & $\mu$m & 1.2$\mu$m        \\ \hline
+    \end{tabular}\\[0.5cm]
+
+
+\end{center}
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	MAJOR SECTION 2: Datasheet
+%----------------------------------------------------------------------------------------
+ \newpage 
+\section{Datasheet} % Major section
+
+Include datasheets for cells to be used by the ASIC designer (e.g. scanreg)
+rather than cells only used by library cell designers (e.g. rdtype, smux3).
+– cell name\\
+– cell description\\
+– cell designer(s)\\
+– symbol5\\
+– gate level circuit diagram6\\
+– abstract\\
+black box view showing dimensions\\
+– table of measured parameters\\
+– verilog simulation waveform\\
+
+4trivial support cells may be combined on one page\\
+5no symbol exists for leftbuf, rightend, tiehigh, tielow, rowcrosser\\
+6no gate level circuit diagram required for nand, nor, inv, tiehigh, tielow, rowcrosser\\
+
+%Example citation \cite{Figueredo:2009dg}.
+
+%------------------------------------------------------------------------------------------
+ \newpage 
+%\subsection{AND2} % Sub-section
+\input{and2.tex}
+
+
+ \newpage 
+%\subsection{Buffer}
+\input{buffer.tex}
+
+\newpage 
+%\subsection{Full Adder}
+\input{fulladder.tex}
+
+ \newpage 
+%\subsection{Half Adder}
+\input{halfadder.tex}
+
+ \newpage 
+%\subsection{Inverter}
+\input{inverter.tex}
+
+ \newpage 
+%\subsection{Left Buffer}
+\input{leftbuf.tex}
+git giigigigi
+ \newpage 
+%\subsection{MUX2}
+\input{mux2.tex}
+
+ \newpage 
+%\subsection{NAND2}
+\input{nand2.tex}
+
+ \newpage 
+%\subsection{NAND3}
+
+ \newpage 
+%\subsection{NAND4}
+
+\newpage 
+%\subsection{NOR2}
+\input{nor2.tex}
+
+\newpage 
+%\subsection{NOR3}
+\input{nor3.tex}
+
+ \newpage 
+%\subsection{OR2}
+\input{or2.tex}
+
+\newpage 
+%\subsection{Raw D-type}
+\input{rdtype.tex}
+
+\newpage 
+%\subsection{Right End}
+\input{rightend.tex}
+
+%\newpage 
+%\subsection{Row Crosser}
+
+ \newpage 
+%\subsection{Scan D-type}
+\input{scandtype}
+
+ \newpage 
+%\subsection{Scan Register}
+\input{scanreg}
+
+% \newpage 
+%\subsection{SMUX2}
+
+% \newpage 
+%\subsection{SMUX3}
+
+\newpage 
+%\subsection{Support Cells}
+%\input{supportcells.tex}
+
+% \newpage 
+%\subsection{Tie-low}
+
+\newpage 
+%\subsection{Tristate Buffer}
+\input{trisbuf.tex}
+
+\newpage 
+%\subsection{XOR2}
+\input{xor2.tex}
+
+%%------------------------------------------------------------------------------------------
+
+
+%------------------------------------------------------------------------------------------
+
+%%------------------------------------------------------------------------------------------
+%
+
+
+%%------------------------------------------------------------------------------------------
+% Appendices
+%%%------------------------------------------------------------------------------------------
+\newpage
+\begin{appendices} 
+\section{Project Management} 
+ \subsection{Team Management}
+\newpage
+\subsection{Division of Labour}
+\begin{table}
+    \begin{tabular}{l|l|l|l|l|l}
+    \hline
+    ~  & Task                    & Percentage Effort on Each Task & ~       & ~      & ~       \\ \hline
+    ~  & ECSID                   & dk2g09                         & jfg1g10 & ng2g10 & yh11g10 \\ \hline
+    1  & rdtype                  & ~                              & ~       & ~      & ~       \\ \hline
+    2  & smux2                   & ~                              & ~       & ~      & 100     \\ \hline
+    3  & smux3                   & ~                              & ~       & ~      & 100     \\ \hline
+    4  & mux2                    & ~                              & ~       & ~      & 100     \\ \hline
+    5  & fulladder               & ~                              & 100     & ~      & ~       \\ \hline
+    6  & halfadder               & ~                              & 100     & ~      & ~       \\ \hline
+    7  & xor2                    & ~                              & 100     & ~      & ~       \\ \hline
+    8  & inv                     & 100                            & ~       & ~      & ~       \\ \hline
+    9  & nand2                   & ~                              & ~       & ~      & 100     \\ \hline
+    10 & nand3                   & ~                              & ~       & ~      & ~       \\ \hline
+    11 & nand4                   & ~                              & ~       & ~      & ~       \\ \hline
+    12 & nor2                    & ~                              & 100     & ~      & ~       \\ \hline
+    13 & nor3                    & 100                            & ~       & ~      & ~       \\ \hline
+    14 & and2                    & ~                              & ~       & ~      & 100     \\ \hline
+    15 & or2                     & ~                              & ~       & ~      & 100     \\ \hline
+    16 & trisbuf                 & 100                            & ~       & ~      & ~       \\ \hline
+    17 & buffer                  & 100                            & ~       & ~      & ~       \\ \hline
+    18 & leftbuf                 & 100                            & ~       & ~      & ~       \\ \hline
+    19 & rightend                & 100                            & ~       & ~      & ~       \\ \hline
+    20 & tiehigh                 & ~                              & 100     & ~      & ~       \\ \hline
+    21 & tielow                  & ~                              & 100     & ~      & ~       \\ \hline
+    22 & rowcrosser              & ~                              & 100     & ~      & ~       \\ \hline
+    23 & scandtype               & ~                              & ~       & 50     & 50      \\ \hline
+    24 & scanreg                 & ~                              & ~       & 50     & 50      \\ \hline
+    25 & Verilog Simulation      & ~                              & ~       & ~      & ~       \\ \hline
+    26 & HSpice Characterisation & ~                              & ~       & ~      & ~       \\ \hline
+    27 & Final Report (words)    & ~                              & ~       & ~      & ~       \\ \hline
+    28 & Final Report (figures)  & ~                              & ~       & ~      & ~       \\ \hline
+    ~  & OVERALL EFFORT          & ~                              & ~       & ~      & ~       \\ \hline
+    ~  & Signature               & ~                              & ~       & ~      & ~       \\ \hline
+    \end{tabular}
+\end{table}
+
+%%------------------------------------------------------------------------------------------
+ \newpage
+\section{Major Cell Design Detail}
+\newpage
+\subsection{Designer: Jonathan Griffiths\\} % Sub-section
+\input{JGAppendix.tex}
+%\newpage
+%\subsection{Designer: Nayaab Gupta\\} % Sub-section
+%\input{and2.tex}
+\newpage
+
+\subsection{Designer: Yusra Hussain\\} % Sub-section
+\input{yusrappendix.tex}
+%/newpage
+%\subsection{Desiner: Doga Kuyucu\\} % Sub-section
+%\input{and2.tex}
+
+\end{appendices}
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+\newpage
+%\begin{thebibliography}{99} % Bibliography - this is intentionally simple in this template
+
+%\bibitem[Figueredo and Wolf, 2009]{Figueredo:2009dg}
+%Figueredo, A.~J. and Wolf, P. S.~A. (2009).
+%\newblock Assortative pairing and life history strategy - a cross-cultural
+%  study.
+%\newblock {\em Human Nature}, 20:317--330.
+%\nocite{S.Boccaletti2006}
+%\bibliographystyle{unsrt}
+%\bibliography{pr}
+
+%\end{thebibliography}
+
+
+%----------------------------------------------------------------------------------------
+\end{document}
