@@ -1,0 +1,95 @@
+\AddToShipoutPicture*{\BackgroundStructure} % Set the background of this page to that specified above in the header information section
+%----------------------------------------------------------------------------------------
+%	DOCUMENT CONTENT
+%----------------------------------------------------------------------------------------
+
+%\begin{tabular}{l r} % The header is a table with 4 columns
+%\textbf{Cell Name}  & fulladder\\ % Project name and page count
+%\textbf{Designer} &Jonathan Griffiths \\ % Designer and reviewer
+%\end{tabular}\\[0.5cm]
+
+{\Large \textbf{0.35$\mu$m CMOS - {\textbf{halfadder}}} \hfill\textbf{Designer: } Jonathan Griffiths \\}
+\lfoot{\textbf{Author:} Jonathan Griffiths}
+
+\subsection{Half Adder}
+
+\parbox{.45\linewidth}{
+
+One bit half adder with sum and carry out signals.
+
+
+}
+\hfill
+\parbox{.45\linewidth}{
+\begin{center}
+\textbf{Truth Table}\\[0.2cm]
+
+    \begin{tabular}{|ll|ll|}
+    \hline
+    A & B & C & S \\ \hline \hline
+    0 & 0 & 0 & 0 \\
+    0 & 1 & 0 & 1 \\
+    1 & 0 & 0 & 1 \\
+    1 & 1 & 1 & 0 \\ \hline
+    \end{tabular}\\[0.5cm]
+
+\end{center}
+}
+
+\vspace{1cm}
+
+\parbox{.3\linewidth}{
+\begin{center}
+\textbf{Symbol}\\[0.2cm]
+
+\includegraphics[height=35mm,keepaspectratio]{halfadder_sym.pdf}
+
+\end{center}
+}
+\hfill
+\parbox{.6\linewidth}{
+\begin{center}
+\textbf{Gate Level Design}\\[0.2cm]
+
+\includegraphics[height=40mm,keepaspectratio]{halfadder_gate.pdf}
+
+\end{center}
+}
+
+\vspace{1cm}
+
+\parbox{.45\linewidth}{
+\begin{center}
+\textbf{Black Box}\\[0.2cm]
+ \includegraphics[height=50mm,keepaspectratio]{halfadder_bb.pdf}
+
+
+\end{center}
+}
+\hfill
+\parbox{.45\linewidth}{
+\begin{center}
+\textbf{Characterisation}\\[0.2cm]
+
+    \begin{tabular}{|l|l|}
+    \hline
+    Signal      & Propagation Delay (ps) \\ \hline \hline
+    A -$\rightarrow$ S      & 240                    \\
+    B -$\rightarrow$ S      & 225                    \\
+    A -$\rightarrow$ Cout   & 265                    \\
+    B -$\rightarrow$ Cout   & 279                    \\ \hline
+    \end{tabular}\\[0.5cm]
+
+
+\end{center}
+}
+
+\vspace{1cm}
+
+\begin{center}
+\textbf{System Verilog Simulation}\\[0.2cm]
+
+\includegraphics[height=28mm, keepaspectratio]{halfadder_sv.pdf}
+\end{center}
+
+%----------------------------------------------------------------------------------------
