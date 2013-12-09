@@ -3,5 +3,40 @@
 
 \subsection{Team Management}
 
+\subsubsection{Justification of the Division of Labour}
+
+The four major cells were divided between the team as recommended in the specification.
+It was decided to also attempt the optional cells for teams of four.
+An extra person in a team of five would be in charge of designing the halfadder and xor2.
+The halfadder was assigned to the team member designing the fulladder as their expertise was greater for designing adder cells.
+The xor2 cell was assigned to the team member designing the rdtype as this cell was assumed less time consuming than the two other sets of major cells.
+The remaining cells were grouped and divided among the teams as shown in Table~\ref{tab:cells}.
+
+\begin{table}[h]
+   \centering
+    \begin{tabular}{| p{4.5cm} | p{6.5cm} |}
+    \hline
+      \textbf{Cell Groupings} & \textbf{Reasoning}\\ \hline
+      and2, and2, nand3, nand4  &	Nands and Ands are similar in design.\\ \hline
+      buffer, trisbuf  &	Buffers are similar in design.\\ \hline
+      inverter, nor2, nor3, or2   &	 Nors and Ors similar in design. Inverter is a simple cell assigned to distribute load.\\ \hline
+      rowcrosswer, tiehigh, tielow &	Low complexity cells assigned to team member tasked with designing both adders.\\ \hline
+    \end{tabular}
+    \caption{Cell design groupings and reasoning}
+    \label{tab:cells}
+\end{table}
+
+\subsubsection{Version Control}
+The Git revision control system was used throughout the project to facilitate collaborative working.
+GitHub is a web-based hosting service for git. 
+This was used to share files, allocate work and track bugs.
+
+\subsubsection{Process automation}
+The team produced a number of scripts to improve productivity by automating processes such extraction from magic, design simulation and consistency checking.
+Using Latex allowed the databook compilation to also be automated as separate files for each cell were stored in the hierarchy of folders.   
+This way each designer could add their own files to the data book independently.
+
+
+
 \clearpage
 \subsection{Division of Labour}
