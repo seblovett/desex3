@@ -5,31 +5,68 @@
 \usepackage{multicol}
 \usepackage{graphicx}
 \usepackage{epstopdf}
-
+\usepackage{caption}
+\usepackage{subcaption}
 %\usepackage{lipsum}% dummy text
 %\usepackage{todonotes}
 %\usepackage[disable]{todonotes} %uncomment this to disable to do notes
 \newcommand{\inote}[1] {\todo[inline]{#1}}
 %% \removecolourlinks    % Uncomment this command to remove colour from any links
-\newcommand{\cellname}[1] {\newpage \section{#1} \makebox[\linewidth]{\rule{\textwidth}{0.4pt}}}
+\newcommand{\cellname}[1] {\clearpage \section{#1} \makebox[\linewidth]{\rule{\textwidth}{0.4pt}}}
 \newcommand{\designer}[1] {{\bf Designer: } #1\\}
 \newcommand{\celldescription}[1]{{\bf Cell Description: } #1\\}
-\newcommand{\topimages}[3]{
-\begin{multicols}{3}
-\subsection*{Symbol}
-\includegraphics[width=0.5\textwidth,height=4cm,keepaspectratio=true]{#1}
-\subsection*{Dimensions}
-\includegraphics[width=0.5\textwidth,height=4cm,keepaspectratio=true]{#3}
-\end{multicols}
-\subsection*{Circuit Diagram}
-\includegraphics[width=\textwidth,height=3cm,keepaspectratio=true]{#2}
 
+%\newcommand{\topimages}[3]{
+%\begin{multicols}{3}
+%\subsection*{Symbol}
+%\includegraphics[width=0.5\textwidth,height=4cm,keepaspectratio=true]{#1}
+%\subsection*{Dimensions}
+%\includegraphics[width=0.5\textwidth,height=4cm,keepaspectratio=true]{#3}
+%\end{multicols}
+%\subsection*{Circuit Diagram}
+%\includegraphics[width=\textwidth,height=3cm,keepaspectratio=true]{#2}
+%}
+
+\newcommand{\topimages}[3]{
+\begin{figure}[ht!]
+        \centering
+        \begin{subfigure}[b]{0.5\textwidth}
+			\subsection*{Symbol}
+                \includegraphics[width=\textwidth]{#1}
+        \end{subfigure}%
+        ~ %add desired spacing between images, e. g. ~, \quad, \qquad etc.
+          %(or a blank line to force the subfigure onto a new line)
+        \begin{subfigure}[b]{0.5\textwidth}
+				\subsection*{Dimensions}
+                \includegraphics[width=\textwidth]{#3}
+        \end{subfigure}
+		~ %add desired spacing between images, e. g. ~, \quad, \qquad etc.
+          %(or a blank line to force the subfigure onto a new line)
+        \begin{subfigure}[b]{0.5\textwidth}
+				\subsection*{Gate Level Diagram}
+                \includegraphics[width=\textwidth]{#2}
+        \end{subfigure}
+\end{figure}
+}
+%\newcommand{\topimagesgate}[2]{\begin{multicols}{2}\subsection*{Symbol}\includegraphics[width=\textwidth,height=4cm,keepaspectratio=true]{#1}\subsection*{Dimensions}\includegraphics[width=\textwidth,height=4cm,keepaspectratio=true]{#2}\end{multicols}}
+
+\newcommand{\topimagesgate}[2]{
+\begin{figure}[ht!]
+        \centering
+        \begin{subfigure}[b]{0.5\textwidth}
+			\subsection*{Symbol}
+                \includegraphics[width=\textwidth]{#1}
+        \end{subfigure}%
+        ~ %add desired spacing between images, e. g. ~, \quad, \qquad etc.
+          %(or a blank line to force the subfigure onto a new line)
+        \begin{subfigure}[b]{0.5\textwidth}
+				\subsection*{Dimensions}
+                \includegraphics[width=\textwidth]{#2}
+        \end{subfigure}
+\end{figure}
 }
 
-\newcommand{\topimagesgate}[2]{\begin{multicols}{2}\subsection*{Symbol}\includegraphics[width=\textwidth,height=4cm,keepaspectratio=true]{#1}\subsection*{Dimensions}\includegraphics[width=\textwidth,height=4cm,keepaspectratio=true]{#2}\end{multicols}}
-
-
-\newcommand{\sysverilog}[1]{\subsection*{System Verilog Simulation} \begin{figure}[h!] \centering \includegraphics[width=0.8\textwidth]{#1} \end{figure}}
+\newcommand{\sysverilog}[1]{\subsection*{System Verilog Simulation} \begin{figure}[h!] \centering \includegraphics[width=\textwidth]{#1} \end{figure}}
 
 \newcommand{\acchar}[1]{\subsection*{AC Characteristics}\begin{table}[h!]\centering\begin{tabular}{cc}Signal & Average Delay (ps) \\ \hline\input{#1} \end{tabular}\end{table}}
 
