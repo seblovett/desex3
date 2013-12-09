@@ -6,8 +6,10 @@ do
 	if [ ".git" != ${dir} ]; then  
 	if [ "global" != ${dir} ]; then
 		cd ${dir}
-		sh simulate sv ${dir##*/} gui
-		read -p "Press [Enter] key to continue"
+		ps2pdf sv.ps sv.pdf
+		git add sv.pdf
+		*sh simulate sv ${dir##*/} gui
+		*read -p "Press [Enter] key to continue"
 		cd ..
 	fi
 	fi
