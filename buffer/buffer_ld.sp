@@ -18,15 +18,15 @@ Vsupply Vdd GND 3.3V
 ** Specify ouput signals to measure here
 ** e.g. rise and fall delays for output Y
   
-   .measure tran prop_delay_rise
+   .measure tran x_prop_delay_rise
       +TRIG v(a) VAL='3.3*0.5' TD=0NS RISE=1 
       +TARG v(y) VAL='3.3*0.5' TD=0NS RISE=1
 
-   .measure tran prop_delay_fall
+   .measure tran x_prop_delay_fall
       +TRIG v(a) VAL='3.3*0.5' TD=0NS FALL=1 
       +TARG v(y) VAL='3.3*0.5' TD=0NS FALL=1
 
-   .measure average_prop PARAM = '(prop_delay_rise + prop_delay_fall)/2'
+   .measure A_Propagation PARAM = '(x_prop_delay_rise + x_prop_delay_fall)/2'
 
 
 ** Save results for display
