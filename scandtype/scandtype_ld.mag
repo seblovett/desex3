@@ -1,0 +1,138 @@
+magic
+tech c035u
+timestamp 1386436416
+<< pwell >>
+rect 1199 0 1211 43
+rect 1247 0 1259 43
+<< metal1 >>
+rect 1212 879 1630 889
+rect 1644 879 1750 889
+rect 4 812 14 857
+rect 1260 857 1390 867
+rect 1404 857 1510 867
+rect 401 825 435 835
+rect 555 825 589 835
+rect 709 825 743 835
+rect 4 802 41 812
+rect 401 802 435 812
+rect 555 802 589 812
+rect 709 802 743 812
+rect 401 764 435 789
+rect 555 764 589 789
+rect 709 764 743 789
+rect 401 119 435 144
+rect 555 119 589 144
+rect 709 119 743 144
+rect 401 96 435 106
+rect 555 96 589 106
+rect 709 96 719 106
+rect 733 96 743 106
+rect 401 73 435 83
+rect 555 73 564 83
+rect 578 73 589 83
+rect 709 73 743 83
+rect 401 50 435 60
+rect 555 50 589 60
+rect 709 50 743 60
+rect 410 30 420 50
+rect 366 20 420 30
+rect 674 20 718 30
+<< m2contact >>
+rect 1198 877 1212 891
+rect 1630 877 1644 891
+rect 1750 877 1764 891
+rect 0 857 14 871
+rect 1246 855 1260 869
+rect 1390 855 1404 869
+rect 1510 855 1524 869
+rect 719 94 733 108
+rect 564 71 578 85
+rect 352 19 366 33
+rect 660 19 674 33
+rect 718 18 732 32
+<< metal2 >>
+rect 14 858 125 870
+rect 113 842 125 858
+rect 233 855 851 867
+rect 233 842 245 855
+rect 839 842 851 855
+rect 1199 842 1211 877
+rect 1247 842 1259 855
+rect 1391 842 1403 855
+rect 1511 842 1523 855
+rect 1631 842 1643 877
+rect 1751 842 1763 877
+rect 65 0 77 43
+rect 113 0 125 43
+rect 185 0 197 43
+rect 233 0 245 43
+rect 305 0 317 43
+rect 353 33 365 43
+rect 353 0 365 19
+rect 459 0 471 43
+rect 507 36 519 43
+rect 565 36 577 71
+rect 507 24 577 36
+rect 507 0 519 24
+rect 613 0 625 43
+rect 661 33 673 43
+rect 720 32 732 94
+rect 661 0 673 19
+rect 839 0 851 43
+rect 1199 0 1211 43
+rect 1247 0 1259 43
+use inv inv_0
+timestamp 1386238110
+transform 1 0 41 0 1 43
+box 0 0 120 799
+use inv inv_1
+timestamp 1386238110
+transform 1 0 161 0 1 43
+box 0 0 120 799
+use inv inv_2
+timestamp 1386238110
+transform 1 0 281 0 1 43
+box 0 0 120 799
+use inv inv_3
+timestamp 1386238110
+transform 1 0 435 0 1 43
+box 0 0 120 799
+use inv inv_4
+timestamp 1386238110
+transform 1 0 589 0 1 43
+box 0 0 120 799
+use scandtype scandtype_0
+timestamp 1386241841
+transform 1 0 743 0 1 43
+box 0 0 624 799
+use inv inv_5
+timestamp 1386238110
+transform 1 0 1367 0 1 43
+box 0 0 120 799
+use inv inv_6
+timestamp 1386238110
+transform 1 0 1487 0 1 43
+box 0 0 120 799
+use inv inv_7
+timestamp 1386238110
+transform 1 0 1607 0 1 43
+box 0 0 120 799
+use inv inv_8
+timestamp 1386238110
+transform 1 0 1727 0 1 43
+box 0 0 120 799
+<< labels >>
+rlabel metal2 613 0 625 0 1 nClock
+rlabel metal2 459 0 471 0 1 nTest
+rlabel metal2 305 0 317 0 1 nnReset
+rlabel metal2 839 0 851 0 1 D
+rlabel metal2 1247 0 1259 0 1 Q
+rlabel metal2 1199 0 1211 0 1 nQ
+rlabel metal2 185 0 197 0 1 nD
+rlabel metal2 65 0 77 0 1 nSDI
+rlabel metal2 661 0 673 0 1 Clock
+rlabel metal2 507 0 519 0 1 Test
+rlabel metal2 353 0 365 0 1 nReset
+rlabel metal2 233 0 245 0 1 D
+rlabel metal2 113 0 125 0 1 SDI
+<< end >>

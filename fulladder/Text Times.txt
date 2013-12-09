@@ -1,0 +1,11 @@
+Average A to Output prop delay		
+Average B to Output prop delay		
+Average Cin to Output prop delay	
+
+Max A to Output prop delay		331.7ps
+Max B to Output prop delay		358.3ps
+Max Cin to Output prop delay		293.6ps
+
+A to Output prop delay increment	 32.9ps
+B to Output prop delay increment	 35.5ps
+Cin to Output prop delay increment	 24.1ps
