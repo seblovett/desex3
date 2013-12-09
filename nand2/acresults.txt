@@ -1,1 +1,2 @@
-TO BE & DONE \\
+a propagation & 117.0 \\
+b propagation & 117.6 \\

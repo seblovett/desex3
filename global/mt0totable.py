@@ -50,6 +50,8 @@ for i in range(len(values)):
 outfile = open(options.output, 'w')
 for i in range(len(values)):
     if((names[i] == "temper") or (names[i] == "alter#")):
+        continue	
+    if(names[i].startswith("x")):
         continue
     outfile.write("%s & %.1f \\\\\n" % (names[i], values[i]))
 outfile.close()

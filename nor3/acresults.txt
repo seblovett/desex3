@@ -1,1 +1,6 @@
-TO BE & DONE \\
+a rise prop delay & 100.4 \\
+a fall prop delay & 305.7 \\
+b rise prop delay & 89.8 \\
+b fall prop delay & 281.0 \\
+c rise prop delay & 95.4 \\
+c fall prop delay & 300.7 \\

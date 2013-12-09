@@ -1,1 +1,2 @@
-TO BE & DONE \\
+scan fall delay & 56.4 \\
+scan rise delay & 78.2 \\

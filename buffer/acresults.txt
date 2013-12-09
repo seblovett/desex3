@@ -1,1 +1,3 @@
-A to Y & 134.2\\
+prop delay rise & 138.5 \\
+prop delay fall & 129.9 \\
+average prop & 134.2 \\

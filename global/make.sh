@@ -8,6 +8,16 @@ do
         echo ${dir##*/}
         if [ ".git" != ${dir##*/} ]; then
         if [ "global" != ${dir##*/} ]; then
+		if [ "rowcrosser" == ${dir##*/} ]; then
+			continue
+		fi		
+		if [ "tiehigh" == ${dir##*/} ]; then
+			continue
+		fi
+		if [ "tielow" == ${dir##*/} ]; then
+			continue
+		fi
+		
                 cd ${dir}
 #                if [ "inv" != ${dir##*/} ]; then
 #                        cp ../inv/inv.mag inv.mag

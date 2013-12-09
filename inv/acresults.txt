@@ -1,1 +1,2 @@
- TO BE & DONE \\
+a rise delay & 107.3 \\
+a fall delay & 81.7 \\

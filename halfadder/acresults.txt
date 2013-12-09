@@ -1,1 +1,4 @@
-//TO DO
+average a to s prop & 251.7 \\
+average a to c prop & 167.0 \\
+average b to s prop & 240.9 \\
+average b to c prop & 166.1 \\

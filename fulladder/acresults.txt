@@ -1,1 +1,6 @@
-//TO DO
+average a to s prop delay & 294.9 \\
+average a to cout prop delay & 285.0 \\
+average b to s prop delay & 262.3 \\
+average b to cout prop delay & 294.0 \\
+average cin to s prop delay & 252.7 \\
+average cin to cout prop delay & 274.6 \\

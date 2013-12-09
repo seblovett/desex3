@@ -1,4 +1,4 @@
 $DATA1 SOURCE='HSPICE' VERSION='D-2010.03-SP1 32-BIT'
 .TITLE '** hspice file for inv_ld'
  a_rise_delay     a_fall_delay     temper           alter#            
-  1.306e-10        9.373e-11         27.0000        1                 
+  1.073e-10        8.172e-11         27.0000        1                 
