@@ -8,8 +8,9 @@ $DATA1 SOURCE='HSPICE' VERSION='D-2010.03-SP1 32-BIT'
  average_b_to_s_prop_delay average_b_to_cout_prop_delay  
  average_cin_to_s_prop_delay average_cin_to_cout_prop_delay  
  temper           alter#            
-    failed           failed           failed           failed         
-    failed           failed           failed           failed         
-    failed           failed           failed           failed         
-    failed           failed           failed           failed         
-    failed           failed          27.0000        1                 
+  2.557e-10        2.227e-10        2.083e-10        3.342e-10        
+  3.019e-10        2.971e-10        2.620e-10        2.287e-10        
+  2.635e-10        3.080e-10        3.593e-10        2.857e-10        
+  2.949e-10        2.850e-10        2.623e-10        2.940e-10        
+  2.527e-10        2.746e-10         27.0000        1                 
+
