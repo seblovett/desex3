@@ -31,9 +31,13 @@ VnCin nCin GND PWL(0NS 3.3V  16.75NS 3.3V  17.25NS 0V  32.75NS 0V  33.25NS 3.3V 
 .measure tran x_prop_delay_BCout_0 TRIG v(B) VAL='3.3*0.5' TD=0NS FALL=2 TARG v(Cout) VAL='3.3*0.5' TD=0NS FALL=3
 .measure tran x_prop_delay_CinCout_0 TRIG v(Cin) VAL='3.3*0.5' TD=0NS FALL=2 TARG v(Cout) VAL='3.3*0.5' TD=0NS FALL=4
 
-.measure average_A_prop PARAM = '(x_prop_delay_AS_1 + x_prop_delay_AS_0 + x_prop_delay_ACout_1 + x_prop_delay_ACout_0)/4'
-.measure average_B_prop PARAM = '(x_prop_delay_BS_1 + x_prop_delay_BS_0 + x_prop_delay_BCout_1 + x_prop_delay_BCout_0)/4'
-.measure average_Cin_prop PARAM = '(x_prop_delay_CinS_1 + x_prop_delay_CinS_0 + x_prop_delay_CinCout_1 + x_prop_delay_CinCout_0)/4'
+.measure average_A_to_S_prop_delay PARAM = '(x_prop_delay_AS_1 + x_prop_delay_AS_0)/2'
+.measure average_A_to_Cout_prop_delay PARAM = '(x_prop_delay_ACout_1 + x_prop_delay_ACout_0)/2'
+.measure average_B_to_S_prop_delay PARAM = '(x_prop_delay_BS_1 + x_prop_delay_BS_0)/2'
+.measure average_B_to_Cout_prop_delay PARAM = '(x_prop_delay_BCout_1 + x_prop_delay_BCout_0)/2'
+.measure average_Cin_to_S_prop_delay PARAM = '(x_prop_delay_CinS_1 + x_prop_delay_CinS_0 )/2'
+.measure average_Cin_to_Cout_prop_delay PARAM = '(x_prop_delay_CinCout_1 + x_prop_delay_CinCout_0)/2'
+
 
 ** Save results for display
 .OPTIONS POST
