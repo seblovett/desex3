@@ -2,8 +2,29 @@
 \designer{Martin Wearn}
 \celldescription{Adds two bits to produce a sum and carry}
 
+This cell is designed for the addition of two single bits to produce their sum and carry out. 
+It can be used along the edge of a row of full adders since there will be no carry in to consider. Where possible, this should be used instead of a full adder because of the space saving benefits and circuit simplification. 
+The truth table for this cell can be seen in the table below.
+
+\begin{tabular}{| c | c || c | c |}
+\hline
+A & B &  S & C \\ \hline
+0 & 0 &  0 & 0 \\
+0 & 1 &  1 & 0 \\
+1 & 0 &  1 & 0 \\
+1 & 1 &  0 & 1 \\ \hline
+\end{tabular}
+
+A combination of a compound gate and a nand gate was used to minimise the number of transistors used within the design.
+This was followed through to transistor level design but not the stick diagram. Seperate gates with an additional inverter was used to simplify gate matrix design and remove the risk of earlier issues with compound gate design reoccuring within this cell.
+The gate matrix layout used places one NOR, NAND and NOT on one row, and the other NAND and two NOT's on the second row. Metal routing around the cell occupied very little space compared to the full adder, so no optimisation was needed.
+The resultant final design has two additional transistors than originally planned and one additional polysilicon column. 
+It has two lines of diffusion for each of the NMOS and PMOS transistors and 6 polysilicon columns. 
+
 \stickdiagram{../halfadder/stickdiagram.pdf}
 \acchar{../halfadder/acresults.txt}
 \transistor{../halfadder/transistorcd.pdf}
 \spicesim{../halfadder/hspice.png}
 
+Measure commands were used to determine propagation delays from each input to each output. These measured the time from an input going high to an output going high or low, and the time from an input going low to an output going high or low. 
+Averages were then taken to determine the propagation time between each input changing and the correct value being expected at an output. 
