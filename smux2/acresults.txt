@@ -1,1 +1,4 @@
-TO BE & DONE \\
+sdi propagation & 212.5 \\
+d propagation & 182.1 \\
+test pass sdi propagation & 223.5 \\
+test pass d propagation & 213.8 \\

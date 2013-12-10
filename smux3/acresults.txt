@@ -1,1 +1,8 @@
-TO BE & DONE \\
+sdi propagation & 227.0 \\
+d propagation & 289.4 \\
+q propagation & 259.1 \\
+test pass sdi propagation & 242.9 \\
+test pass d propagation & 287.0 \\
+test pass q propagation & 278.9 \\
+load pass d propagation & 296.1 \\
+load pass q propagation & 303.6 \\

@@ -1,6 +1,2 @@
-prop delay a 1 & 305.0 \\
-prop delay a 2 & 241.7 \\
-prop delay b 1 & 184.3 \\
-prop delay b 2 & 201.7 \\
-average prop a & 273.4 \\
-average prop b & 193.0 \\
+a propagation & 273.4 \\
+b propagation & 193.0 \\
