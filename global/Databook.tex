@@ -32,13 +32,13 @@
         \centering
         \begin{subfigure}[b]{0.5\textwidth}
 			\subsection*{Symbol}
-                \includegraphics[width=\textwidth]{#1}
+                \includegraphics[width=\textwidth,height=5cm,keepaspectratio]{#1}
         \end{subfigure}%
         ~ %add desired spacing between images, e. g. ~, \quad, \qquad etc.
           %(or a blank line to force the subfigure onto a new line)
         \begin{subfigure}[b]{0.5\textwidth}
 				\subsection*{Dimensions}
-                \includegraphics[width=\textwidth]{#3}
+                \includegraphics[width=\textwidth,height=5cm,keepaspectratio]{#3}
         \end{subfigure}
 		~ %add desired spacing between images, e. g. ~, \quad, \qquad etc.
           %(or a blank line to force the subfigure onto a new line)
@@ -115,8 +115,9 @@
 \clearpage
 \section{Design Detail}
 \renewcommand{\cellname}[1] {\newpage \subsection{#1} \makebox[\linewidth]{\rule{\textwidth}{0.4pt}}}
-\newcommand{\stickdiagram}[1]{\subsubsection*{Stick Diagram} \includegraphics[width=\textwidth,height=12cm,keepaspectratio=true]{#1}}
-\newcommand{\transistor}[1]{\subsubsection*{Transistor Level Circuit Diagram} \includegraphics[width=0.5\textwidth,keepaspectratio=true]{#1}}
+\newcommand{\stickdiagram}[1]{\subsubsection*{Stick Diagram} \includegraphics[width=\textwidth,height=10cm,keepaspectratio=true]{#1}}
+\newcommand{\transistor}[1]{\subsubsection*{Transistor Level Circuit Diagram} \includegraphics[width=\textwidth,height=8cm,keepaspectratio=true]{#1}}
+\newcommand{\spicesim}[1]{\subsubsection*{HSpice Simulation} \includegraphics[width=0.5\textwidth,height=10cm,keepaspectratio=true]{#1}}
 
 \input{../fulladder/detail.tex}
 \input{../halfadder/detail.tex}
