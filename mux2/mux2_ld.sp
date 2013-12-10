@@ -38,8 +38,8 @@ Vsupply Vdd GND 3.3V
    .measure tran x_S_Pass_I0_Rise_Propagation_Delay TRIG v(S) VAL='3.3*0.5' TD=0NS FALL=3
    + TARG v(Y) VAL='3.3*0.5' TD=0NS RISE=5
    
-   .measure I0_Propagation PARAM = '(x_I0_Fall_Propagation_Delay + x_I0_Rise_Propagation_Delay)/2'
-   .measure I1_Propagation PARAM = '(x_I1_Fall_Propagation_Delay + x_I1_Rise_Propagation_Delay)/2'
+   .measure I0_to_D PARAM = '(x_I0_Fall_Propagation_Delay + x_I0_Rise_Propagation_Delay)/2'
+   .measure I1_to_D PARAM = '(x_I1_Fall_Propagation_Delay + x_I1_Rise_Propagation_Delay)/2'
    .measure S_Pass_I0_Propagation PARAM = '(x_S_Pass_I0_Fall_Propagation_Delay + x_S_Pass_I0_Rise_Propagation_Delay)/2'
    .measure S_Pass_I1_Propagation PARAM = '(x_S_Pass_I1_Fall_Propagation_Delay + x_S_Pass_I1_Rise_Propagation_Delay)/2'
 

@@ -17,16 +17,20 @@ VNB NB GND PWL(0NS 3.3V  8NS 3.3V  8.25NS 0V  12NS 0V  12.25NS 3.3V)
 
 ** Specify ouput signals to measure here
 ** e.g. rise and fall delays for output Y
-.measure tran a_rise_prop_delay TRIG v(A) VAL='3.3*0.5' TD=0NS RISE=1
+.measure tran x_a_rise_prop_delay TRIG v(A) VAL='3.3*0.5' TD=0NS RISE=1
 + TARG v(Y) VAL='3.3*0.5' TD=0NS FALL=1
-.measure tran a_fall_prop_delay TRIG v(A) VAL='3.3*0.5' TD=0NS FALL=1
+.measure tran x_a_fall_prop_delay TRIG v(A) VAL='3.3*0.5' TD=0NS FALL=1
 + TARG v(Y) VAL='3.3*0.5' TD=0NS RISE=1
 
-.measure tran b_rise_prop_delay TRIG v(B) VAL='3.3*0.5' TD=0NS RISE=1
+.measure tran x_b_rise_prop_delay TRIG v(B) VAL='3.3*0.5' TD=0NS RISE=1
 + TARG v(Y) VAL='3.3*0.5' TD=0NS FALL=2
-.measure tran b_fall_prop_delay TRIG v(B) VAL='3.3*0.5' TD=0NS FALL=1
+.measure tran x_b_fall_prop_delay TRIG v(B) VAL='3.3*0.5' TD=0NS FALL=1
 + TARG v(Y) VAL='3.3*0.5' TD=0NS RISE=2
 
+
+.measure A_to_Y PARAM = '(x_a_rise_prop_delay + x_a_fall_prop_delay)/2'
+.measure B_to_Y PARAM = '(x_b_rise_prop_delay + x_b_fall_prop_delay)/2'
+   
 ** Save results for display
 .OPTIONS POST
 ** Avoid DC convergence in at unreasonable voltage

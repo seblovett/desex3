@@ -41,7 +41,7 @@ Vsupply Vdd GND 3.3V
       +TARG v(y) VAL='3.3*0.5' TD=0NS RISE=1
 
 
-   .measure A_Propagation PARAM = '(x_prop_delay_a_1 + x_prop_delay_a_2)/2'
+   .measure A_to_Y PARAM = '(x_prop_delay_a_1 + x_prop_delay_a_2)/2'
 
 
 ** Save results for display

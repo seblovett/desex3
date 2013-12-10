@@ -46,8 +46,8 @@ Vsupply Vdd GND 3.3V
 
 
 
-   .measure A_Propagation PARAM = '(x_prop_delay_a_1 + x_prop_delay_a_2)/2'
-   .measure B_Propagation PARAM = '(x_prop_delay_b_1 + x_prop_delay_b_2)/2'
+   .measure A_to_Y PARAM = '(x_prop_delay_a_1 + x_prop_delay_a_2)/2'
+   .measure B_to_Y PARAM = '(x_prop_delay_b_1 + x_prop_delay_b_2)/2'
 
 
 

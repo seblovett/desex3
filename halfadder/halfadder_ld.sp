@@ -26,10 +26,10 @@ VnB nB GND PWL(0NS 3.3V  8.25NS 3.3V  8.5NS 0V  16.25NS 0V  16.5NS 0V  20.25NS 0
 .measure tran x_prop_delay_AC_0 TRIG v(A) VAL='3.3*0.5' TD=0NS FALL=2 TARG v(C) VAL='3.3*0.5' TD=0NS FALL=1
 .measure tran x_prop_delay_BC_0 TRIG v(B) VAL='3.3*0.5' TD=0NS FALL=1 TARG v(C) VAL='3.3*0.5' TD=0NS FALL=2
 
-.measure average_A_to_S_prop PARAM = '(x_prop_delay_AS_1 + x_prop_delay_AS_0)/2'
-.measure average_A_to_C_prop PARAM = '(x_prop_delay_AC_1 + x_prop_delay_AC_0)/2'
-.measure average_B_to_S_prop PARAM = '(x_prop_delay_BS_1 + x_prop_delay_BS_0)/2'
-.measure average_B_to_C_prop PARAM = '(x_prop_delay_BC_1 + x_prop_delay_BC_0)/2'
+.measure A_to_S PARAM = '(x_prop_delay_AS_1 + x_prop_delay_AS_0)/2'
+.measure A_to_C PARAM = '(x_prop_delay_AC_1 + x_prop_delay_AC_0)/2'
+.measure B_to_S PARAM = '(x_prop_delay_BS_1 + x_prop_delay_BS_0)/2'
+.measure B_to_C PARAM = '(x_prop_delay_BC_1 + x_prop_delay_BC_0)/2'
 
 ** Save results for display
 .OPTIONS POST

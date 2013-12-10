@@ -19,39 +19,44 @@ VnnSDO   nnSDO   GND PWL(0NS 3.3V  8NS 3.3V  8.25NS 0V  12NS 0V  12.25NS 3.3V)
 
 ** Specify ouput signals to measure here
 ** e.g. rise and fall delays for output Y
-.measure tran clock_rise_prop_delay 
+.measure tran x_clock_rise_prop_delay 
 + TRIG v(Clock)    VAL='3.3*0.5' TD=0NS RISE=1
 + TARG v(ClockOut) VAL='3.3*0.5' TD=0NS RISE=1
 
-.measure tran clock_fall_prop_delay
+.measure tran x_clock_fall_prop_delay
 + TRIG v(Clock)    VAL='3.3*0.5' TD=0NS FALL=1
 + TARG v(ClockOut) VAL='3.3*0.5' TD=0NS FALL=1
 
-.measure tran test_rise_prop_delay 
+.measure tran x_test_rise_prop_delay 
 + TRIG v(Test)    VAL='3.3*0.5' TD=0NS RISE=1
 + TARG v(TestOut) VAL='3.3*0.5' TD=0NS RISE=1
 
-.measure tran test_fall_prop_delay
+.measure tran x_test_fall_prop_delay
 + TRIG v(Test)    VAL='3.3*0.5' TD=0NS FALL=1
 + TARG v(TestOut) VAL='3.3*0.5' TD=0NS FALL=1
 
-.measure tran nreset_rise_prop_delay 
+.measure tran x_nreset_rise_prop_delay 
 + TRIG v(nReset)    VAL='3.3*0.5' TD=0NS RISE=1
 + TARG v(nResetOut) VAL='3.3*0.5' TD=0NS RISE=1
 
-.measure tran nreset_fall_prop_delay
+.measure tran x_nreset_fall_prop_delay
 + TRIG v(nReset)    VAL='3.3*0.5' TD=0NS FALL=1
 + TARG v(nResetOut) VAL='3.3*0.5' TD=0NS FALL=1
 
-.measure tran sdo_rise_prop_delay 
+.measure tran x_sdo_rise_prop_delay 
 + TRIG v(nSDO)    VAL='3.3*0.5' TD=0NS RISE=1
 + TARG v(SDO)     VAL='3.3*0.5' TD=0NS FALL=1
 
-.measure tran sdo_fall_prop_delay
+.measure tran x_sdo_fall_prop_delay
 + TRIG v(nSDO)    VAL='3.3*0.5' TD=0NS FALL=1
 + TARG v(SDO)     VAL='3.3*0.5' TD=0NS RISE=1
-**   .measure tran rise_delay TRIG v(Y) VAL='3.3*0.1' TD=0NS RISE=1
-**   + TARG v(Y) VAL='3.3*0.9' TD=0NS RISE=1
+
+
+.measure Clock_to_ClockOut PARAM = '(x_clock_rise_prop_delay + x_clock_fall_prop_delay)/2'
+.measure Test_to_TestOut PARAM = '(x_test_rise_prop_delay + x_test_fall_prop_delay)/2'
+.measure nReset_to_nResetOut PARAM = '(x_nreset_rise_prop_delay + x_nreset_fall_prop_delay)/2'
+.measure nSDO_to_SDO PARAM = '(x_sdo_rise_prop_delay + x_sdo_fall_prop_delay)/2'
+
 
 ** Save results for display
 .OPTIONS POST

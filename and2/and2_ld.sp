@@ -27,8 +27,8 @@ co
    .measure tran x_B_Rise_Propagation_Delay TRIG v(B) VAL='3.3*0.5' TD=0NS RISE=1
    + TARG v(Y) VAL='3.3*0.5' TD=0NS RISE=2
    
-   .measure A_Propagation PARAM = '(x_A_Fall_Propagation_Delay + x_A_Rise_Propagation_Delay)/2'
-   .measure B_Propagation PARAM = '(x_B_Fall_Propagation_Delay + x_B_Rise_Propagation_Delay)/2'
+   .measure A_to_Y PARAM = '(x_A_Fall_Propagation_Delay + x_A_Rise_Propagation_Delay)/2'
+   .measure B_to_Y PARAM = '(x_B_Fall_Propagation_Delay + x_B_Rise_Propagation_Delay)/2'
 
 ** Save results for display
 .OPTIONS POST

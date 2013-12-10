@@ -17,10 +17,12 @@ VNA NA GND PWL(0NS 3.3V  2NS 3.3V  2.25NS 0V  6NS 0V  6.25NS 3.3V)
 
 ** Specify ouput signals to measure here
 ** e.g. rise and fall delays for output Y
-.measure tran a_rise_delay TRIG v(A) VAL='3.3*0.5' TD=0NS FALL=1
+.measure tran x_a_rise_delay TRIG v(A) VAL='3.3*0.5' TD=0NS FALL=1
 + TARG v(Y) VAL='3.3*0.5' TD=0NS RISE=1
-.measure tran a_fall_delay TRIG v(A) VAL='3.3*0.5' TD=0NS RISE=1
+.measure tran x_a_fall_delay TRIG v(A) VAL='3.3*0.5' TD=0NS RISE=1
 + TARG v(Y) VAL='3.3*0.5' TD=0NS FALL=1
+
+.measure A_to_Y PARAM = '(x_a_rise_delay + x_a_fall_delay)/2'
 
 ** Save results for display
 .OPTIONS POST

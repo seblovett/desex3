@@ -21,19 +21,27 @@ VnSDI nSDI GND PWL ( 0NS 3.3V )
 ** Default Simulation - Type, Resolution & Duration
 .TRAN 10PS 26NS
 
-.measure tran Clock_to_Q_rise TRIG v(Clock) VAL='3.3*0.5' TD=0NS RISE=3
+.measure tran x_Clock_to_Q_rise TRIG v(Clock) VAL='3.3*0.5' TD=0NS RISE=3
 + TARG v(Q) VAL='3.3*0.5' TD=0NS RISE=1
-.measure tran Clock_to_Q_fall TRIG v(Clock) VAL='3.3*0.5' TD=0NS RISE=4
+.measure tran x_Clock_to_Q_fall TRIG v(Clock) VAL='3.3*0.5' TD=0NS RISE=4
 + TARG v(Q) VAL='3.3*0.5' TD=0NS FALL=1
-.measure tran Clock_to_nQ_rise TRIG v(Clock) VAL='3.3*0.5' TD=0NS RISE=4
+.measure tran x_Clock_to_nQ_rise TRIG v(Clock) VAL='3.3*0.5' TD=0NS RISE=4
 + TARG v(nQ) VAL='3.3*0.5' TD=0NS RISE=1
-.measure tran Clock_to_nQ_fall TRIG v(Clock) VAL='3.3*0.5' TD=0NS RISE=3
+.measure tran x_Clock_to_nQ_fall TRIG v(Clock) VAL='3.3*0.5' TD=0NS RISE=3
 + TARG v(nQ) VAL='3.3*0.5' TD=0NS FALL=1
 
-.measure tran nReset_to_Q_fall TRIG v(nReset) VAL='3.3*0.5' TD=0NS FALL=2
+.measure tran x_nReset_to_Q_fall TRIG v(nReset) VAL='3.3*0.5' TD=0NS FALL=2
 + TARG v(Q) VAL='3.3*0.5' TD=0NS FALL=2
-.measure tran nReset_to_nQ_rise TRIG v(nReset) VAL='3.3*0.5' TD=0NS FALL=2
+.measure tran x_nReset_to_nQ_rise TRIG v(nReset) VAL='3.3*0.5' TD=0NS FALL=2
 + TARG v(nQ) VAL='3.3*0.5' TD=0NS RISE=2
+
+.measure Clock_to_Q PARAM = '(x_Clock_to_Q_rise + x_Clock_to_Q_fall)/2'
+.measure Clock_to_nQ PARAM = '(x_Clock_to_nQ_rise + x_Clock_to_nQ_fall)/2'
+.measure nReset_to_Clear PARAM = '(x_nReset_to_Q_fall + x_nReset_to_nQ_rise)/2'
+
+
+
+
 
 ** Specify ouput signals to measure here
 ** e.g. rise and fall delays for output Y
@@ -48,3 +56,4 @@ VnSDI nSDI GND PWL ( 0NS 3.3V )
 .OPTIONS GMINDC=1n
 
 .END
+
