@@ -72,6 +72,8 @@
 \newcommand{\acchar}[1]{\subsection*{AC Characteristics}\begin{table}[h!]\centering\begin{tabular}{cc}Signal & Average Delay (ps) \\ \hline\input{#1} \end{tabular}\end{table}}
 
 
+\addtolength{\topmargin}{-.9in} % to help everything fit on one page
+\addtolength{\textheight}{2in}
 %% ----------------------------------------------------------------
 \begin{document}
 
@@ -122,7 +124,7 @@
 \renewcommand{\cellname}[1] {\newpage \subsection{#1} \makebox[\linewidth]{\rule{\textwidth}{0.4pt}}}
 \newcommand{\stickdiagram}[1]{\subsubsection*{Stick Diagram} \includegraphics[width=\textwidth,height=10cm,keepaspectratio=true]{#1}}
 \newcommand{\transistor}[1]{\subsubsection*{Transistor Level Circuit Diagram} \includegraphics[width=\textwidth,height=8cm,keepaspectratio=true]{#1}}
-\newcommand{\spicesim}[1]{\subsubsection*{HSpice Simulation} \includegraphics[width=0.5\textwidth,height=10cm,keepaspectratio=true]{#1}}
+\newcommand{\spicesim}[1]{\subsubsection*{HSpice Simulation} \includegraphics[width=\textwidth]{#1}}
 
 \input{../fulladder/detail.tex}
 \input{../halfadder/detail.tex}
