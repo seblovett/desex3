@@ -249,15 +249,15 @@
   \vskip 2em%
   \begin{center}%
   \let \footnote \thanks
-    {\LARGE \@title \par}%
-    \vskip 1.5em%
-    {\large
+    {\Huge \@title \par}%
+    \vskip 5em%
+    {\huge
       \lineskip .5em%
       \begin{tabular}[t]{c}%
         \@author
       \end{tabular}\par}%
-    \vskip 1em%
-    {\large \@date}%
+    \vskip 5em%
+    {\huge \@date}%
   \end{center}%
   \par
   \vskip 1.5em}
