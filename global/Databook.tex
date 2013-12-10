@@ -137,6 +137,16 @@
 
 \clearpage
 \section{Design Detail}
+All HSpice simulations were done using a loaded cell.
+All the inputs were driven by an inverter, and all outputs drove two inverters, seen in Figure \ref{fig:loadedsims}
+Measurements were done between 50\% of the supply voltage between a change in the input to the cell, to a change in the output. 
+
+\begin{figure}[htb!]
+\includegraphics[width=\textwidth]{loadedsims.pdf}
+\caption{Block Diagram of the loaded simulations}
+\label{fig:loadedsims}
+\end{figure}
+
 \renewcommand{\cellname}[1] {\newpage \subsection{#1} \makebox[\linewidth]{\rule{\textwidth}{0.4pt}}}
 \newcommand{\stickdiagram}[1]{\subsubsection*{Stick Diagram} \begin{center}\includegraphics[width=\textwidth,height=10cm,keepaspectratio=true]{#1}\end{center}}
 \newcommand{\transistor}[1]{\subsubsection*{Transistor Level Circuit Diagram} \begin{center}\includegraphics[width=\textwidth,height=8cm,keepaspectratio=true]{#1}\end{center}}
