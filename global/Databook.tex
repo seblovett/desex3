@@ -82,11 +82,12 @@
 \maketitle
 \cleardoublepage
 \tableofcontents
-
+\renewcommand*{\thesection}{\roman{section} }
 \input{Introduction.tex}
-
+\setcounter{section}{0}
 %% ----------------------------------------------------------------
 %\mainmatter
+\renewcommand*{\thesection}{\arabic{section} }
 \input{../and2/and2.tex}
 \input{../buffer/buffer.tex}
 \input{../fulladder/fulladder.tex}
