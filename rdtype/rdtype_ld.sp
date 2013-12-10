@@ -35,8 +35,6 @@ Vsupply Vdd GND 3.3V
       +8NS        0V  
       +8.25NS     3.3V
       +9NS        3.3V
-      +9.25NS     0V
-      +10NS       0V
    +)
    VC NNRESET GND PWL(
       +0NS        0V  
@@ -50,10 +48,37 @@ Vsupply Vdd GND 3.3V
 
 ** Specify ouput signals to measure here
 ** e.g. rise and fall delays for output Y
-**   .measure tran fall_delay TRIG v(Y) VAL='3.3*0.9' TD=0NS FALL=1
-**   + TARG v(Y) VAL='3.3*0.1' TD=0NS FALL=1
-**   .measure tran rise_delay TRIG v(Y) VAL='3.3*0.1' TD=0NS RISE=1
-**   + TARG v(Y) VAL='3.3*0.9' TD=0NS RISE=1
+   
+   .measure tran x_Q_rise_delay 
+      +TRIG v(Clock) VAL='3.3*0.9' TD=0NS RISE=1
+      +TARG v(Q) VAL='3.3*0.1' TD=0NS RISE=1
+   .measure tran x_Q_fall_delay 
+      +TRIG v(Clock) VAL='3.3*0.1' TD=0NS RISE=2
+      +TARG v(Q) VAL='3.3*0.9' TD=0NS FALL=1
+
+   .measure tran x_nQ_rise_delay 
+      +TRIG v(Clock) VAL='3.3*0.9' TD=0NS RISE=1
+      +TARG v(nQ) VAL='3.3*0.1' TD=0NS FALL=1
+   .measure tran x_nQ_fall_delay 
+      +TRIG v(Clock) VAL='3.3*0.1' TD=0NS RISE=2
+      +TARG v(nQ) VAL='3.3*0.9' TD=0NS RISE=1
+
+   .measure tran x_nReset_Q_delay 
+      +TRIG v(nReset) VAL='3.3*0.9' TD=0NS FALL=1
+      +TARG v(Q) VAL='3.3*0.1' TD=0NS FALL=2
+
+   .measure tran x_nReset_nQ_delay 
+      +TRIG v(nReset) VAL='3.3*0.9' TD=0NS FALL=1
+      +TARG v(nQ) VAL='3.3*0.1' TD=0NS RISE=2
+   
+
+
+   .measure Clock_to_Q PARAM = '(x_Q_rise_delay + x_Q_fall_delay)/2'
+   .measure Clock_to_nQ PARAM = '(x_nQ_rise_delay + x_nQ_fall_delay )/2'
+   .measure nReset_to_Q PARAM = '(x_nReset_Q_delay )/2'
+   .measure nReset_to_nQ PARAM = '( x_nReset_nQ_delay)/2'
+
+
 
 ** Save results for display
 .OPTIONS POST
