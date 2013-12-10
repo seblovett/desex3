@@ -122,9 +122,9 @@
 \clearpage
 \section{Design Detail}
 \renewcommand{\cellname}[1] {\newpage \subsection{#1} \makebox[\linewidth]{\rule{\textwidth}{0.4pt}}}
-\newcommand{\stickdiagram}[1]{\subsubsection*{Stick Diagram} \includegraphics[width=\textwidth,height=10cm,keepaspectratio=true]{#1}}
-\newcommand{\transistor}[1]{\subsubsection*{Transistor Level Circuit Diagram} \includegraphics[width=\textwidth,height=8cm,keepaspectratio=true]{#1}}
-\newcommand{\spicesim}[1]{\subsubsection*{HSpice Simulation} \includegraphics[width=\textwidth]{#1}}
+\newcommand{\stickdiagram}[1]{\subsubsection*{Stick Diagram} \begin{center}\includegraphics[width=\textwidth,height=10cm,keepaspectratio=true]{#1}\end{center}}
+\newcommand{\transistor}[1]{\subsubsection*{Transistor Level Circuit Diagram} \begin{center}\includegraphics[width=\textwidth,height=8cm,keepaspectratio=true]{#1}\end{center}}
+\newcommand{\spicesim}[1]{\subsubsection*{HSpice Simulation} \begin{center}\includegraphics[width=\textwidth]{#1}\end{center}}
 
 \input{../fulladder/detail.tex}
 \input{../halfadder/detail.tex}
