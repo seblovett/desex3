@@ -1,1 +1,1 @@
-TO BE & DONE \\
+Clock to Q &  253.2       \\Clock to nQ & 606.6       \\nReset to Q & 340.1   \\nReset to nQ & 69.54   \\

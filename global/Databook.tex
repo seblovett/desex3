@@ -13,7 +13,7 @@
 %\usepackage[disable]{todonotes} %uncomment this to disable to do notes
 \newcommand{\inote}[1] {\todo[inline]{#1}}
 %% \removecolourlinks    % Uncomment this command to remove colour from any links
-\newcommand{\cellname}[1] {\clearpage \section{#1} \makebox[\linewidth]{\rule{\textwidth}{0.4pt}}}
+\newcommand{\cellname}[1] {\clearpage \subsection{#1} \makebox[\linewidth]{\rule{\textwidth}{0.4pt}}}
 \newcommand{\designer}[1] {{\bf Designer: } #1\\}
 \newcommand{\celldescription}[1]{{\bf Cell Description: } #1\\}
 
@@ -74,12 +74,18 @@
 
 \addtolength{\topmargin}{-.9in} % to help everything fit on one page
 \addtolength{\textheight}{2in}
+
+\newcommand{\nosection}[1]{%
+  \refstepcounter{section}%
+  \addcontentsline{toc}{section}{\protect\numberline{\thesection}#1}%
+  \markright{#1}}
+	
 %% ----------------------------------------------------------------
 \begin{document}
 
 \title{Cell Library Databook}
 
-\author{by Team S5\\ \\ H. Lovett (hl13g10) \\ A. J. Robinson (ajr2g10) \\ C. Schepens (cs7g10) \\ M. Wearn (mw20g10)}
+\author{by Team S5\\ \vspace{4cm} \\ H. Lovett (hl13g10) \\ A. J. Robinson (ajr2g10) \\ C. Schepens (cs7g10) \\ M. Wearn (mw20g10)\vspace{4cm}}
 %\frontmatter
 \maketitle
 \cleardoublepage
@@ -90,6 +96,16 @@
 %% ----------------------------------------------------------------
 %\mainmatter
 \renewcommand*{\thesection}{\arabic{section} }
+
+\cleardoublepage
+    \vspace*{\fill}
+    \begin{center}
+		\nosection{Cell Library Databook}
+      {\Huge CELL LIBRARY DATABOOK }
+    \end{center}
+    \vspace*{\fill}
+\cleardoublepage
+
 \input{../and2/and2.tex}
 \input{../buffer/buffer.tex}
 \input{../fulladder/fulladder.tex}
@@ -122,9 +138,9 @@
 \clearpage
 \section{Design Detail}
 \renewcommand{\cellname}[1] {\newpage \subsection{#1} \makebox[\linewidth]{\rule{\textwidth}{0.4pt}}}
-\newcommand{\stickdiagram}[1]{\subsubsection*{Stick Diagram} \includegraphics[width=\textwidth,height=10cm,keepaspectratio=true]{#1}}
-\newcommand{\transistor}[1]{\subsubsection*{Transistor Level Circuit Diagram} \includegraphics[width=\textwidth,height=8cm,keepaspectratio=true]{#1}}
-\newcommand{\spicesim}[1]{\subsubsection*{HSpice Simulation} \includegraphics[width=\textwidth]{#1}}
+\newcommand{\stickdiagram}[1]{\subsubsection*{Stick Diagram} \begin{center}\includegraphics[width=\textwidth,height=10cm,keepaspectratio=true]{#1}\end{center}}
+\newcommand{\transistor}[1]{\subsubsection*{Transistor Level Circuit Diagram} \begin{center}\includegraphics[width=\textwidth,height=8cm,keepaspectratio=true]{#1}\end{center}}
+\newcommand{\spicesim}[1]{\subsubsection*{HSpice Simulation} \begin{center}\includegraphics[width=\textwidth]{#1}\end{center}}
 
 \input{../fulladder/detail.tex}
 \input{../halfadder/detail.tex}

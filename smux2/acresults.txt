@@ -1,4 +1,4 @@
-sdi propagation & 212.5 \\
-d propagation & 182.1 \\
-test pass sdi propagation & 223.5 \\
-test pass d propagation & 213.8 \\
+sdi to m & 212.5 \\
+d to m & 182.1 \\
+test pass sdi & 223.5 \\
+test pass d & 213.8 \\
