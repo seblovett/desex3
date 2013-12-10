@@ -2,8 +2,35 @@
 \designer{Martin Wearn}
 \celldescription{Adds two bit values and the previous bitslice carry out, to produce a sum and carry}
 
+This cell is designed for the addition of two single bits taking into account the carry out of the previous bitslice.
+It is a key element for the design and construction of larger ALU modules and can also implement a subtract function if used with an XOR gate.
+The truth table for this cell can be seen in the table below.
+
+\begin{tabular}{| c | c | c || c | c |}
+\hline
+A & B & Cin & S & Cout \\ \hline
+0 & 0 & 0   & 0 & 0    \\
+0 & 0 & 1   & 1 & 0    \\
+0 & 1 & 0   & 1 & 0    \\
+0 & 1 & 1   & 0 & 1    \\
+1 & 0 & 0   & 1 & 0    \\
+1 & 0 & 1   & 0 & 1    \\
+1 & 1 & 0   & 0 & 1    \\
+1 & 1 & 1   & 1 & 1    \\ \hline
+\end{tabular}
+
+A compound gate structure is used to minimise the number of transistors used within the design. 
+Layout of transistors has been done using a euler paths combined with gate matrix design.
+The first compound gate, for sum output, had a euler path of A-A-B-Cin-X-Cin-B. Whereas the second compund gate, for carry out, has a euler path of A-A-B-Cin-B. Where X was the inverted Cout connection.
+These were then laid out as two diagrams, each with a single line of diffusion for PMOS and NOMS transistors.
+Since the euler paths were identical, but with a gap in carry out between Cin and B, they could be combined into same stick diagram. Placing the carry out lines between the sum lines and including the two output inverters in the same rows as the compound gate they are attached to.
+After this, futher tweaks were made to optimise the routing for minimum space occupied by cell. 
+This gave a final design consisting of two lines of diffusion and 9 polysilicon columns. 
+
 \stickdiagram{../fulladder/stickdiagram.pdf}
 \acchar{../fulladder/acresults.txt}
 \transistor{../fulladder/transistorcd.pdf}
 \spicesim{../fulladder/hspiceColor.png}
 
+Measure commands were used to determine propagation delays from each input to each output. These measured the time from an input going high to an output going high or low, and the time from an input going low to an output going high or low. 
+Averages were then taken to determine the propagation time between each input changing and the correct value being expected at an output. 
