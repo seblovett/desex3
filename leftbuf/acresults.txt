@@ -1,8 +1,4 @@
-clock rise prop delay & 287.5 \\
-clock fall prop delay & 271.3 \\
-test rise prop delay & 282.5 \\
-test fall prop delay & 272.6 \\
-nreset rise prop delay & 290.5 \\
-nreset fall prop delay & 273.2 \\
-sdo rise prop delay & 124.7 \\
-sdo fall prop delay & 157.7 \\
+clock to clockout & 279.4 \\
+test to testout & 277.6 \\
+nreset to nresetout & 281.9 \\
+nsdo to sdo & 141.2 \\

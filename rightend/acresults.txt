@@ -1,2 +1,1 @@
-scan fall delay & 56.4 \\
-scan rise delay & 78.2 \\
+nsdo to sdo & 67.3 \\

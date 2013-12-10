@@ -1,4 +1,4 @@
-i0 propagation & 182.5 \\
-i1 propagation & 213.0 \\
+i0 to d & 182.5 \\
+i1 to d & 213.0 \\
 s pass i0 propagation & 214.0 \\
 s pass i1 propagation & 224.7 \\

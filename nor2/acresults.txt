@@ -1,4 +1,2 @@
-a rise prop delay & 91.8 \\
-a fall prop delay & 196.4 \\
-b rise prop delay & 87.6 \\
-b fall prop delay & 192.9 \\
+a to y & 144.1 \\
+b to y & 140.2 \\

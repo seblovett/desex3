@@ -1,6 +1,3 @@
-clock to q rise & 336.9 \\
-clock to q fall & 509.6 \\
-clock to nq rise & 302.0 \\
-clock to nq fall & 590.0 \\
-nreset to q fall & 385.4 \\
-nreset to nq rise & 177.7 \\
+clock to q & 423.3 \\
+clock to nq & 446.0 \\
+nreset to clear & 281.5 \\

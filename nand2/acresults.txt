@@ -1,2 +1,2 @@
-a propagation & 117.0 \\
-b propagation & 117.6 \\
+a to y & 117.0 \\
+b to y & 117.6 \\

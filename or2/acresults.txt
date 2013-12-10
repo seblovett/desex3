@@ -1,4 +1,2 @@
-a fall delay & 174.0 \\
-a rise delay & 140.9 \\
-b fall delay & 176.3 \\
-b rise delay & 150.5 \\
+a to y & 157.4 \\
+b to y & 163.4 \\

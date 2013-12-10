@@ -1,4 +1,4 @@
-average a to s prop & 251.7 \\
-average a to c prop & 167.0 \\
-average b to s prop & 240.9 \\
-average b to c prop & 166.1 \\
+a to s & 251.7 \\
+a to c & 167.0 \\
+b to s & 240.9 \\
+b to c & 166.1 \\

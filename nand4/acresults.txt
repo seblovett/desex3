@@ -1,4 +1,4 @@
-a propagation & 171.0 \\
-b propagation & 167.9 \\
-c propagation & 165.1 \\
-d propagation & 159.6 \\
+a to y & 171.0 \\
+b to y & 167.9 \\
+c to y & 165.1 \\
+d to y & 159.6 \\
