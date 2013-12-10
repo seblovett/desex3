@@ -59,14 +59,14 @@ Vsupply Vdd GND 3.3V
    .measure tran x_Test_Pass_D_Rise_Propagation_Delay TRIG v(TEST) VAL='3.3*0.5' TD=0NS FALL=4   
    + TARG v(M) VAL='3.3*0.5' TD=0NS RISE=10
 
-   .measure SDI_Propagation PARAM = '(x_SDI_Fall_Propagation_Delay + x_SDI_Rise_Propagation_Delay)/2'
-   .measure D_Propagation PARAM = '(x_D_Fall_Propagation_Delay + x_D_Rise_Propagation_Delay)/2'
-   .measure Q_Propagation PARAM = '(x_Q_Fall_Propagation_Delay + x_Q_Rise_Propagation_Delay)/2'
-   .measure Test_Pass_SDI_Propagation PARAM = '(x_Test_Pass_SDI_Fall_Propagation_Delay + x_Test_Pass_SDI_Rise_Propagation_Delay)/2'
-   .measure Test_Pass_D_Propagation PARAM = '(x_Test_Pass_D_Fall_Propagation_Delay + x_Test_Pass_D_Rise_Propagation_Delay)/2'
-   .measure Test_Pass_Q_Propagation PARAM = '(x_Test_Pass_Q_Fall_Propagation_Delay + x_Test_Pass_Q_Rise_Propagation_Delay)/2'
-   .measure Load_Pass_D_Propagation PARAM = '(x_Load_Pass_D_Fall_Propagation_Delay + x_Load_Pass_D_Rise_Propagation_Delay)/2'
-   .measure Load_Pass_Q_Propagation PARAM = '(x_Load_Pass_Q_Fall_Propagation_Delay + x_Load_Pass_Q_Rise_Propagation_Delay)/2'
+   .measure SDI_to_M PARAM = '(x_SDI_Fall_Propagation_Delay + x_SDI_Rise_Propagation_Delay)/2'
+   .measure D_to_M PARAM = '(x_D_Fall_Propagation_Delay + x_D_Rise_Propagation_Delay)/2'
+   .measure Q_to_M PARAM = '(x_Q_Fall_Propagation_Delay + x_Q_Rise_Propagation_Delay)/2'
+   .measure Test_Pass_SDI PARAM = '(x_Test_Pass_SDI_Fall_Propagation_Delay + x_Test_Pass_SDI_Rise_Propagation_Delay)/2'
+   .measure Test_Pass_D PARAM = '(x_Test_Pass_D_Fall_Propagation_Delay + x_Test_Pass_D_Rise_Propagation_Delay)/2'
+   .measure Test_Pass_Q PARAM = '(x_Test_Pass_Q_Fall_Propagation_Delay + x_Test_Pass_Q_Rise_Propagation_Delay)/2'
+   .measure Load_Pass_D PARAM = '(x_Load_Pass_D_Fall_Propagation_Delay + x_Load_Pass_D_Rise_Propagation_Delay)/2'
+   .measure Load_Pass_Q PARAM = '(x_Load_Pass_Q_Fall_Propagation_Delay + x_Load_Pass_Q_Rise_Propagation_Delay)/2'
 
 ** Save results for display
 .OPTIONS POST
