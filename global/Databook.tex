@@ -135,11 +135,12 @@
 \appendix
 \input{AppendixA.tex}
 
-\clearpage
+
 \section{Design Detail}
 All HSpice simulations were done using a loaded cell.
 All the inputs were driven by an inverter, and all outputs drove two inverters, seen in Figure \ref{fig:loadedsims}
 Measurements were done between 50\% of the supply voltage between a change in the input to the cell, to a change in the output. 
+Rise and fall times were measured for each signal and averaged. 
 
 \begin{figure}[htb!]
 \includegraphics[width=\textwidth]{loadedsims.pdf}
@@ -151,7 +152,7 @@ Measurements were done between 50\% of the supply voltage between a change in th
 \newcommand{\stickdiagram}[1]{\subsubsection*{Stick Diagram} \begin{center}\includegraphics[width=\textwidth,height=10cm,keepaspectratio=true]{#1}\end{center}}
 \newcommand{\transistor}[1]{\subsubsection*{Transistor Level Circuit Diagram} \begin{center}\includegraphics[width=\textwidth,height=8cm,keepaspectratio=true]{#1}\end{center}}
 \newcommand{\spicesim}[1]{\subsubsection*{HSpice Simulation} \begin{center}\includegraphics[width=\textwidth]{#1}\end{center}}
-
+\cleardoublepage
 \input{../fulladder/detail.tex}
 \input{../halfadder/detail.tex}
 \input{../leftbuf/detail.tex}
